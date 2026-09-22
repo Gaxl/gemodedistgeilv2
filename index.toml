@@ -12969,10 +12969,6 @@ file = "journeymap/icon/theme/victorian_/victorian_.theme2.json"
 hash = "f272934e3c793b24f7f0373e2e9209b5a591100186a6e628c093e1d4aff05c61"
 
 [[files]]
-file = "journeymap/journeymap.log"
-hash = "c7fb8ecfdd17ec562332a69138f737904ce2920f4306243179393bf016212768"
-
-[[files]]
 file = "mods/advancedperipherals.pw.toml"
 hash = "8c0719220dd1ede9910e8bdaec75e2a46e683108eb52729d3bd3530d29a4b06a"
 metafile = true
