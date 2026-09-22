@@ -12978,11 +12978,6 @@ hash = "8c0719220dd1ede9910e8bdaec75e2a46e683108eb52729d3bd3530d29a4b06a"
 metafile = true
 
 [[files]]
-file = "mods/advancement-plaques-fabric.pw.toml"
-hash = "1d6da31544d1275e86cad36399eb9bad49588a78436dc86fdf4b489767698730"
-metafile = true
-
-[[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "26085aa8480f728633c0b84a5eb1879f2911993905c425f3596fb2bef0ed94cc"
 metafile = true
@@ -13020,11 +13015,6 @@ metafile = true
 [[files]]
 file = "mods/aeroclaims.pw.toml"
 hash = "1778bf706c6c180f44a52fe145c95a984bd24520a425a5b1ef6ddef9151ff7b7"
-metafile = true
-
-[[files]]
-file = "mods/aeronautics-claims.pw.toml"
-hash = "a724037b478bfde9198c123ea89f84a691e18897ed8d6f9ed360d69b772d4b04"
 metafile = true
 
 [[files]]
@@ -13174,7 +13164,7 @@ metafile = true
 
 [[files]]
 file = "mods/atmospherics.pw.toml"
-hash = "95b3943d881a38056cdfd59f208584f96f9de8cab9dc1412daa5edaa3db35071"
+hash = "f12b246fef3275920f5fb335c3c592ac9406f6ee7c3ab2b38f430dafadd461f5"
 metafile = true
 
 [[files]]
@@ -13260,11 +13250,6 @@ metafile = true
 [[files]]
 file = "mods/chunky-offline.pw.toml"
 hash = "986f28c111e5ecf1a77054203ddcc6642d269561827cab3968c811672a7ce53c"
-metafile = true
-
-[[files]]
-file = "mods/chunky-pregenerator-forge.pw.toml"
-hash = "7be63eaec6a70605f2f21cc30f0889fb27978c2e2fe62ee4584210502289e77d"
 metafile = true
 
 [[files]]
@@ -13365,11 +13350,6 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "3b8895369640b2a52d3e05f7186185ba6798e44d513f11c5427a0fe9c16769e9"
-metafile = true
-
-[[files]]
-file = "mods/create-aeronauticstoolgun.pw.toml"
-hash = "32c8ab92ba0a7d1c45b8d11c3cd14a22cb0af15dfd9827ab15ee8a8c3ea0c079"
 metafile = true
 
 [[files]]
@@ -13608,11 +13588,6 @@ hash = "a9ecc4476d26e707189e9f988c19f22961c33dfd5e5b4db1dfd6f87c6a81c545"
 metafile = true
 
 [[files]]
-file = "mods/delightful-creators-forge.pw.toml"
-hash = "323a20df4c709c568fe64f0918e0f849201b861039317b0b9ec4a055e9278674"
-metafile = true
-
-[[files]]
 file = "mods/delightful-creators.pw.toml"
 hash = "ead7e6467df904f9fa779c021cff62bbd87e7943f394beec63a7f1ee3a74e4d5"
 metafile = true
@@ -13708,11 +13683,6 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
-file = "mods/ferritecore.pw.toml"
-hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
-metafile = true
-
-[[files]]
 file = "mods/fluidic-tanks.pw.toml"
 hash = "464e96fc5cd99ddf97c2691028261d9bb3554380ffc02d57838a3c4889afe73a"
 metafile = true
@@ -13735,11 +13705,6 @@ metafile = true
 [[files]]
 file = "mods/fps-reducer.pw.toml"
 hash = "a79b727d670f788e9004e80338006bd3f50f47a7f107bf89b3d7c11524c01dd4"
-metafile = true
-
-[[files]]
-file = "mods/fragmentum-neoforge.pw.toml"
-hash = "e8d6f5cc4435f61229eefd7e28094c2dab0fced91717a3703ee545be25fa6590"
 metafile = true
 
 [[files]]
@@ -13795,11 +13760,6 @@ metafile = true
 [[files]]
 file = "mods/handcrafted.pw.toml"
 hash = "0004feab868f7b873c12db05aae0d0dac6c87b497490b48bb66480e7c8d0f340"
-metafile = true
-
-[[files]]
-file = "mods/iceberg-fabric.pw.toml"
-hash = "872ea7de2f9701ea3b96700c5a3eb7dcdf1f74cbdf1622bfc7d76250d0348f88"
 metafile = true
 
 [[files]]
@@ -13898,11 +13858,6 @@ hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
 metafile = true
 
 [[files]]
-file = "mods/lendercataclysm.pw.toml"
-hash = "15d0aa0c6da198fde776ea62dc5f86ab17342d94ddb15ccb73710bf98dacfd6d"
-metafile = true
-
-[[files]]
 file = "mods/lionfish-api.pw.toml"
 hash = "64acab1580ca6edd8b1dd185e914aeee7aa551a88a7cd7f0f9370a82aaadfef6"
 metafile = true
@@ -13935,11 +13890,6 @@ metafile = true
 [[files]]
 file = "mods/loot-integrations.pw.toml"
 hash = "543b8a8ff5796648146f3102dea686e806f793052d329d0fa3efee8194d4df52"
-metafile = true
-
-[[files]]
-file = "mods/ly-clumps-merge.pw.toml"
-hash = "ca0d618ee9055565dbfe49acc681767afbc1e75e58758b417ef3204db148a509"
 metafile = true
 
 [[files]]
@@ -14053,11 +14003,6 @@ hash = "8b07e3ae8e5c0228aba6d49fdaad8676a0f095676c1925b270baa36ecfa4dc5b"
 metafile = true
 
 [[files]]
-file = "mods/modular-forcefields.pw.toml"
-hash = "6de35d0c370a54e207efccd205775803c065cedf7582da9fd5bb80a7b470ec68"
-metafile = true
-
-[[files]]
 file = "mods/modular-routers.pw.toml"
 hash = "e2217f00359bd52064935f54fbc29b822af2a5a7454e796636284aa68eef2c32"
 metafile = true
@@ -14133,11 +14078,6 @@ hash = "557c7470f6fa151d176e684154b22ea9a53b80f57070a8ae6eeccf771f336cab"
 metafile = true
 
 [[files]]
-file = "mods/perspatium.pw.toml"
-hash = "29403fc1d702dad0b782cdf7996b0c736a7b405ff6299c0343424f2bf5a81b4d"
-metafile = true
-
-[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
 metafile = true
@@ -14160,11 +14100,6 @@ metafile = true
 [[files]]
 file = "mods/project-1405949.pw.toml"
 hash = "6bfc1dbaad0c7d3fe5a48c5cbbd42e776812e09c8d1908a17c6ac0b58328a5b6"
-metafile = true
-
-[[files]]
-file = "mods/project-1541187.pw.toml"
-hash = "98f936a0360b76b9a89118b264e6e15a299b3731daceace0806f9a79810cdc37"
 metafile = true
 
 [[files]]
@@ -14205,11 +14140,6 @@ metafile = true
 [[files]]
 file = "mods/repurposed-structures-forge.pw.toml"
 hash = "f1aab783c14673d62e516fe43887088d1647b125c92c9b9caabd3574169c8d2c"
-metafile = true
-
-[[files]]
-file = "mods/repurposed-structures.pw.toml"
-hash = "00e909b9e0ad9c7284a5f3c4b41add9211e1e89b35bfc6dcb514dd832d8a7ce8"
 metafile = true
 
 [[files]]
@@ -14373,11 +14303,6 @@ hash = "81c5c05f9ed4c07b9f027ff6c421939bb04e476075091f135d34aaa05af1f950"
 metafile = true
 
 [[files]]
-file = "mods/tesseract-api-neoforge.pw.toml"
-hash = "96ffb69bd4e5a912bf92b08f6ef2fe59fd2e13642328c6a413f48adcc453ea67"
-metafile = true
-
-[[files]]
 file = "mods/tesseract-api.pw.toml"
 hash = "6152a0d98acb52bd67ac6663fcf133dda4e005734cd0857a1af1681b874e169c"
 metafile = true
@@ -14438,11 +14363,6 @@ hash = "39426bfeeab22ea17f94fd3904dd9b78f9a3c9b4ddcb732b734ddbfd0e3568af"
 metafile = true
 
 [[files]]
-file = "mods/voltaic-api.pw.toml"
-hash = "0370b72a5c14c7f3e7cf1b54837fd57adec00ee8ec4b3268c3fe496cbd74732d"
-metafile = true
-
-[[files]]
 file = "mods/voltaic.pw.toml"
 hash = "27645fd773dff44b90c84a80f1ebd1878a889a1f04fcb777aacca626ec30727c"
 metafile = true
@@ -14473,18 +14393,8 @@ hash = "052b70117c2e9a3a697a36f449b220be7bfba215f3a2e43b5ce7faff9e88b2e6"
 metafile = true
 
 [[files]]
-file = "mods/yungs-api-neoforge.pw.toml"
-hash = "1e326549d08f0f793d3972da239ec81b40c28498f87cf507a8dc7aa2bbea6550"
-metafile = true
-
-[[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "d0ad6ae032766815daeb9d5db6605a7fb90eecc3a066845f1b5836f006002aed"
-metafile = true
-
-[[files]]
-file = "mods/yungs-better-desert-temples-neoforge.pw.toml"
-hash = "a383e14bfb10544f993b68c1b5054be9364043878ba965091612fe100f55220c"
 metafile = true
 
 [[files]]
@@ -14493,18 +14403,8 @@ hash = "c2cb28859e7bcc0eb4ce59c5792f90fa5f8ab8865f5867ba26a5a345ec60b498"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-dungeons-neoforge.pw.toml"
-hash = "c79a58526fab23bdac3e652a1696cb603fc94197c1173ebe48743659ee5656a5"
-metafile = true
-
-[[files]]
 file = "mods/yungs-better-dungeons.pw.toml"
 hash = "1496ffa30020676979e65921b91e583a2fdc77e50001e2ed55f99edf1a0ae880"
-metafile = true
-
-[[files]]
-file = "mods/yungs-better-end-island-neoforge.pw.toml"
-hash = "37417dc78726d2d6c01da523ef791c73ce752bb163965270ecec29ee1af54a0d"
 metafile = true
 
 [[files]]
@@ -14513,18 +14413,8 @@ hash = "03d964cba45be30fbcbef52f89f3953185737f55c8934d12e199b67194c2b368"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-jungle-temples-neoforge.pw.toml"
-hash = "45b08aedb7926aaf079a98b037265aca98bff49a13cc1eb9740bec40f0f02cfb"
-metafile = true
-
-[[files]]
 file = "mods/yungs-better-jungle-temples.pw.toml"
 hash = "c2dc09f214e7c1cecca6cf434776c2616f6d36bd27c06a6b39f985da0453a4f5"
-metafile = true
-
-[[files]]
-file = "mods/yungs-better-mineshafts-neoforge.pw.toml"
-hash = "1c259e63d4a4a1f2b05eb7e68c8007f92274d2a012e951efdd8958c08985d315"
 metafile = true
 
 [[files]]
@@ -14533,18 +14423,8 @@ hash = "e839608ebc974e9e7819adc7bf29132ea86fc41b46af540fe0fa39b2007b2439"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-nether-fortresses-neoforge.pw.toml"
-hash = "e467ffe83dd4e8d2d64f41d46067ddf52d0ca6f3271c56e5858829c15def3e3e"
-metafile = true
-
-[[files]]
 file = "mods/yungs-better-nether-fortresses.pw.toml"
 hash = "50c1731148d91a4ef05cfc47f759ca8fb3dad254e15ce4ecc5732d6fbfa68637"
-metafile = true
-
-[[files]]
-file = "mods/yungs-better-ocean-monuments-neoforge.pw.toml"
-hash = "499a8fffeca4ff272bfcc0ad266add8fb729a6419fec921d4b8a63f7b9bc2877"
 metafile = true
 
 [[files]]
@@ -14553,28 +14433,13 @@ hash = "a2d7176026abf4a68a663b375811a603c508f36062cc7fb5b45416e1462682a8"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-strongholds-neoforge.pw.toml"
-hash = "1dbfc17c73001270c3c1f60c02cd72b3f5652ff02557a5f0586fd638a083cd36"
-metafile = true
-
-[[files]]
 file = "mods/yungs-better-strongholds.pw.toml"
 hash = "03084966c05070b5c4b17cd89234f3c0d813940a2d76b405a6699deac10a0ab8"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-witch-huts-neoforge.pw.toml"
-hash = "a8145065cddbb2e4110de30af522f39dc666d2834537f87cd062c969c38fb978"
-metafile = true
-
-[[files]]
 file = "mods/yungs-better-witch-huts.pw.toml"
 hash = "9854b699d5a067c46ac99b1dedeeb529bff3fc18dd079e29b438c4cbf9725f68"
-metafile = true
-
-[[files]]
-file = "mods/yungs-extras-neoforge.pw.toml"
-hash = "cd321f6365bc3938e0671450aadcd40c8e03af5cb24d0a545fb07c890b4793ac"
 metafile = true
 
 [[files]]

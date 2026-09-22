@@ -1,13 +1,13 @@
 name = "ATMOSPHERICS"
 filename = "atmospherics-2.6.5-mc-1.21.1.jar"
-side = "both"
+side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "470c3cdd4b9ac836f83bc57342e460abf370a78a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/ft2cYBpB/versions/yJJkB7Qc/atmospherics-2.6.5-mc-1.21.1.jar"
+hash-format = "sha512"
+hash = "e01173f579a93035f278f53fcf253ad069b6413aa2d8aace777dcd4c023971ba6435abc43a7fd808766e2734ab0db721e93ccca155ae1b2dfdb42d2a553973c1"
 
 [update]
-[update.curseforge]
-file-id = 8412083
-project-id = 1493725
+[update.modrinth]
+mod-id = "ft2cYBpB"
+version = "yJJkB7Qc"
