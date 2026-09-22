@@ -1,0 +1,8 @@
+{
+  "defaults": {
+    "enabled": true,
+    "preferredRadius": 0,
+    "preferredMaxSections": 0
+  },
+  "serverProfiles": {}
+}

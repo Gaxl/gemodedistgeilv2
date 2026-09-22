@@ -1,0 +1,13 @@
+name = "Gemoded Ist Geil V2"
+author = "Laputa Werkstatt"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "89028e4ab23555b161cad20b1024eb5ea72e2610ce22c1cb8b13ade86cc74a43"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.244"

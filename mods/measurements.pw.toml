@@ -1,0 +1,13 @@
+name = "Measurements"
+filename = "Measurements-neoforge-1.21.1-3.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wLINU2AB/versions/Wan4NysJ/Measurements-neoforge-1.21.1-3.0.3.jar"
+hash-format = "sha512"
+hash = "f5f224f62e0ae5cc4d1e940baea615cc2bfb42cbadf0279a3097829e2c0a44f86b944b4bad67f7bb8175bc2fa44fce10f354d7f495d13ea6feacaada260abcca"
+
+[update]
+[update.modrinth]
+mod-id = "wLINU2AB"
+version = "Wan4NysJ"

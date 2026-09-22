@@ -1,0 +1,13 @@
+name = "Slabbed"
+filename = "slabbed-0.4.2-beta.2+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5eab393a5bade34fa44199812bc80c9c6e27c444"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8336074
+project-id = 1457462

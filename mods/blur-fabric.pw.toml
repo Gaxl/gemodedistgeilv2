@@ -1,0 +1,13 @@
+name = "Blur+"
+filename = "blur-neoforge-6.3.1+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5e70c05c8233e72a0a5647c72355b46b11711029"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8339814
+project-id = 393563

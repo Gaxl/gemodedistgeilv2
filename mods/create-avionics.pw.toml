@@ -1,0 +1,13 @@
+name = "Create: Avionics — ComputerCraft for Aeronautics"
+filename = "create_avionics-neoforge-1.21.1-0.6.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a6b59ae72dae7e54b98fc88825fa6106d68298e4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8785441
+project-id = 1539942

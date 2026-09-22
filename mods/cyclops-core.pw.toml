@@ -1,0 +1,13 @@
+name = "Cyclops Core"
+filename = "cyclopscore-1.21.1-neoforge-1.29.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Z9DM0LJ4/versions/zKJ5gBg6/cyclopscore-1.21.1-neoforge-1.29.3.jar"
+hash-format = "sha512"
+hash = "a3c9fc4f4c2ecb4a2faf57de0d7ce8f6bf8ac390eae9c12aeadb419a6d4c91c43af19786530d0cd13256f275e8dbef2e23984cb87de3e5693b6da53bf4b98410"
+
+[update]
+[update.modrinth]
+mod-id = "Z9DM0LJ4"
+version = "zKJ5gBg6"

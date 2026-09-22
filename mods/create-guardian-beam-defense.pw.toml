@@ -1,0 +1,13 @@
+name = "Create Guardian Beam Defense"
+filename = "Create-Guardian-Beam-Defense-1.3.7.1b-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "186617d05b3cecf291e3659b98764ed18b0f531f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8049003
+project-id = 860168

@@ -1,0 +1,13 @@
+name = "Farmer's Delight: Extended"
+filename = "farmersdelight_extended-1.21.1-0.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "45200860ea91640de38abb059e950f8abed5f055"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7292060
+project-id = 1318440

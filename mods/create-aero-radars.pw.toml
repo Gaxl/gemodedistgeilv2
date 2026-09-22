@@ -1,0 +1,13 @@
+name = "Create Aero Radars"
+filename = "create_aero_radar-0.1.1-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1e06a12c5e257eebb2fef971b02d3593d8d51b52"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8307052
+project-id = 1578228

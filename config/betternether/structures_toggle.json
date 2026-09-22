@@ -1,0 +1,16 @@
+{
+  "create_version": "21.0.20",
+  "structures": {
+    "nether_city": true,
+    "pyramid": true,
+    "ghast_hive": true,
+    "spawn_altar_ladder": true,
+    "respawn_points": true,
+    "pillars": true,
+    "gardens": true,
+    "portals": true,
+    "altars": true,
+    "jungle_temples": true
+  },
+  "modify_version": "21.0.20"
+}

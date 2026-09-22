@@ -1,0 +1,13 @@
+name = "Ars Controle"
+filename = "ars_controle-1.21.1-1.6.15.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fdf381d5733698abe336354c7541299ab495ecae"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7534518
+project-id = 1061812

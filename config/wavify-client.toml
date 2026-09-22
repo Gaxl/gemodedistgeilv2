@@ -1,0 +1,72 @@
+[waves]
+	#Master toggle for ocean and beach (shoreline) waves.
+	enableOceanWaves = true
+	#Chunk radius around the player that is considered for wave spawning.
+	# Default: 5
+	# Range: 3 ~ 16
+	chunkRadius = 5
+	#How many block updates a chunk can receive before being rescanned.
+	# Default: 50
+	# Range: 1 ~ 1024
+	chunkUpdatesRescanAmount = 50
+	#How many blocks from shore waves try to spawn.
+	# Default: 8
+	# Range: 4 ~ 32
+	spawnDistance = 8
+	#Enables wave debug visuals and tools.
+	debug = false
+	#Scales down waves that spawn on inland water bodies.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	lakeWaveMultiplier = 0.2
+
+[appearance]
+	#Overall wave body transparency.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	transparency = 1.0
+	#Applies the transparency slider to foam as well.
+	applyTransparencyToFoam = false
+	#Whether wave tinting uses biome water colors or the custom color below.
+	#Allowed Values: BIOME, CUSTOM
+	colorSource = "BIOME"
+	#Custom wave color when Color Source is set to CUSTOM.
+	# Default: 4159204
+	# Range: 0 ~ 16777215
+	customColor = 4159204
+	#Comma-separated biome=color overrides, for example minecraft:luke_warm_ocean=3F76E4.
+	biomeColorOverrides = ""
+	#Offsets both the wave body and foam vertically.
+	# Default: 0.0
+	# Range: -0.5 ~ 0.5
+	waveYOffset = 0.0
+	#Extra downward offset applied to the wave body while shaders are active.
+	# Default: -0.3
+	# Range: -0.5 ~ 0.5
+	shaderWaveYSink = -0.3
+	#Darkens the ground where a wave washes up, as if the sand got wet. Turn off to disable the effect entirely.
+	enableWetOverlay = true
+
+[rivers]
+	#Master toggle for river waves.
+	enableRiverWaves = true
+	#Radius (in blocks) around the player within which river waves are spawned. Larger = waves appear further away, smaller = they only appear close by.
+	# Default: 56
+	# Range: 16 ~ 128
+	riverWaveSpawnRadius = 56
+	#River wave density - roughly how many river waves appear per 100 river water blocks near you.
+	# Default: 4.0
+	# Range: 0.0 ~ 20.0
+	riverWaveDensity = 4.0
+	#How far (in blocks) a river wave travels down the channel before fading out.
+	# Default: 11
+	# Range: 4 ~ 32
+	riverWaveTravelBlocks = 11
+
+[sounds]
+	#Enables the ambient ocean and river sound loops.
+	enableWaveSounds = true
+	#Master volume multiplier for ambient wave loops.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	waveSoundVolume = 1.0

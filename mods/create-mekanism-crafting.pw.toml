@@ -1,0 +1,13 @@
+name = "Create: Mekanism Crafting"
+filename = "create-mekanism-crafting-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zmgmU8Z8/versions/TnvFSUXC/create-mekanism-crafting-1.0.0.jar"
+hash-format = "sha512"
+hash = "0ffc8c1bbd21d61f5078fac18522dec357588c130d9afd19d20a177ff72c504f4023dd3231be4ed583da5dbe7f829b41a5d1d860690d714b0238c4f236281138"
+
+[update]
+[update.modrinth]
+mod-id = "zmgmU8Z8"
+version = "TnvFSUXC"

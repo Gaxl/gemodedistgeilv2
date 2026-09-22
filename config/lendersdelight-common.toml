@@ -1,0 +1,48 @@
+[Stat]
+	#Enable or disable stat effects.
+	enableStat = true
+	#Show stat in food tooltips.
+	showStatTip = true
+	#ACCUBULATE=food can stats every time.
+	#ONCE=each food can give only once per player.
+	#LIMITED=food gives stats only Minecraft attribute is below configured limit.
+	#Allowed Values: ACCUMULATE, ONCE, LIMITED
+	statMode = "ACCUMULATE"
+
+["Stat Limits"]
+	#Maximum Armor attribute value
+	# Default: 20.0
+	# Range: 0.0 ~ 10000.0
+	maxArmor = 20.0
+	#Maximum Attack Damage attribute value
+	# Default: 20.0
+	# Range: 0.0 ~ 10000.0
+	maxAttackDamage = 20.0
+	#Maximum Movement Speed attribute value
+	# Default: 0.2
+	# Range: 0.0 ~ 10000.0
+	maxMovementSpeed = 0.2
+	#Maximum stored Jump Boost stat percent
+	# Default: 20.0
+	# Range: 0.0 ~ 10000.0
+	maxJumpBoost = 20.0
+	#Maximum Attack Speed attribute value
+	# Default: 8.0
+	# Range: 0.0 ~ 10000.0
+	maxAttackSpeed = 8.0
+	#Maximum stored Crit Chance stat percent
+	# Default: 20.0
+	# Range: 0.0 ~ 10000.0
+	maxCritChance = 20.0
+	#Maximum Knockback Resistance attribute value
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	maxKnockbackResistance = 0.5
+	#Maximum Passive Regen stat percent
+	# Default: 20.0
+	# Range: 0.0 ~ 10000.0
+	maxPassiveRegen = 20.0
+	#Maximum Swim Speed attribute value
+	# Default: 10.0
+	# Range: 0.0 ~ 10000.0
+	maxSwimSpeed = 10.0

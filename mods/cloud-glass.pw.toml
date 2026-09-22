@@ -1,0 +1,13 @@
+name = "Cloud Glass"
+filename = "CloudGlass-1.21.1-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "723f921bbd4954609229a30070c5bffb0e87aa8a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7966728
+project-id = 1157074

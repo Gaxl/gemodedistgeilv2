@@ -1,0 +1,13 @@
+name = "Roxy"
+filename = "roxy-1.21.1-NeoForge-0.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "34c9e0749793ebbafd7567cda3b07b38044898c0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8732886
+project-id = 1626949

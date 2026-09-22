@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:yellow_wool"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:andesite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"occultism:ritual_dummy/summon_foliot_crusher"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"occultism:othercobblerock"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"occultism:otherrock"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"chipped:vertical_cut_blackstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"chipped:etched_blackstone_bricks"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,13 @@
+name = "Create: Resourceful Refinement"
+filename = "Resourceful Refinement v0.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lh8pcCJh/versions/gbuKvcbK/Resourceful%20Refinement%20v0.2.2.jar"
+hash-format = "sha512"
+hash = "59922f19388ad8167e505b3bf1f1b5146eecaeb67594e1e36697b5329f4e4f216937dbdae1f372ac8c8b7075fe4b8a05859eb63e895a4185e0c9d21979297f3d"
+
+[update]
+[update.modrinth]
+mod-id = "lh8pcCJh"
+version = "gbuKvcbK"

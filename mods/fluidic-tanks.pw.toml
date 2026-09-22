@@ -1,0 +1,13 @@
+name = "Fluidic Tanks"
+filename = "fluidic_tanks-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5a8493b5f990feb05a32835c871ffd519a96b9dc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8238692
+project-id = 1549835

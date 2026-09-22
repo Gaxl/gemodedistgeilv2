@@ -1,0 +1,28 @@
+{
+  "create_version": "21.0.20",
+  "biomes": {
+    "bone_reef": true,
+    "crimson_glowing_woods": true,
+    "crimson_pinewood": true,
+    "flooded_deltas": true,
+    "gravel_desert": true,
+    "magma_land": true,
+    "nether_grasslands": true,
+    "nether_jungle": true,
+    "nether_mushroom_forest": true,
+    "nether_mushroom_forest_edge": true,
+    "nether_swampland": true,
+    "nether_swampland_terraces": true,
+    "old_fungiwoods": true,
+    "old_swampland": true,
+    "old_warped_woods": true,
+    "poor_nether_grasslands": true,
+    "soul_plain": true,
+    "sulfuric_bone_reef": true,
+    "upside_down_forest": true,
+    "upside_down_forest_cleared": true,
+    "wart_forest": true,
+    "wart_forest_edge": true
+  },
+  "modify_version": "21.0.20"
+}

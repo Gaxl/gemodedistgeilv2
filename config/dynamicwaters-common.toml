@@ -1,0 +1,75 @@
+["River Flow Speeds"]
+	#RiverFlow speed multiplier for players in the river.
+	# Default: 0.2
+	# Range: 0.0 ~ 10.0
+	playerSpeed = 0.2
+	#RiverFlow speed multiplier for animals. Note: Animals have strong swimming AI, you may want to decrease this.
+	# Default: 0.1
+	# Range: 0.0 ~ 10.0
+	animalSpeed = 0.1
+	#RiverFlow speed multiplier for water animals (squids, fishes, dolphins). Set to 0 to prevent them from being swept away when their AI pauses.
+	# Default: 0.0
+	# Range: 0.0 ~ 10.0
+	waterMobSpeed = 0.0
+	#RiverFlow speed multiplier for dropped items.
+	# Default: 0.2
+	# Range: 0.0 ~ 10.0
+	itemSpeed = 0.2
+	#RiverFlow speed multiplier for generic unidentified entities.
+	# Default: 0.1
+	# Range: 0.0 ~ 10.0
+	defaultSpeed = 0.1
+	#RiverFlow speed multiplier for Sable / Aeronautics physics ships.
+	# Default: 2.0
+	# Range: 0.0 ~ 10.0
+	sableShipSpeed = 2.0
+	#Flat speed boost applied to river flow when it is raining.
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	rainFlowBoost = 0.5
+	#Flat speed boost applied to river flow during a thunderstorm.
+	# Default: 0.7
+	# Range: 0.0 ~ 10.0
+	thunderstormFlowBoost = 0.7
+	#Custom flow speeds for specific entities. Format: modid:name=speed (Example: minecraft:pig=0.8 or alexmobs:bird=0.0)
+	customEntitySpeeds = ["minecraft:warden=1.0"]
+
+[Visuals]
+	#Enable custom bubble particles in rivers.
+	enableRiverParticles = true
+	#Spawn rate of river particles. Higher = fewer particles (1 in X blocks per tick).
+	# Default: 20
+	# Range: 1 ~ 100
+	riverParticleDensity = 20
+	#Enable visual flowing texture for rivers. If false, water looks stationary but still pushes entities. This idea is to be compatible with Physics Mod. After changing this setting, please click F3+T to reload.
+	enableRiverVisualFlow = true
+	#Enable the custom main menu panorama for Dynamic Waters.
+	customMainMenuPanorama = true
+	#Show the Dynamic Waters 'D' button on the main menu.
+	showMainMenuButton = true
+
+[Generation]
+	#Enable the generation of mountain rivers. Disabling this improves generation performance.
+	enableWatersheds = true
+	#Enable the generation of normal (flat) rivers.
+	enableNormalRivers = true
+	#Density of mountain rivers flowing into normal rivers. LOW = rare, HIGH = current default, ULTRA = very frequent.
+	#Allowed Values: LOW, MEDIUM, HIGH, ULTRA, EXTREME, INSANE
+	mountainRiverDensity = "HIGH"
+	#Density of mountain rivers flowing directly into the ocean. LOW = none (0%), MEDIUM = 2%, HIGH = 5%, ULTRA = 10%.
+	#Allowed Values: LOW, MEDIUM, HIGH, ULTRA, EXTREME, INSANE
+	mountainRiverOceanDensity = "HIGH"
+	#List of biome IDs that will be treated like oceans by Dynamic Waters: no river flow and no river carving.
+	#Use the full biome resource location, e.g. minecraft:warm_ocean or mymod:dead_sea.
+	#Supports wildcard suffixes when the entry ends with '*', e.g. mymod:*
+	biomeBlacklist = []
+
+[Sounds]
+	#Enable the ambient flowing sound for rivers.
+	enableRiverSound = true
+
+[General]
+	#Show the welcome message when joining the world.
+	showWelcomeMessage = true
+	#Automatically disable underground rivers from the Tectonic mod to improve performance and compatibility with Dynamic Waters.
+	disableTectonicUndergroundRivers = true

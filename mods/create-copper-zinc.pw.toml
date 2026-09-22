@@ -1,0 +1,13 @@
+name = "Create: Copper & Zinc"
+filename = "create_copper_and_zinc-2.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "de1f363ef0ec8aeb6a9dedc1f3d8b3e224400895"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7454578
+project-id = 977947

@@ -1,0 +1,13 @@
+name = "IngotCraft"
+filename = "ingotcraft-1.21.1-2.4.11-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3557fc1095f0ee281b589dd55d62bd7e1cd78639"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6668163
+project-id = 399140

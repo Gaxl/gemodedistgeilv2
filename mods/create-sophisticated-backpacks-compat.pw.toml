@@ -1,0 +1,13 @@
+name = "Create: Sophisticated Backpacks Compat"
+filename = "create_sophback_compat-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "401e8b83ab79c13bf71ba6209f4c8c487c001b38"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6844021
+project-id = 1320115

@@ -1,0 +1,13 @@
+name = "Create Aeronautics: Mekanism Compatibility"
+filename = "create_mekanism_compat-0.1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "048742b32d94daeba286e85d57ce6aa961f36280"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8299825
+project-id = 1536749

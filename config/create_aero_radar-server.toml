@@ -1,0 +1,158 @@
+#.
+#Targeting: how the turret leads a moving track like real anti-air.
+[targeting]
+	#.
+	#Defending cannon muzzle speed in blocks/tick. Lead distance = target_speed * range / this.
+	#Default 31.67 matches Going Ballistic flak autocannon with 5 m effective barrel length.
+	#Too low over-leads and over-elevates far shots; too high under-leads and under-elevates.
+	# Default: 31.670000076293945
+	# Range: 0.10000000149011612 ~ 200.0
+	projectileSpeedBlocksPerTick = 31.670000076293945
+	#.
+	#Raise the aim point to compensate projectile drop before the pitch controller sees it.
+	#Yaw is unaffected because it ignores Y. Disable, or set gravity to 0, for hitscan/laser-like weapons.
+	ballisticDropCompensation = true
+	#.
+	#Projectile vertical acceleration in blocks/tick^2. Going Ballistic Earth gravity is about -0.024516625.
+	#More negative means the pitch controller aims higher at range.
+	# Default: -0.024516625329852104
+	# Range: -1.0 ~ 1.0
+	projectileGravityBlocksPerTickSq = -0.024516625329852104
+	#.
+	#Projectile drag applied once per tick while estimating flight. Default is Going Ballistic flak quadratic drag.
+	#0 disables drag compensation; too high makes the pitch controller over-elevate.
+	# Default: 1.603620039531961E-4
+	# Range: 0.0 ~ 1.0
+	projectileDragPerTick = 1.603620039531961E-4
+	#.
+	#Use quadratic drag instead of linear drag. Leave true for Going Ballistic autocannon rounds.
+	projectileQuadraticDrag = true
+	#.
+	#Maximum simulated projectile flight ticks for pitch/drop compensation. CBC steel autocannon lifetime is 60.
+	# Default: 60
+	# Range: 20 ~ 8000
+	maxFlightTicks = 60
+	#.
+	#Refinement passes for the intercept solve (lead depends on range, range on lead). 4 is plenty.
+	# Default: 4
+	# Range: 1 ~ 12
+	interceptIterations = 4
+	#.
+	#Extra lead in ticks on top of the ballistic solution (turret-settle margin). 0 = pure ballistic.
+	# Default: 2.0
+	# Range: 0.0 ~ 40.0
+	extraLeadTicks = 2.0
+	#.
+	#Cap (ticks) on how far a stale radar scan is advanced to 'now' before leading. Guards bad velocities.
+	# Default: 20
+	# Range: 0 ~ 100
+	maxStaleTicks = 20
+	#.
+	#Read the selected target's position & velocity LIVE from the world each tick, instead of from the radar's
+	#stale, sweep-delayed scan (the radar then only picks WHICH target). Near-zero latency and no stale-scan
+	#jitter. Falls back to the radar scan if the target isn't resolvable live. false = pure radar (laggy).
+	directTargetTracking = true
+	#.
+	#Low-pass (EMA) on the velocity derived from the target's position, fraction of the way to the new
+	#measurement per tick. Raw per-tick position deltas are noisy (steps, collisions, sub-level pose
+	#updates) and the noise is amplified by the lead solve, twitching the turret at close range.
+	#1.0 = raw (no smoothing); lower = calmer lead but slower to react to real course changes.
+	# Default: 0.699999988079071
+	# Range: 0.05000000074505806 ~ 1.0
+	targetVelocitySmoothing = 0.699999988079071
+	#.
+	#With directTargetTracking on, keep tracking only while the RADAR still actually sees the target (it last
+	#imaged it within radarVisibilityTicks). Stops the turret following a target through the radar's blind
+	#spots (out of FOV cone / range) just because we read the entity live. false = track live regardless.
+	requireRadarVisibility = true
+	#.
+	#Ticks since the radar last imaged the target before it counts as LOST (out of FOV/range) and the turret
+	#holds. A STATIONARY radar re-images an in-cone target every ~5 ticks, so ~10 is plenty; a SPINNING radar
+	#only re-images once per revolution, so set this to about one revolution or the sweep gap drops the lock.
+	# Default: 30
+	# Range: 1 ~ 200
+	radarVisibilityTicks = 30
+	#.
+	#Do not aim at targets closer than this many blocks from the controller's projectile origin/muzzle.
+	#Close/overhead passes demand huge angular velocity and make heavy Simulated contraptions wobble.
+	#Yaw controllers measure this HORIZONTALLY (an overhead pass is 'close' however high it flies);
+	#pitch controllers use true 3D range. A target must leave 115% of this radius to re-acquire.
+	# Default: 5.0
+	# Range: 0.0 ~ 512.0
+	controllerDeadzoneBlocks = 5.0
+	#.
+	#Auto-targeting only: seconds to keep firing at one Sable sub-level before rotating to another target.
+	# Default: 15
+	# Range: 1 ~ 600
+	sableAutoTargetSeconds = 15
+	#.
+	#Auto-targeting only: seconds before the same Sable sub-level can be auto-picked again after rotation.
+	# Default: 60
+	# Range: 0 ~ 3600
+	sableAutoTargetCooldownSeconds = 60
+
+#.
+#Motion: how smoothly the bearing slews onto the aim point.
+[motion]
+	#.
+	#Bearing degrees turned per tick per 1 RPM of input. CALIBRATE against the real bearing.
+	# Default: 0.30000001192092896
+	# Range: 0.0010000000474974513 ~ 10.0
+	degPerTickPerRpm = 0.30000001192092896
+	#.
+	#Proportional gain: fraction of remaining error covered per tick. Higher = snappier, lower = smoother.
+	# Default: 0.6000000238418579
+	# Range: 0.0 ~ 1.0
+	approachFraction = 0.6000000238418579
+	#.
+	#Speed low-pass for tiny corrections (near target): lower = slower, silkier glide.
+	# Default: 0.5007152557373047
+	# Range: 0.009999999776482582 ~ 1.0
+	speedSmoothingFine = 0.5007152557373047
+	#.
+	#Speed low-pass for large swings: higher = snappier catch-up.
+	# Default: 0.4000000059604645
+	# Range: 0.009999999776482582 ~ 1.0
+	speedSmoothingFast = 0.4000000059604645
+	#.
+	#Angular error (deg) at which damping blends fully from 'fine' to 'fast'.
+	# Default: 30.0
+	# Range: 1.0 ~ 180.0
+	smoothingBlendDeg = 30.0
+	#.
+	#Low-pass on the aim ANGLE before the loop uses it: fraction of the way to the new target per tick.
+	#1.0 = no smoothing (snappy, can jitter at close range, esp. pitch); lower = smoother. Try 0.2-0.3 if jittery.
+	# Default: 0.5
+	# Range: 0.05000000074505806 ~ 1.0
+	setpointSmoothing = 0.5
+	#.
+	#Velocity damping that kills the left-right RINGING when a target suddenly changes course: it brakes the
+	#bearing in proportion to how much faster it is slewing than the setpoint moves, so it settles ONTO the
+	#target instead of sailing past and oscillating. 0 = off (original loop); higher = more damped but a touch
+	#slower to whip onto a fast crosser. Try 0.3-1.0.
+	# Default: 0.5
+	# Range: 0.0 ~ 4.0
+	dampingGain = 0.5
+	#.
+	#Speed low-pass used only when the controller must reverse direction. Higher lets it brake immediately
+	#instead of carrying old smoothed RPM through the target and wobbling. Try 0.5-0.8 for heavy yaw mounts.
+	# Default: 0.30000001192092896
+	# Range: 0.05000000074505806 ~ 1.0
+	reversalSmoothing = 0.30000001192092896
+
+#.
+#Parallax: aim two side-by-side Create Big Cannons fixed mounts at the same target.
+[parallax]
+	#.
+	#When a yaw controller has two linked fixed cannon mounts, write per-gun yaw corrections to those mounts.
+	parallaxGuns = true
+	#.
+	#Maximum fixed-mount yaw correction in degrees. CBC fixed cannon mounts clamp to +/-45.
+	# Default: 44.0
+	# Range: 1.0 ~ 45.0
+	parallaxHalfConeDeg = 44.0
+	#.
+	#Yaw correction sign for fixed mounts. Use 1 normally; set to -1 if both guns steer away from the target.
+	# Default: -1.0
+	# Range: -1.0 ~ 1.0
+	parallaxYawSign = -1.0

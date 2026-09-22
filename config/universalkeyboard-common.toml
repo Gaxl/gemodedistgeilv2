@@ -1,0 +1,19 @@
+#Universal Keyboard Settings
+[keyboard]
+	#Max wireless range in blocks between the keyboard and its linked target.
+	#Events are dropped if the player exceeds this distance.
+	#Set to greater than 2 million for range capable of reaching sub-levels
+	#Range: 1–2147483647. Default: 32.
+	# Default: 32
+	# Range: > 1
+	keyboardRange = 32
+	#Duration in seconds for the Wireless Copycat test-face feature.
+	#Applies to both the per-face Test button on the Copycat and the Locate button on the keyboard.
+	#Range: 1–300. Default: 5.
+	# Default: 5
+	# Range: 1 ~ 300
+	copycatLocateDuration = 5
+	#Requires Aeronautics. Default: false.
+	makeRecipeHarder = false
+	#Enable beta features for Dashpanels compat (it wont work right now even with this true, sorry
+	enableDashpanelsBeta = false

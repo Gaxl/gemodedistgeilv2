@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:repeater"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"adchimneys:stone_pump"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"adchimneys:duct"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"adchimneys:cobblestone_chimney"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"adpother:aerometer"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

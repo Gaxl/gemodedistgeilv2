@@ -1,0 +1,13 @@
+name = "Create Encased"
+filename = "Create Encased-1.21.1-1.9.0-ht2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b6ffc30a9f6bb6fac43084c8d9e0963be584bc32"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8492781
+project-id = 829380

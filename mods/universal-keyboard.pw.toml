@@ -1,0 +1,13 @@
+name = "Universal Keyboard Controller"
+filename = "universalkeyboard-1.3.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8d2371a8821e28628daec37c8c5065c90a8afee3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8841727
+project-id = 1538547

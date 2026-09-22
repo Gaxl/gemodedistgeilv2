@@ -1,0 +1,13 @@
+name = "Chunky Offline (Fabric/Forge/NeoForge/Quilt)"
+filename = "chunky-offline-v1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5783f3ec055a3e5f369cfd169d62c2c2f4da44d4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7264569
+project-id = 1369487

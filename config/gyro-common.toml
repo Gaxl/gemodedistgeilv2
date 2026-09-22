@@ -1,0 +1,33 @@
+#Settings for the Gyroscope block.
+[gyroscope]
+	#Restoring-torque gain (Kp) at reference RPM, in Nm. Peak torque is roughly Kp·sin(tilt). Effective Kp scales linearly with current RPM up to referenceRpm.
+	# Default: 16000.0
+	# Range: 0.0 ~ 1.0E9
+	strength = 16000.0
+	#Angular-velocity damping (Kd) at reference RPM, in Nm·s/rad. Effective Kd scales linearly with current RPM up to referenceRpm.
+	# Default: 4000.0
+	# Range: 0.0 ~ 1.0E9
+	damping = 4000.0
+	#Integral gain (Ki) at reference RPM, in Nm/rad·s. Closes steady-state tilt error a PD controller can't eliminate against constant disturbances (off-center mass, other mods' torques). Rough starting point: Kp / 2.5.
+	# Default: 6400.0
+	# Range: 0.0 ~ 1.0E9
+	integral = 6400.0
+	#Cap on the integral accumulator magnitude (rad·s), to prevent wind-up during sustained forced tilts (e.g. a player-held or stuck contraption). Smaller = faster recovery once the disturbance is released, but less authority against persistent torques.
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	integralLimit = 0.5
+	#RPM at which the gyroscope reaches 100% effectiveness. Above this, output is capped.
+	# Default: 256.0
+	# Range: 1.0 ~ 4096.0
+	referenceRpm = 256.0
+	#Base stress impact in SU per RPM. Total SU draw is roughly impact · |RPM|.
+	# Default: 16.0
+	# Range: 0.0 ~ 1024.0
+	stressImpact = 16.0
+
+#Settings for the Joystick block.
+[joystick]
+	#Raw mouse pixels per tilt step. Lower = more sensitive. Full deflection (15 steps = 45°) is reached after 15 × this many pixels of mouse movement.
+	# Default: 30.0
+	# Range: 1.0 ~ 500.0
+	pixelsPerStep = 30.0

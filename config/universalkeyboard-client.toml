@@ -1,0 +1,131 @@
+#Universal Keyboard — Client Settings
+[gamepad]
+	#Allow a connected gamepad to drive Live Controller bindings.
+	#When on, gamepad buttons/triggers/sticks can be bound just like keys.
+	#Uses GLFW's standard gamepad mapping, so any recognized controller works.
+	#Multiple standard gamepads can be used at once; each is shown with its number.
+	#Default: true.
+	enableGamepad = true
+	#Read controllers as raw joysticks instead of mapped gamepads.
+	#Turn this on for HOTAS / flight sticks / racing wheels and other devices that
+	#GLFW does not recognise as standard gamepads. Every connected joystick is then
+	#polled raw, exposing all of its axes, buttons and hat switches by number.
+	#Bindings will show unmapped names (e.g. A3+, B12, H0↑) rather than A/B/RT/LS.
+	#Leave off if you only use standard gamepads. Default: false.
+	enableAdvancedInput = false
+	#How far an analog stick must be pushed before it counts as a directional press.
+	#Range: 0.1–1.0. Default: 0.1.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	stickThreshold = 0.1
+	#How far a trigger (LT/RT) must be pulled before it counts as a press.
+	#Range: 0.1–1.0. Default: 0.1.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	triggerThreshold = 0.1
+	#Scale a binding's output by how far the stick/trigger is pushed.
+	#When on, an analog input bound to e.g. 50% power outputs proportionally:
+	#pushing the stick halfway sends 25%, fully sends 50%.
+	#Applies to RS, Thruster Power, Vector and Variable bindings in Hld/Tog modes.
+	#Buttons and Inc/Overdrive bindings are never scaled.
+	#Turn off to make analog inputs behave as plain on/off like buttons.
+	#Default: true.
+	joystickScaling = true
+	#Per-axis maximum stick deflection, recorded by calibration.
+	#Order: [Left X, Left Y, Right X, Right Y].
+	#1.0 means the stick reaches the theoretical edge; a lower value means it
+	#physically falls short, and analog output is rescaled so that the stick's real
+	#maximum still maps to 100%. Fixes sticks that cap below full and asymmetric axes.
+	#Set these with the Calibrate button in the Live Controller. Default: 1.0 each.
+	stickCalibration = [1.0, 1.0, 1.0, 1.0]
+
+#Universal Keyboard — Mouse Input
+[mouse]
+	#Allow the mouse to be bound in Live Controls
+	#Default: false.
+	enableMouseInput = false
+	#Choose two options for mouse movement
+	#false (Velocity mode, default): mimics a real joystick, measures input speed as
+	#the power, and reverts back to 0
+	#true (Absolute mode): mimics the Aeroworks' joystick, which keeps the cursor locked, 
+	#where you put it
+	#Default: false.
+	mouseAbsoluteMode = false
+	#Multiplier for how strongly mouse movement deflects its analog axes
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	mouseAxisSensitivity = 1.0
+
+#Universal Keyboard: Animations
+[animations]
+	#Turns off all keyboard animations if false
+	#Default: true.
+	enableKeyboardAnimations = true
+	#Double explosion!!
+	doubleExplosion = false
+	#Keyboard main wave animation's speed
+	#Range: 0.0–1.0. Default: 0.15.
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	mainWaveSpeed = 0.15
+	#Keyboard cluster area animation speed
+	#Range: 0.0–1.0. Default: 0.05.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	clusterWaveSpeed = 0.05
+	#Comma-separated Live Controller row numbers (1–40) whose active state
+	#animates the Control Wheel turning LEFT.
+	#Example: "1,3" means rows 1 and 3 contribute to a left turn.
+	#Leave blank to disable. Default: "".
+	controlWheelLeftRows = ""
+	#Comma-separated Live Controller row numbers (1–40) whose active state
+	#animates the Control Wheel turning RIGHT.
+	#Example: "2,4" means rows 2 and 4 contribute to a right turn.
+	#Leave blank to disable. Default: "".
+	controlWheelRightRows = ""
+
+#Universal Keyboard — Screens (dashboard + control wheel)
+[screens]
+	#Master on/off for the dashboard and control-wheel screens.
+	#Set to false to leave them blank. Default: true.
+	screenEnabled = true
+	#Comma-separated Live Controller row numbers (1–40) to visualize on the screens.
+	#Each row is shown according to its binding type:
+	#  RPM row      -> "#### RPM"
+	#  Redstone row -> "RS: N"   (signal strength 0–15)
+	#  Thruster row -> "Thr: N"  (thrust 0–15)
+	#With more than one row, the display switches between the recently used one
+	#Leave blank to show nothing. Default: "".
+	screenVisualizedRows = ""
+	#Vista (cameramod): show only camera feeds on the screens and ignore the
+	#text display (gauges / sequencer DISPLAY) completely. When true, a linked
+	#camera starts shown automatically, and the CAM 'On/Off' control just cycles
+	#between linked cameras (there is no gauges state). Default: false.
+	vistaCameraOnly = false
+
+#Universal Keyboard — Controls
+[controls]
+	#Mark this option 'true' to start Live Controls immediately when you right-click keyboard
+	#Live Controller menu must also be marked 'favorite'.
+	#Shift-click the keyboard to open the main menu instead
+	#Default: false.
+	favoriteLiveControlAutoStart = false
+	#Comma-separated keys that Live Control passes straight through to the game
+	#instead of capturing, so other mods such as a map still respond while Live
+	#Control is running. (F1–F12 and Esc are always free regardless of this setting.)
+	#Use simple names: letters "M", digits "5", or names like "space", "tab",
+	#"left.shift", "semicolon". Example: "M, J, left.shift".
+	#Leave blank for none (default).
+	liveControlIgnoredKeys = ""
+	#The list of Overdrive multipliers (gear ratios) the OD binding cycles through.
+	#Edit them here, or type a custom value in a binding's OD "Cfg" menu, and that value
+	#is added to this list so it persists and stays selectable. Range 0.1–100.
+	#Default: [1.5, 2.0, 3.0, 5.0, 10.0].
+	overdriveRatios = [1.5, 2.0, 3.0, 5.0, 10.0]
+
+#Universal Keyboard — Notices
+[notices]
+	#Set by the 'Don't show this again' checkbox on the Create: Connected redstone-link
+	#wildcard warning shown in the Redstone Links screen. When true, that popup is
+	#suppressed. Reset to false to see the warning again. Default: false.
+	redstoneWildcardWarningDismissed = false

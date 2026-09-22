@@ -1,0 +1,13 @@
+name = "Create: Ars Compat"
+filename = "createarscompat-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/19o1esLS/versions/DARnl85T/createarscompat-1.0.1.jar"
+hash-format = "sha512"
+hash = "129f7ef7163e3a4cb6098b1a3cce1bb768a9f226231a2ff7b23ebc62f7fd11134464b54880e033f8a4bafc04505974eb16232a492cce5ba18aef2222909afbfd"
+
+[update]
+[update.modrinth]
+mod-id = "19o1esLS"
+version = "DARnl85T"

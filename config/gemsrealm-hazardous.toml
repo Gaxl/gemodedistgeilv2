@@ -1,0 +1,35 @@
+[crystaltype]
+	#Exclude one or all of Supported-Mod for CrystalType 
+	#    EXAMPLE: blacklist = [
+	#        "forestry:.*fireproof.*",		COMMENT: .* is an RegEx, it exclude all of CrystalType containing "fireproof" from Forestry
+	#        "biomesoplenty:.*",				COMMENT: .* is a RegEx/Advanced-WildCard, it exclude all of CrystalType from Wood Mod for any Module
+	#        "biomesoplenty:redwood"		COMMENT: exclude redwood from Wood Mod for any module
+	#    ]
+	#
+	blacklist = []
+
+[dusttype]
+	#Exclude one or all of Supported-Mod for DustType
+	#	The example is same as CrystalType's
+	blacklist = []
+
+[gemtype]
+	#Exclude one or all of Supported-Mod for GemType
+	#	The example is same as CrystalType's
+	blacklist = []
+
+[metaltype]
+	#Exclude one or all of Supported-Mod for MetalType
+	#	The example is same as CrystalType's
+	blacklist = []
+
+[entryset]
+	#Exclude EntrySet from the module for All of CrystalType, DustType, GemType, MetalType
+	#    This will only Exclude one specific or all of Gems-Realm's Supported-Blocks or Supported-Items
+	#    EXAMPLE: blacklist = [
+	#        "chipped:checkered_trapdoor",	COMMENT: chipped:checkered_oak_trapdoor without "oak"
+	#        "variantvanillablocks:chest",	COMMENT: variantvanillablocks:oak_chest without "oak"
+	#        "chipped:.*"					COMMENT: .* is a RegEx/Advanced-WildCard which will exclude all of EntrySets from one Module
+	#    ]
+	#
+	blacklist = []

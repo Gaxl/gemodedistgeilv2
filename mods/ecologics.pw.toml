@@ -1,0 +1,13 @@
+name = "Ecologics"
+filename = "ecologics-1.21.1-2.3.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3cf395ba5facd56917accc6563f7819f4e39c941"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8415537
+project-id = 570463

@@ -1,0 +1,13 @@
+name = "project-1541187"
+filename = "aethersdelight-0.1.4.2-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c8c67d843703ae478786b7ae450de0de7691900a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8078017
+project-id = 1541187

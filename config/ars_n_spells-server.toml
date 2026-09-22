@@ -1,0 +1,239 @@
+["Master Toggles"]
+	#Master control switches for major systems.
+	#Disabling a master toggle will disable all related features.
+	#Mana Unification Mode - Controls how Ars Nouveau and Iron's Spellbooks mana systems interact:
+	#  iss_primary - Iron's Spellbooks mana is the single source (DEFAULT)
+	#  ars_primary - Ars Nouveau mana is the single source
+	#  hybrid - Both systems share a unified mana pool
+	#  separate - Separate pools with dual-cost mechanics
+	#  disabled - No mana integration at all
+	#NOTE: Changing this value requires a game restart to take effect.
+	mana_unification_mode = "iss_primary"
+	#Master toggle for all mana unification features
+	enable_mana_unification = true
+	#Master toggle for the Resonance system (full mana bonuses)
+	enable_resonance_system = true
+	#Master toggle for unified cooldown system
+	enable_cooldown_system = false
+	#Master toggle for cross-mod progression system
+	enable_progression_system = true
+	#Master toggle for affinity/attunement system
+	enable_affinity_system = true
+	#Enable debug logging for troubleshooting
+	debug_mode = false
+
+["Mana Unification"]
+	#Fine-tune how mana conversion and synchronization works.
+	#These settings only apply when mana unification is enabled.
+	#Conversion rate from Ars mana to Iron's mana (1.0 = 1:1)
+	# Default: 1.0
+	# Range: 0.01 ~ 10.0
+	conversion_rate_ars_to_iron = 1.0
+	#Conversion rate from Iron's mana to Ars mana (1.0 = 1:1)
+	# Default: 1.0
+	# Range: 0.01 ~ 10.0
+	conversion_rate_iron_to_ars = 1.0
+	#Which mana bar to display in HYBRID mode:
+	#  irons - Show Iron's Spellbooks mana bar
+	#  ars - Show Ars Nouveau mana bar
+	#Only applies when mana_unification_mode is set to 'hybrid'
+	hybrid_mana_bar = "irons"
+	#Percentage of Ars mana cost in SEPARATE mode (0.5 = 50%)
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	dual_cost_ars_percentage = 0.5
+	#Percentage of ISS mana cost in SEPARATE mode (0.5 = 50%)
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	dual_cost_iss_percentage = 0.5
+	#Default maximum mana fallback when the native system returns no value.
+	#Can be changed at runtime with /ans mana setdefault <value>
+	#Applies to both Ars Nouveau and Iron's Spellbooks bridge fallbacks.
+	# Default: 100.0
+	# Range: 1.0 ~ 100000.0
+	default_max_mana = 100.0
+	#Include armor bonuses in unified mana calculations
+	respect_armor_bonuses = true
+	#Include enchantment bonuses in unified mana calculations
+	respect_enchantments = true
+	#How mana regen values are translated when crossing the Ars / Iron's boundary.
+	#Iron's regen is a percentage-of-pool multiplier; Ars regen is absolute mana/sec.
+	#Without conversion, an Ars enchantment like Mana Regen III applied to Iron's regen
+	#will produce hundreds of mana/sec because the absolute value is misread as a percentage.
+	#  EQUAL_EFFECT  - Convert by the target system's current max pool (DEFAULT, recommended).
+	#                  Preserves equivalent mana/sec on both sides at any pool size.
+	#  REFERENCE_POOL - Convert using a fixed reference pool (see cross_system_regen_reference_pool).
+	#                   Predictable but ignores the wearer's actual pool size.
+	#  DISABLED      - Do not translate cross-system regen at all. Mana Regen enchantments
+	#                  on Ars only affect Ars; Iron's gear regen only affects Iron's.
+	cross_system_regen_conversion = "EQUAL_EFFECT"
+	#Global dampener applied to every cross-system regen translation.
+	#Use to tone down or boost the strength of cross-mod regen bonuses without
+	#disabling them entirely. 1.0 = full strength, 0.5 = half, 2.0 = double.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	cross_system_regen_multiplier = 1.0
+	#Reference pool size used by REFERENCE_POOL conversion mode.
+	#Has no effect when cross_system_regen_conversion is EQUAL_EFFECT or DISABLED.
+	# Default: 100.0
+	# Range: 1.0 ~ 100000.0
+	cross_system_regen_reference_pool = 100.0
+
+["Resonance System"]
+	#Resonance grants bonuses when mana is at maximum.
+	#Requires ENABLE_RESONANCE_SYSTEM master toggle.
+	#Enable resonance bonuses for Ars Nouveau spells
+	enable_ars_resonance = true
+	#Enable resonance bonuses for Iron's Spellbooks spells
+	enable_irons_resonance = true
+	#Global multiplier for all resonance bonuses
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	resonance_strength = 1.0
+	#Mana percentage required to trigger resonance (0.95 = 95%)
+	# Default: 0.95
+	# Range: 0.0 ~ 1.0
+	resonance_threshold = 0.95
+	#How long resonance lasts after dropping below threshold (ticks)
+	# Default: 100
+	# Range: 0 ~ 1200
+	resonance_duration = 100
+	#Maximum damage multiplier from resonance
+	# Default: 5.0
+	# Range: 1.0 ~ 100.0
+	max_damage_multiplier = 5.0
+
+["Cooldown System"]
+	#Unified cooldown system prevents spell spam across mods.
+	#Requires ENABLE_COOLDOWN_SYSTEM master toggle.
+	#Enable cross-mod cooldown sharing
+	enable_unified_cooldowns = false
+	#CRITICAL: Enable cross-mod cooldown interference (false = each mod has independent cooldowns)
+	enable_cross_mod_cooldowns = false
+	#Base category cooldown duration (ticks, 20 = 1 second)
+	# Default: 100
+	# Range: 0 ~ 10000
+	cooldown_category_duration = 100
+	#Multiplier for cross-mod cooldowns (0.5 = 50% of normal)
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	cross_mod_cooldown_multiplier = 0.5
+
+["Progression System"]
+	#Cross-mod progression allows spell usage to grant XP in both systems.
+	#Requires ENABLE_PROGRESSION_SYSTEM master toggle.
+	#Allow Ars spells to grant ISS XP and vice versa
+	enable_cross_mod_progression = true
+
+["Affinity System"]
+	#Affinity system tracks spell school preferences and grants bonuses.
+	#Requires ENABLE_AFFINITY_SYSTEM master toggle.
+	#Enable affinity decay when not using a school. Default off for fresh installs (1.9.0).
+	enable_affinity_decay = false
+	#Rate of affinity decay per day (in-game)
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	affinity_decay_rate = 0.01
+	#Ticks between AffinityDecayHandler runs (20 = 1s, 1200 = 60s). Decay per run is prorated from AFFINITY_DECAY_RATE.
+	# Default: 1200
+	# Range: 20 ~ 24000
+	affinity_decay_interval_ticks = 1200
+
+["Curio Discount System"]
+	#Mana cost discounts from Covenant of the Seven curios.
+	#Ring of Virtue and Blasphemy curios can reduce Ars Nouveau spell costs.
+	#Enable mana cost discounts from Ring of Virtue and Blasphemy curios
+	enable_curio_discounts = true
+	#Per-curio mana cost discount for items in #ars_n_spells:curio_spell_discount
+	#(0.20 = each tagged curio multiplies cost by 0.80). Applies to both Ars and
+	#Iron's Spellbooks casts.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	virtue_ring_discount = 0.2
+	#Hard cap on the COMBINED tagged-curio discount across all worn curios
+	#(0.50 = spells never cost less than 50% after curio discounts). Prevents
+	#stacked discount curios from trivialising mana cost.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	max_total_curio_discount = 0.5
+
+["Spell Scaling"]
+	#Controls how spell power from Iron's attributes scales Ars spells.
+	#Maximum total spell power multiplier from Iron's attributes.
+	#Prevents stacking from exceeding this value. Set higher to allow more scaling.
+	# Default: 3.0
+	# Range: 1.0 ~ 10.0
+	spell_power_cap = 3.0
+
+["Source Jar Synergy"]
+	#Controls the passive mana regen bonus when near Ars Nouveau Source Jars.
+	#Master kill switch for the Source Jar proximity regen synergy.
+	#Set false to disable the periodic block scan entirely (zero per-tick cost).
+	#This is the supported way to turn the feature off;
+	#source_jar_synergy_multiplier keeps its 0.1 minimum. (ANS-CRIT-005 follow-up)
+	enable_source_jar_synergy = true
+	#Ticks between Source Jar proximity checks per player (20 = once per second).
+	#Raise on busy servers to reduce scan cost.
+	# Default: 20
+	# Range: 1 ~ 200
+	source_jar_scan_interval_ticks = 20
+	#Horizontal scan radius in blocks around the player.
+	#Any value up to the hard cap of 8 covers at most a 2x2 chunk area.
+	#The scan never loads chunks - cycles near unloaded chunks are skipped and retried.
+	# Default: 4
+	# Range: 1 ~ 8
+	source_jar_scan_radius = 4
+	#Multiplier for Source Jar proximity regen bonus.
+	#Higher values = stronger regen when standing near Source Jars.
+	#Final bonus = CONVERSION_RATE_ARS_TO_IRON * this value per second.
+	# Default: 5.0
+	# Range: 0.1 ~ 100.0
+	source_jar_synergy_multiplier = 5.0
+
+[Rituals]
+	#Configuration for Ars 'n' Spells custom rituals.
+	#Amount of mana added by the Ritual of Mana Infusion
+	# Default: 500.0
+	# Range: 1.0 ~ 10000.0
+	ritual_mana_infusion_amount = 500.0
+	#Radius in blocks for Mana Well ritual effect
+	# Default: 8
+	# Range: 1 ~ 64
+	mana_well_range = 8
+	#Mana per tick granted to players within Mana Well range
+	# Default: 2.0
+	# Range: 0.1 ~ 100.0
+	mana_well_regen_rate = 2.0
+
+["Cross-Cast Inscription"]
+	#Controls spells cast from items inscribed via the Spell Transcription ritual.
+	#The inscription mechanic itself lives in the datapack recipe under
+	#data/ars_n_spells/recipes/apparatus/ -- pack authors can swap ingredients there.
+	#Multiplier applied to the base mana cost of a spell cast from an inscribed item.
+	#Represents the overhead of casting through a foreign mod's form. 1.0 = no overhead,
+	#1.25 = 25% extra cost (default). Applied once, after base cost calculation and
+	#before mana deduction. Routed through BridgeManager, so it composes with the
+	#active mana unification mode and SEPARATE-mode dual-cost splitting.
+	# Default: 1.25
+	# Range: 0.5 ~ 5.0
+	cross_cast_cost_multiplier = 1.25
+	#Allow Ars Nouveau spells to be bound onto Iron's Spellbooks spellbooks, where
+	#they appear as their own entries in Iron's native spell wheel and cast through
+	#Ars 'n Spells' cross-cast pipeline. Disabling rejects new binds with a clear
+	#message; spells already bound keep working. No effect without Iron's installed.
+	allow_ars_spells_in_irons_spellbooks = true
+	#Maximum number of Ars spells that may be bound onto a single Iron's spellbook.
+	#-1 = no cap (default). Whatever the value, it is bounded at runtime by the
+	#native-wheel proxy pool size (8): only that many
+	#Ars entries can be shown as distinct entries in Iron's spell wheel per book.
+	# Default: -1
+	# Range: -1 ~ 64
+	max_ars_cross_spells_per_irons_spellbook = -1
+
+[Performance]
+	#Performance optimization settings
+	#Distance in blocks a player must move before re-scanning for Source Jars.
+	#Higher values = less scanning but slower detection of jar changes.
+	# Default: 4.0
+	# Range: 1.0 ~ 32.0
+	source_jar_cache_move_threshold = 4.0

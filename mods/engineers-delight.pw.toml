@@ -1,0 +1,13 @@
+name = "Engineers Delight"
+filename = "engineers_delight-neoforge-1.21.1-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "10d7cd518648d2a0dce95f4e179835fac9a48b9a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8470808
+project-id = 861437

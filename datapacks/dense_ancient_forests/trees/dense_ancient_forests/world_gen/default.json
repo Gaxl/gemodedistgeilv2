@@ -1,0 +1,39 @@
+[
+  {
+    "_comment": "Dark Forest: deutlich dichter, ancient/mystisch wirkend.",
+    "select": { "name": "minecraft:dark_forest" },
+    "apply": { "density": "noise() * 1.3" }
+  },
+  {
+    "_comment": "Windswept Forest: dichter, konsistent (statt zweier ueberlappender schwaecherer Werte).",
+    "select": "minecraft:windswept_forest",
+    "apply": { "density": "noise() * 1.2", "chance": 1.0 }
+  },
+  {
+    "_comment": "Old Growth Pine/Spruce Taiga: noch dichter als das ohnehin schon volle Vanilla-Maximum.",
+    "select": { "name": "minecraft:old_growth_(pine|spruce)_taiga" },
+    "apply": { "density": "noise() * 1.3" }
+  },
+  {
+    "_comment": "Alle Nadelwald-Biome (u.a. normale Taiga, Snowy Taiga) ueber den coniferous-Tag.",
+    "select": { "name": "minecraft:.*", "tag": "#c:is_tree/coniferous" },
+    "apply": { "density": "noise() * 1.2" }
+  },
+
+  { "_comment": "Terralith: Cloud Forest - dichter Nebelwald.", "select": { "name": "terralith:cloud_forest" }, "apply": { "density": "noise() * 1.3" } },
+  { "_comment": "Terralith: Lush Valley - dichtes Fichtental.", "select": { "name": "terralith:lush_valley" }, "apply": { "density": "noise() * 1.3" } },
+  { "_comment": "Terralith: Mirage Isles - nutzt bereits 'ancient'-Baumart, noch dichter.", "select": { "name": "terralith:mirage_isles" }, "apply": { "density": "noise() * 1.3" } },
+  { "_comment": "Terralith: Moonlight Grove.", "select": { "name": "terralith:moonlight_grove" }, "apply": { "density": "noise() * 1.3" } },
+  { "_comment": "Terralith: Moonlight Valley.", "select": { "name": "terralith:moonlight_valley" }, "apply": { "density": "noise() * 1.3" } },
+  { "_comment": "Terralith: Siberian Taiga/Grove (Regex).", "select": { "name": "terralith:siberian_.*" }, "apply": { "density": "noise() * 1.2" } },
+  { "_comment": "Terralith: Skylands Winter.", "select": { "name": "terralith:skylands_winter" }, "apply": { "density": "noise() * 1.2" } },
+  { "_comment": "Terralith: Snowy Maple Forest.", "select": { "name": "terralith:snowy_maple_forest" }, "apply": { "density": "noise() * 1.2" } },
+  { "_comment": "Terralith: Wintry Forest.", "select": { "name": "terralith:wintry_forest" }, "apply": { "density": "noise() * 1.3" } },
+  { "_comment": "Terralith: Wintry Lowlands.", "select": { "name": "terralith:wintry_lowlands" }, "apply": { "density": "noise() * 1.3" } },
+  { "_comment": "Terralith: Yellowstone.", "select": { "name": "terralith:yellowstone" }, "apply": { "density": "noise() * 1.2" } },
+  { "_comment": "Terralith: Yosemite Lowlands.", "select": { "name": "terralith:yosemite_lowlands" }, "apply": { "density": "noise() * 1.2" } },
+  { "_comment": "Terralith: Alpine Grove.", "select": { "name": "terralith:alpine_grove" }, "apply": { "density": "noise() * 1.2" } },
+  { "_comment": "Terralith: Forested Highlands.", "select": { "name": "terralith:forested_highlands" }, "apply": { "density": "noise() * 1.2" } },
+  { "_comment": "Terralith: Shield.", "select": { "name": "terralith:shield" }, "apply": { "density": "noise() * 1.2" } },
+  { "_comment": "Terralith: Snowy Shield.", "select": { "name": "terralith:snowy_shield" }, "apply": { "density": "noise() * 1.2" } }
+]

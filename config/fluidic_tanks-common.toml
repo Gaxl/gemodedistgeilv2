@@ -1,0 +1,2 @@
+#When true, Fluidic Tanks and Fluidic Vaults keep their local contents inside the dropped block item when broken.
+"Tanks/Vaults Keep Contents" = true

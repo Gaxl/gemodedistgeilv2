@@ -1,0 +1,13 @@
+name = "Create: Stellaris"
+filename = "createstellaris-1.6.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qdwnWxwq/versions/rY2reEgS/createstellaris-1.6.0.jar"
+hash-format = "sha512"
+hash = "a7ec057cff3a00768394433adc6175a536799933f68c325f39d880f1cb9e8c60b41589255cb27c6cc4a834070976c3c9e62f5f33b073d65637e4d1503213f8bd"
+
+[update]
+[update.modrinth]
+mod-id = "qdwnWxwq"
+version = "rY2reEgS"

@@ -1,0 +1,13 @@
+name = "StructureOverlapless"
+filename = "overlapless-1.21.1-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "972d00883bde994b3adc05614acd0f251fdb86ce"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7722759
+project-id = 1451998

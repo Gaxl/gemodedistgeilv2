@@ -1,0 +1,13 @@
+name = "project-1405949"
+filename = "Botania-Mod-NeoForge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "51eee45c4615432f9c0d72938fe83a121878716e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8594076
+project-id = 1405949

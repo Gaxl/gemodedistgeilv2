@@ -1,0 +1,13 @@
+name = "Wavify"
+filename = "wavify-1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3c782ae151399fcc425569f850ed00ef8b82bff0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8519109
+project-id = 1547083

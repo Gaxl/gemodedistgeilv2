@@ -1,0 +1,13 @@
+name = "Create: Crafts & Construct"
+filename = "1.21.1-2.0.0-beta.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wthQjrA2/versions/iMw1bHvL/1.21.1-2.0.0-beta.jar"
+hash-format = "sha512"
+hash = "5d925f24c9b52c1b005574b197630fedab1dfac6f849d50f06b2428cef74cbdb8df8f8ab26ac474d2f9323b469b731bf9f55d632f6695d3706a73209d1e94189"
+
+[update]
+[update.modrinth]
+mod-id = "wthQjrA2"
+version = "iMw1bHvL"

@@ -1,0 +1,13 @@
+[common]
+	# Default: 480.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	coercionderiver_voltage = 480.0
+	# Default: 1.0E7
+	# Range: 1.0 ~ 1.7976931348623157E308
+	fortronfield_maxhealth = 1.0E7
+	# Default: 1200
+	# Range: > 1
+	broken_field_rebuild_delay = 1200
+	# Default: 512
+	# Range: > 1
+	field_cleanup_per_tick = 512

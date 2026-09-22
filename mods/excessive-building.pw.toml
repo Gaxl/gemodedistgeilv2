@@ -1,0 +1,13 @@
+name = "Excessive Building"
+filename = "neoforge-excessive_building-1.21.1-4.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "76717bd9ba894dfcb34d62653d755ba95cffa0df"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8410354
+project-id = 845097

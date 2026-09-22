@@ -1,0 +1,12 @@
+#Disables Going Ballistic's velocity calculations.
+disableRealisticBallistics = false
+#Disables Going Ballistic's impact-energy block damage calculation.
+disableRealisticBlockDamage = false
+#Logs debug information whenever a shot or impact is calculated.
+debugBallistics = false
+
+[projectilePhysics]
+	#Disables Going Ballistic's Earth-gravity projectile override.
+	disableRealisticGravity = false
+	#Disables Going Ballistic's quadratic projectile drag override.
+	disableRealisticDrag = false
