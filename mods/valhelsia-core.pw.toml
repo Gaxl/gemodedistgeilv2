@@ -3,11 +3,11 @@ filename = "valhelsia_core-neoforge-1.21.1-1.1.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "018cfbf150953b9f23923e6d6c760f102583b28f"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/HsdNFinx/versions/cttRekq9/valhelsia_core-neoforge-1.21.1-1.1.4.jar"
+hash-format = "sha512"
+hash = "787de5659b46ddb188e2960582cb236255e8e4c2dc6d3bfdd033ab1c00bbf61351a38a4f8a9d47035e03f662c982a952c676e6474e6ad9d3dc5815a3c0df2d95"
 
 [update]
-[update.curseforge]
-file-id = 5847440
-project-id = 416935
+[update.modrinth]
+mod-id = "HsdNFinx"
+version = "cttRekq9"

@@ -3,11 +3,11 @@ filename = "voicechat-neoforge-1.21.1-2.6.21.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f72eff26b1156fdce12ef18c5792c48a54340142"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/9eGKb6K1/versions/dbzBkplC/voicechat-neoforge-1.21.1-2.6.21.jar"
+hash-format = "sha512"
+hash = "85b39efaab7f9b8aabd78d8a5eb80bd6964c4a3f737f6e1327d7864726e4ad1319ce51f121fb6fe2be5b3b761c51af2591b66348c4404610dc03fc458a8ea007"
 
 [update]
-[update.curseforge]
-file-id = 8464096
-project-id = 416089
+[update.modrinth]
+mod-id = "9eGKb6K1"
+version = "dbzBkplC"

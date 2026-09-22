@@ -3,11 +3,11 @@ filename = "ars_ocultas-1.21.1-2.6.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "92c5e7fcbf07141fc8bb0195e28ed9c3e77e1004"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Tsw8vbks/versions/FFn9Oxki/ars_ocultas-1.21.1-2.6.1.jar"
+hash-format = "sha512"
+hash = "89cd67402f37f2a49ea30325719098925baa5c671bcd5b4d39da49623edce837b96c4440d48d3efcad970e27f7e04f8d22334138b534c62eb7b466f1bcb4c8af"
 
 [update]
-[update.curseforge]
-file-id = 8586886
-project-id = 907843
+[update.modrinth]
+mod-id = "Tsw8vbks"
+version = "FFn9Oxki"

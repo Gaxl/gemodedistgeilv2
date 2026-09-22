@@ -3,11 +3,11 @@ filename = "create_aquatic_ambitions-1.21.1-2.0.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a02ce8ffc8395566c4fbe7907e721e82fd1b590b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/9SyaPzp7/versions/DoI3PpXj/create_aquatic_ambitions-1.21.1-2.0.4.jar"
+hash-format = "sha512"
+hash = "2150402262c8aefed2e4ce2dbf193fddcac61837983ebb7fe0a78d035c33229015033a63ff568fc1cfcf3914b4c5a3b511ebd8b1a8dc6e824a7a1d1639166c12"
 
 [update]
-[update.curseforge]
-file-id = 8466444
-project-id = 1005676
+[update.modrinth]
+mod-id = "9SyaPzp7"
+version = "DoI3PpXj"

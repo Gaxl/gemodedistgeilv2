@@ -3,11 +3,11 @@ filename = "ars_n_spells-3.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4986f28908f7a15305c000bcaf665a8013a5147a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/NlMT8pQt/versions/JD5XzVCD/ars_n_spells-3.0.1.jar"
+hash-format = "sha512"
+hash = "1b121502ea73a79328c978a931e6d514ade62e2278a31256c39e3451ea417c082c49c2f01a3b6a9843dec26665ae950f2758c8b5057ada40a17e8737b586db9c"
 
 [update]
-[update.curseforge]
-file-id = 8381534
-project-id = 1447914
+[update.modrinth]
+mod-id = "NlMT8pQt"
+version = "JD5XzVCD"

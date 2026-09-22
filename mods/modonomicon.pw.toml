@@ -3,11 +3,11 @@ filename = "modonomicon-1.21.1-neoforge-1.120.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "af1a69445617058b1deeec34444310e81301ea4c"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/692GClaE/versions/wejDIAHy/modonomicon-1.21.1-neoforge-1.120.3.jar"
+hash-format = "sha512"
+hash = "b460908e9eb559dc4114426ef02b763a5ebfa5756cabf589c0b25b9ce1535ed2f2fb4b9c752d8c8f0a2286ef6ec4bb21823f71c06b3e430f910eab0cb932e535"
 
 [update]
-[update.curseforge]
-file-id = 8430376
-project-id = 538392
+[update.modrinth]
+mod-id = "692GClaE"
+version = "wejDIAHy"

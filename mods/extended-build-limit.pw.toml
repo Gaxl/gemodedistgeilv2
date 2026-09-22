@@ -3,11 +3,11 @@ filename = "extended-build-limit-1.18-1.21.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "74144e712acce075104d092105ba99c8d78f0f60"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/5up9GpJm/versions/KEzHVaK4/extended-build-limit-1.18-1.21.jar"
+hash-format = "sha512"
+hash = "7cf04c8c81256575d154d793ee5aa82289708629107af961ad6941050d3a8f2882052bf12237a38877e63db507c586d58cb70dc46748d307640190ccc0f3fe89"
 
 [update]
-[update.curseforge]
-file-id = 7760929
-project-id = 1486809
+[update.modrinth]
+mod-id = "5up9GpJm"
+version = "KEzHVaK4"

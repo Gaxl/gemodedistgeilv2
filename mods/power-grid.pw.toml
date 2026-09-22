@@ -3,11 +3,11 @@ filename = "powergrid-mc1.21.1-0.5.5.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "06b0500d7101c5846e9e2c5bb4b53646a50ef133"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/eWiBLJ9R/versions/8EtGIOFr/powergrid-mc1.21.1-0.5.5.1.jar"
+hash-format = "sha512"
+hash = "0dafe82438143270a762f9bfff3483c56e85a5db0bb382dba15302b6d6f6a886f252dee42fca08fb46c7a76eb9401f90430d41994b20133e9c009d5b876b8bb5"
 
 [update]
-[update.curseforge]
-file-id = 7999916
-project-id = 1321420
+[update.modrinth]
+mod-id = "eWiBLJ9R"
+version = "8EtGIOFr"

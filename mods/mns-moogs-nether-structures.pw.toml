@@ -3,11 +3,11 @@ filename = "MoogsNetherStructures-1.21-3.0.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b07843ca80d49579beabb4397157de0c4330db01"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/nGUXvjTa/versions/RFeEhpv4/MoogsNetherStructures-1.21-3.0.0.jar"
+hash-format = "sha512"
+hash = "e9ea480ace4d91b03babcc63b9006c917c2e591a33102811f425ef5c8c3fc45926552ea1afbb8fbfc092a88862a804a0f1d99c75ae9a0c791d1ccdc71b49406a"
 
 [update]
-[update.curseforge]
-file-id = 8298675
-project-id = 967466
+[update.modrinth]
+mod-id = "nGUXvjTa"
+version = "RFeEhpv4"

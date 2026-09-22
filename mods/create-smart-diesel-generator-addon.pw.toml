@@ -1,0 +1,13 @@
+name = "Create: Smart Diesel Generator Addon"
+filename = "create_smart_diesel_generator-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ktbI68Ct/versions/1HUGCkxD/create_smart_diesel_generator-1.21.1.jar"
+hash-format = "sha512"
+hash = "fdb5cfa862cfbc293904018b8ad4cd0f72f7d28fd5829272cb75e9614c83cfe790723e6ee3d1360f273a923b0a218e425aa82c5b9be526a7a087740af9a2892e"
+
+[update]
+[update.modrinth]
+mod-id = "ktbI68Ct"
+version = "1HUGCkxD"

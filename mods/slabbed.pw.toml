@@ -3,11 +3,11 @@ filename = "slabbed-0.4.2-beta.2+1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5eab393a5bade34fa44199812bc80c9c6e27c444"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/5nraCxl9/versions/94Ps1nzX/slabbed-0.4.2-beta.2%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "53591919bacb4e2484dd2b8579e0ab44d058eada0ce90cba142c9320b715af253f38022fecfb5d521c36a295688e29313a9086eec7bd2abb16b7b2d8e4deb003"
 
 [update]
-[update.curseforge]
-file-id = 8336074
-project-id = 1457462
+[update.modrinth]
+mod-id = "5nraCxl9"
+version = "94Ps1nzX"

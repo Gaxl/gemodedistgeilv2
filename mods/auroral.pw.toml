@@ -3,11 +3,11 @@ filename = "auroral-1.21.1-1.1.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c76ec1960092a4cf30ff2dd07e23601a7f59d0d9"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/atxUWJdN/versions/CgRv9HAN/auroral-1.21.1-1.1.1.jar"
+hash-format = "sha512"
+hash = "b153be8874e74194bf39b4fff635656610017170fbb03ad58859529a1a3080af2d1de24087b5c2131028fd8906183ebd2b01515494014ae2d275e668be44db4d"
 
 [update]
-[update.curseforge]
-file-id = 8124617
-project-id = 1422678
+[update.modrinth]
+mod-id = "atxUWJdN"
+version = "CgRv9HAN"

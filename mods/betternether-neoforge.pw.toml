@@ -3,11 +3,11 @@ filename = "BetterNether-21.0.20.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b618c2c7325bc04e3f356718661bf30923e4d4d6"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/fxX3RlL5/versions/e8bqKJup/BetterNether-21.0.20.jar"
+hash-format = "sha512"
+hash = "aced803f5eb8ed83e742c9c24d8ed13c2b9d9998ae27ca17b1681a6c3381634661c807cecf670514315650efd4f1188108337bb4802eb7e2aeb047e621e612c8"
 
 [update]
-[update.curseforge]
-file-id = 8194859
-project-id = 1422293
+[update.modrinth]
+mod-id = "fxX3RlL5"
+version = "e8bqKJup"

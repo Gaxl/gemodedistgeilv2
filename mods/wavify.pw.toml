@@ -1,13 +1,13 @@
 name = "Wavify"
 filename = "wavify-1.1.2.jar"
-side = "both"
+side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "3c782ae151399fcc425569f850ed00ef8b82bff0"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/yTjEgNSm/versions/OMoO25VK/wavify-1.1.2.jar"
+hash-format = "sha512"
+hash = "203d0f070ca39f522a3529d1aa31d6eb7914097b65f64f27d8e2bcf2fe754e9fb4b0ba9fe28243512122c335fff41e943b2a54c7dffd3e7a0511f6557d714ad8"
 
 [update]
-[update.curseforge]
-file-id = 8519109
-project-id = 1547083
+[update.modrinth]
+mod-id = "yTjEgNSm"
+version = "OMoO25VK"

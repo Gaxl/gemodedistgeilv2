@@ -3,11 +3,11 @@ filename = "ingotcraft-1.21.1-2.4.11-neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3557fc1095f0ee281b589dd55d62bd7e1cd78639"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Kma1RCF3/versions/tLOzWaU4/ingotcraft-1.21.1-2.4.11-neoforge.jar"
+hash-format = "sha512"
+hash = "bef2a7c980672d3dbd99902088d4267caebd2373382604134759eaa999246489f6e8445d97e9f5bb36dc420d7101671c45e2fbbd0f5ede960888484b215b9152"
 
 [update]
-[update.curseforge]
-file-id = 6668163
-project-id = 399140
+[update.modrinth]
+mod-id = "Kma1RCF3"
+version = "tLOzWaU4"

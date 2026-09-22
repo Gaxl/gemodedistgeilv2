@@ -3,11 +3,11 @@ filename = "journeymap-neoforge-1.21.1-6.0.6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "7ebad83e8d8ca4f249e1f593c03134f43512ac48"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/lfHFW1mp/versions/3xPNjfk3/journeymap-neoforge-1.21.1-6.0.6.jar"
+hash-format = "sha512"
+hash = "4f54fb0f57feb4e2582da1facf89a96686b665120bdce6e2c90be6c4c4472d67c3b71abe0f0797eaf453d2eca60f14e8e5e1f831a48e3d825db68f278b65ce4c"
 
 [update]
-[update.curseforge]
-file-id = 8758006
-project-id = 32274
+[update.modrinth]
+mod-id = "lfHFW1mp"
+version = "3xPNjfk3"

@@ -3,11 +3,11 @@ filename = "cbc_going_ballistic-0.3.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "7270f0b116bb73f5946f0827cdcf9551e111fd3d"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/xxaCKdq3/versions/KPczpdLq/cbc_going_ballistic-0.3.1.jar"
+hash-format = "sha512"
+hash = "4811a8179b9543e9015a94fc26e780757492dafe202e1e690ed6f69c45fa00e0381f51e558a5f5a7e420428bf839784a146d66e4260d1d1140a28462dae9ff4d"
 
 [update]
-[update.curseforge]
-file-id = 8722392
-project-id = 1541510
+[update.modrinth]
+mod-id = "xxaCKdq3"
+version = "KPczpdLq"

@@ -1,13 +1,13 @@
-name = "Aquaculture Delight (A Farmer's Delight Add-on)"
+name = "Aquaculture Delight"
 filename = "aquaculturedelight-1.2.0-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "111393c07a98f29cab1de0d91965cc1bc6d9d73f"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/U9GJqWrI/versions/VFpyJiVp/aquaculturedelight-1.2.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "ef13ec67b0af25a94015d5dcd7a549b3a7759026cd3689923b107e92700f09cc0826f0c98d22fdeef37f2f8d5f1219f6d6edabb5f026b5fec9d347b5e1c23231"
 
 [update]
-[update.curseforge]
-file-id = 6179576
-project-id = 961988
+[update.modrinth]
+mod-id = "U9GJqWrI"
+version = "VFpyJiVp"

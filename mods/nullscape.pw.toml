@@ -3,11 +3,11 @@ filename = "Nullscape_1.21.x_v1.2.14.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ae8e1cbd5de6cf6f450bb44cd69cd284dad690dd"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/LPjGiSO4/versions/3fv8O3xX/Nullscape_1.21.x_v1.2.14.jar"
+hash-format = "sha512"
+hash = "b35a9dfdc7180ca851aea378ee4687e18b3aae717c16870a7762afc67dc0c77598fb2c4a62cb12d6ed0eacf7c9166520e0a3e7dce20da09817065d27e62c8b44"
 
 [update]
-[update.curseforge]
-file-id = 7078265
-project-id = 570354
+[update.modrinth]
+mod-id = "LPjGiSO4"
+version = "3fv8O3xX"

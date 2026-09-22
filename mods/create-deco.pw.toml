@@ -3,11 +3,11 @@ filename = "createdeco-2.1.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "cef0dac138c8bebb11a12a87de88fc5f2bf3bf53"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/sMvUb4Rb/versions/lRBaey4X/createdeco-2.1.0.jar"
+hash-format = "sha512"
+hash = "2cdccea4aac46de50f25267a2b403889efc0886865b96483692f622df9252f5ed2a76c063146575001fee83b37fd9c23bd14699ab72c0b060b315a1ed30187a2"
 
 [update]
-[update.curseforge]
-file-id = 7183863
-project-id = 509285
+[update.modrinth]
+mod-id = "sMvUb4Rb"
+version = "lRBaey4X"

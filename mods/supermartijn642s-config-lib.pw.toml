@@ -3,11 +3,11 @@ filename = "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "07452242e389975e8a88b97066f4bae6a4ebe574"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/LN9BxssP/versions/qKL9jM75/supermartijn642configlib-1.1.8-neoforge-mc1.21.jar"
+hash-format = "sha512"
+hash = "768d8ca178c5e653986f5131b7aeb7fa57ce7d32c16ed399ced01b273565a2b640130c55c7092747efeff40dbb0348876b18b415f59b0d16dd2c7f32f1798ce2"
 
 [update]
-[update.curseforge]
-file-id = 5546996
-project-id = 438332
+[update.modrinth]
+mod-id = "LN9BxssP"
+version = "qKL9jM75"

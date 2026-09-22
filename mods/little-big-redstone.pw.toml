@@ -3,11 +3,11 @@ filename = "little-big-redstone-1.9.10-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2dfd70248cfeaba5989ce354433980b3819e698a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/cdz2XZgU/versions/IDSfpnea/little-big-redstone-1.9.10-1.21.1.jar"
+hash-format = "sha512"
+hash = "52dbebe2804981e903b02c221d4c9ec7028146c485cad020c3180c540c3de2d96130fb408b7b1c969fea2b3c0b29d56a76b78a8dfa8d7fd3f0765aaca864375d"
 
 [update]
-[update.curseforge]
-file-id = 8708257
-project-id = 1180560
+[update.modrinth]
+mod-id = "cdz2XZgU"
+version = "IDSfpnea"

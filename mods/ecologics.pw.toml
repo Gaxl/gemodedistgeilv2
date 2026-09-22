@@ -3,11 +3,11 @@ filename = "ecologics-1.21.1-2.3.7.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3cf395ba5facd56917accc6563f7819f4e39c941"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/NCKpPR0Z/versions/ihEiqSv4/ecologics-1.21.1-2.3.7.jar"
+hash-format = "sha512"
+hash = "eb62eb7e7838259c6494d3ee64854f4bd78029dcc39eec434f1e7be3521f73223a8a3bd994623512477132d6c54045576231fd7772161b94602f72bba3003599"
 
 [update]
-[update.curseforge]
-file-id = 8415537
-project-id = 570463
+[update.modrinth]
+mod-id = "NCKpPR0Z"
+version = "ihEiqSv4"

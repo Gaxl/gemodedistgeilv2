@@ -3,11 +3,11 @@ filename = "create-stuff-additions1.21.1_v2.1.4a.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "cb0ab0117feba62a2ae04baa4dc754363c4eacc4"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/aq9qUUQG/versions/5xWzE6Yk/create-stuff-additions1.21.1_v2.1.4a.jar"
+hash-format = "sha512"
+hash = "43e9f5d6fe9faaf1a77b7f979c2f1b7643a90b08c0572d06ef09efcb201d309bb66c32c396ae8383d68c2217224a98dc770290b8291b98edfa37c9bc3fc19a32"
 
 [update]
-[update.curseforge]
-file-id = 8294772
-project-id = 466792
+[update.modrinth]
+mod-id = "aq9qUUQG"
+version = "5xWzE6Yk"

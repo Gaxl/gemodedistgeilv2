@@ -3,11 +3,11 @@ filename = "cccbridge-mc1.21.1-v1.7.3-neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2f0df007d6ed849266a505f0854ab07f55a58b41"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/fXt291FO/versions/MKK6cYI5/cccbridge-mc1.21.1-v1.7.3-neoforge.jar"
+hash-format = "sha512"
+hash = "bcface30c088371b080ad998a521968d921b814a5d293492e9c5f37ed29630610bbaeb18f3aeaa93d48b2f2c54cd2a21a62130cfab97ce52031218ad7f415a45"
 
 [update]
-[update.curseforge]
-file-id = 8232436
-project-id = 656214
+[update.modrinth]
+mod-id = "fXt291FO"
+version = "MKK6cYI5"

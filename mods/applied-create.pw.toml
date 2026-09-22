@@ -3,11 +3,11 @@ filename = "appliedcreate-1.21.1-1.1.7.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bcc3e3999c0130c08b36d35d3e2e077c48af280c"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/XmZgyZzj/versions/2bWngfNH/appliedcreate-1.21.1-1.1.7.jar"
+hash-format = "sha512"
+hash = "784c0bb0171eba13c076c5f2183d7db1f005cdcbabf5bb0c85f22e56e256cc6a1139aecdd0b4b2a48314dc30978fc10172464e8821a16400b98dd2ccdb87f33f"
 
 [update]
-[update.curseforge]
-file-id = 8546920
-project-id = 1474758
+[update.modrinth]
+mod-id = "XmZgyZzj"
+version = "2bWngfNH"

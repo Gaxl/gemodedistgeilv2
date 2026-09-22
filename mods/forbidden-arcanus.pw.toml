@@ -1,13 +1,13 @@
-name = "Forbidden and Arcanus"
+name = "Forbidden and Arcanus "
 filename = "forbidden_arcanus-2.6.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "1de105be68b88de87a5e6749f320c790d550c120"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/MdlnLS7Q/versions/fNjxgZPH/forbidden_arcanus-2.6.1.jar"
+hash-format = "sha512"
+hash = "012a1d5c779a0173a5c76ea79f429486753f040dfe59739bc45fd0817182d705a80110032f024757f0ac51a9bd10c546a11a730899aa9adbf7251a5040472724"
 
 [update]
-[update.curseforge]
-file-id = 6875895
-project-id = 309858
+[update.modrinth]
+mod-id = "MdlnLS7Q"
+version = "fNjxgZPH"

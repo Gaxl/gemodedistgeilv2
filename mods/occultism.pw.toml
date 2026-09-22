@@ -3,11 +3,11 @@ filename = "occultism-1.21.1-neoforge-1.224.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b74a90195c5b234de5ea2b30c10f665393298494"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/sbJh4AZw/versions/84xuG5rN/occultism-1.21.1-neoforge-1.224.0.jar"
+hash-format = "sha512"
+hash = "46b04053018302bcdccbd7d6c183cdcf5946b4597158732f67a1938bc983d8e8cbc84e46e834fb98d52dc291f6db52f3c80102e36262b56f37a4ba0e989f4def"
 
 [update]
-[update.curseforge]
-file-id = 8380679
-project-id = 361026
+[update.modrinth]
+mod-id = "sbJh4AZw"
+version = "84xuG5rN"

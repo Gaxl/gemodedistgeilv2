@@ -1,0 +1,13 @@
+name = "Farmer's Delight: Extended"
+filename = "farmersdelight_extended-1.21.1-0.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CxjQ2P6f/versions/3zUEyjxn/farmersdelight_extended-1.21.1-0.2.2.jar"
+hash-format = "sha512"
+hash = "6cfe7093c1e1ee9ee798087658e5f43005dff7e3c8fd91f86f56ba2010c309ee923ff6cd1842737a6f882ef97881ef8260f396f36cf3b222d2e67bee5d84803c"
+
+[update]
+[update.modrinth]
+mod-id = "CxjQ2P6f"
+version = "3zUEyjxn"

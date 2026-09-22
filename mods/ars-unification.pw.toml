@@ -3,11 +3,11 @@ filename = "ars_unification-1.2.20.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "1d233bf41226de0f2a6e8ecbd680b28ab080d194"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/fRdwEsp6/versions/9kxGLn7A/ars_unification-1.2.20.jar"
+hash-format = "sha512"
+hash = "f21a71e0ea175e4abd651b8c040c677ef43bb1a61f6b032405ec55d1b89f166303883e05fcf29173bd4f06abcd7656b0f30964b6f886e9a3685e2194a35073c4"
 
 [update]
-[update.curseforge]
-file-id = 8723850
-project-id = 1165429
+[update.modrinth]
+mod-id = "fRdwEsp6"
+version = "9kxGLn7A"

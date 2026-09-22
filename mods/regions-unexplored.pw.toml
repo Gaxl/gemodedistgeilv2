@@ -3,11 +3,11 @@ filename = "regions-unexplored-0.6.2-neoforge-21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "122586c147f0aa1efdc655792b6ef24aebbbba84"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Tkikq67H/versions/5A8LFnXX/regions-unexplored-0.6.2-neoforge-21.1.jar"
+hash-format = "sha512"
+hash = "b6475d26f22a5a3ed957b76b85f3d51d3422c0fbef16f777b74bfe9d70fd1673d75cb0c4e2a2a56121f0d0d6780a9e92fdcd7023b4f1d0d2d746d54c64c12f3c"
 
 [update]
-[update.curseforge]
-file-id = 8419667
-project-id = 659110
+[update.modrinth]
+mod-id = "Tkikq67H"
+version = "5A8LFnXX"

@@ -3,11 +3,11 @@ filename = "mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4bb7e1d28eef19f87438881b0f582a15297b95ae"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/VRLhWB91/versions/tlymsxUG/mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar"
+hash-format = "sha512"
+hash = "8a7bc0100e57369fdcfbb65164fdf97cd7f6a931882d0f63aae15fd3db8975a78cc8734f34f640a5790dddaca5883d8e97117e7966dab50de479b1a8f3662678"
 
 [update]
-[update.curseforge]
-file-id = 7029451
-project-id = 629153
+[update.modrinth]
+mod-id = "VRLhWB91"
+version = "tlymsxUG"

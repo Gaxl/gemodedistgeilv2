@@ -3,11 +3,11 @@ filename = "mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b5580c3fc521ed8bf4db3e407bd590efc317f74d"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/GmwLse2I/versions/jVdb0r4W/mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar"
+hash-format = "sha512"
+hash = "9bf496a8db8c6074ab32374042ae15e87fe87d897e21de29d459556fa8d7d0e73f2718f28a0236181cfb3c1bc66c776b4d079f0a7084696ad490275ab1b9eb6e"
 
 [update]
-[update.curseforge]
-file-id = 7308338
-project-id = 453925
+[update.modrinth]
+mod-id = "GmwLse2I"
+version = "jVdb0r4W"

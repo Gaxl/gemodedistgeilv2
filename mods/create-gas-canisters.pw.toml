@@ -3,11 +3,11 @@ filename = "oilcanister-2.0.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4c3403b620ce8cc698f612789c05dc3c5b580f7b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/UBPNaDVx/versions/e9Hazjqx/oilcanister-2.0.0.jar"
+hash-format = "sha512"
+hash = "7f9b331458ebf59b4283dc55c2b20fb3444417f03e2f03304537268dbeefcf3a890cdc15276725fb02835ba9519595c96f11357b780eb55fcd585ca7fb6bc572"
 
 [update]
-[update.curseforge]
-file-id = 8138897
-project-id = 1543338
+[update.modrinth]
+mod-id = "UBPNaDVx"
+version = "e9Hazjqx"

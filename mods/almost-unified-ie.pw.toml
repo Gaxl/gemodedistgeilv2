@@ -3,11 +3,11 @@ filename = "almostunified_ie-neoforge-1.21.1-1.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "0940f4ac40f87ba12e6978ad80eb8eb756822aba"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/hCyAnqqq/versions/QNmpHq1W/almostunified_ie-neoforge-1.21.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "51f6b8d3b89ed5f5a241535360d3a208e30118a95858c2e1c585bc23802320387a221e9b0f07ba536def5617e3830f3065ee46fa307a96f8880fbe8ebe2f290b"
 
 [update]
-[update.curseforge]
-file-id = 7045712
-project-id = 1316631
+[update.modrinth]
+mod-id = "hCyAnqqq"
+version = "QNmpHq1W"

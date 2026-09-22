@@ -3,11 +3,11 @@ filename = "Cobblemon-neoforge-1.8.1+1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4e0406aeb73026d6103d7dde2da672d13203b97f"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/MdwFAVRL/versions/7otgw3aH/Cobblemon-neoforge-1.8.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "ac00e6ee6bc6fc1f4872aa5baa07cbed45668452fd5b15ef0120089a4aa5e1b9e9841f8f84862ab940ffa3bdffb85bc07fa05dc3db87aa131cce455db6f0c9dc"
 
 [update]
-[update.curseforge]
-file-id = 8868914
-project-id = 687131
+[update.modrinth]
+mod-id = "MdwFAVRL"
+version = "7otgw3aH"

@@ -3,11 +3,11 @@ filename = "Cucumber-1.21.1-8.0.16.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "0e97553af44d39d1976fe6feb4baf1c30c6b2f06"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Rw1NrDzF/versions/8421rqFF/Cucumber-1.21.1-8.0.16.jar"
+hash-format = "sha512"
+hash = "fbc63f23f827061b2a45f33a3867e105268b5a51d9ca92ba3bacd2e2a0af847eb4c367e726a62a455b841e503f8ce73ea9e180285670ddf3ec18a8ba4e72da7d"
 
 [update]
-[update.curseforge]
-file-id = 8035802
-project-id = 272335
+[update.modrinth]
+mod-id = "Rw1NrDzF"
+version = "8421rqFF"

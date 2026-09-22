@@ -3,11 +3,11 @@ filename = "Zeta-1.1-40.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "72f6efe421cfc0547c774ae8241d727b7d996754"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/MVARlG2f/versions/9GjNW2Gf/Zeta-1.1-40.jar"
+hash-format = "sha512"
+hash = "a81dcf44f2bfd0fc1a52f00d9ca47a84ad2baf067adedb35eec859f6b9cec7b61ca432e549a3342b10902f84e76d70224cd54400285c8b13a0926835a62c667c"
 
 [update]
-[update.curseforge]
-file-id = 7980010
-project-id = 968868
+[update.modrinth]
+mod-id = "MVARlG2f"
+version = "9GjNW2Gf"

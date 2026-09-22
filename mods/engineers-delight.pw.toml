@@ -3,11 +3,11 @@ filename = "engineers_delight-neoforge-1.21.1-2.0.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "10d7cd518648d2a0dce95f4e179835fac9a48b9a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/4fb7lmRe/versions/TRdTWb8C/engineers_delight-neoforge-1.21.1-2.0.0.jar"
+hash-format = "sha512"
+hash = "099ce0057df83b1c5fabede27977b1f5de7d9fab88a1d2394de64e75d3ee7a5f7f4989aea7bae7ee6ec0154cbfe10777bb0b216019e9d6958be006d3b9625435"
 
 [update]
-[update.curseforge]
-file-id = 8470808
-project-id = 861437
+[update.modrinth]
+mod-id = "4fb7lmRe"
+version = "TRdTWb8C"

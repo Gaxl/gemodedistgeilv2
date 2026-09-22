@@ -3,11 +3,11 @@ filename = "wunderlib-21.0.10.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "330ab9d6d8d92a9337e97ef22e64f83fe2d4bf2a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/HZmhgdJk/versions/5db3GZzg/wunderlib-21.0.10.jar"
+hash-format = "sha512"
+hash = "8785b16968ed82ead0fc3f6f42ca3dd7fa94b94a79eeb97a61e57b258bf8c0e6775002a561cf28a1840216bd06f3b86a31da420d4ccc2d37c14abe22058bdf96"
 
 [update]
-[update.curseforge]
-file-id = 7469725
-project-id = 1422273
+[update.modrinth]
+mod-id = "HZmhgdJk"
+version = "5db3GZzg"

@@ -3,11 +3,11 @@ filename = "createdieselgenerators-1.21.1-1.3.14.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "565e9014912b8692ff8866be17dd739505062374"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/ZM3tt6p1/versions/Kijd1iDy/createdieselgenerators-1.21.1-1.3.14.jar"
+hash-format = "sha512"
+hash = "9386203b0afdb69ccfeb753579311f043104f49049ce99063f279e4ede191361436d9c875b929f30e44e0c69594d3d319a90aeab1d3a08bb6de309fef4d39a0f"
 
 [update]
-[update.curseforge]
-file-id = 8298898
-project-id = 869316
+[update.modrinth]
+mod-id = "ZM3tt6p1"
+version = "Kijd1iDy"

@@ -3,11 +3,11 @@ filename = "baguettelib-1.21.1-NeoForge-2.0.5.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "1312074235af39f51172aae288a1f5044b90e429"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/OfKzpbRU/versions/aeC487xH/baguettelib-1.21.1-NeoForge-2.0.5.jar"
+hash-format = "sha512"
+hash = "0304763f87ba1271fa8513cdc8feb64c90b82abf723406890778987b227a21f998e9466ddcb5aeae53b7c9c0b607376c2fd932ab2603240aad54710bf3e4b07a"
 
 [update]
-[update.curseforge]
-file-id = 8755385
-project-id = 1264423
+[update.modrinth]
+mod-id = "OfKzpbRU"
+version = "aeC487xH"

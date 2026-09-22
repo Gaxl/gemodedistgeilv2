@@ -3,11 +3,11 @@ filename = "neoforge-excessive_building-1.21.1-4.0.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "76717bd9ba894dfcb34d62653d755ba95cffa0df"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/2vsx0HYf/versions/GeGkzRRV/neoforge-excessive_building-1.21.1-4.0.2.jar"
+hash-format = "sha512"
+hash = "0109e484d6603e1902232ad2885616354065a542b7a68e3b47c6e87652f69d982b1a5f2cabe30fd1ee734dd455e7162dfb2f05472e72d3b073444afa7de6caed"
 
 [update]
-[update.curseforge]
-file-id = 8410354
-project-id = 845097
+[update.modrinth]
+mod-id = "2vsx0HYf"
+version = "GeGkzRRV"

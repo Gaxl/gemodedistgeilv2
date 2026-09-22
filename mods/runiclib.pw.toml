@@ -3,11 +3,11 @@ filename = "neoforge-runiclib-1.21.1-5.0.7.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f0422c70689d5b31b65ef5a84c1d5eb2d7536d4c"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/mk0Htq87/versions/tk5EQpUG/neoforge-runiclib-1.21.1-5.0.7.jar"
+hash-format = "sha512"
+hash = "c46d25abc6e034cd5d2b5fe53c7cc9fe23f17d5abc91fee7232872476ec9bd500da7504cfc69cab313ff2e7f4fa4c5f2a8b4b932112ebb2851b8e5cb0cd7e365"
 
 [update]
-[update.curseforge]
-file-id = 8188562
-project-id = 880879
+[update.modrinth]
+mod-id = "mk0Htq87"
+version = "tk5EQpUG"

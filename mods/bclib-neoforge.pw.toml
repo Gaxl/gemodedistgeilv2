@@ -3,11 +3,11 @@ filename = "bclib-21.0.22.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2f39721dc5ea125d3fe226af994f474f5ec05e1d"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/7bdKEtKC/versions/GnVU7psx/bclib-21.0.22.jar"
+hash-format = "sha512"
+hash = "fe0e8f21b341b34a6f281529ef93c8c3d4796fbc51401fcb9001defc8a9df7edcd7095aae6f602e8086290be662dd48c52b632bf0da49a78ecd22e463bd451ae"
 
 [update]
-[update.curseforge]
-file-id = 8362495
-project-id = 1422283
+[update.modrinth]
+mod-id = "7bdKEtKC"
+version = "GnVU7psx"

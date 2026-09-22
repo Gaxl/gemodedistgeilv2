@@ -3,11 +3,11 @@ filename = "Create-Guardian-Beam-Defense-1.3.7.1b-1.21.1-neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "186617d05b3cecf291e3659b98764ed18b0f531f"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/pwPEdvXO/versions/lobV4ut5/Create-Guardian-Beam-Defense-1.3.7.1b-1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "357924e16f84c17d745bf6fd06321d7c93353ead5108b26a5e9a73be214a3b7e6080ac43a47db1facc858ec6a32294806d38b9b044bce50a656b49f92ee98f60"
 
 [update]
-[update.curseforge]
-file-id = 8049003
-project-id = 860168
+[update.modrinth]
+mod-id = "pwPEdvXO"
+version = "lobV4ut5"

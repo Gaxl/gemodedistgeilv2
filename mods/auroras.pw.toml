@@ -1,13 +1,13 @@
 name = "Auroras"
 filename = "Auroras-1.21-1.6.2.jar"
-side = "both"
+side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "2a27027b3c95823e4bf7e0aa635b92742ca407e0"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Q7VPWopC/versions/L0KPECkM/Auroras-1.21-1.6.2.jar"
+hash-format = "sha512"
+hash = "221133d374299f4c224d30798ee9015cef0c6d595ae5f01c17a1d6d8a5644b1c438a582d23ec6095dea434bfee2ef29485a2cb58d80fa8785102608e1687a8b0"
 
 [update]
-[update.curseforge]
-file-id = 6040674
-project-id = 1105290
+[update.modrinth]
+mod-id = "Q7VPWopC"
+version = "L0KPECkM"

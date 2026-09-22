@@ -1,13 +1,13 @@
 name = "Fusion (Connected Textures)"
 filename = "fusion-1.3.9-neoforge-mc1.21.1.jar"
-side = "both"
+side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "37911dd0539f040e1599fe88aec5df66780e5534"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/p19vrgc2/versions/6tVqbtOY/fusion-1.3.9-neoforge-mc1.21.1.jar"
+hash-format = "sha512"
+hash = "b1101c728d1c1e98afe6d587d3e6b71c4a72a5f1e4302e2789f96708c80ddb0967bb3813c94c357c819ab10314ab3056dabed6357a9898d669189030275627ac"
 
 [update]
-[update.curseforge]
-file-id = 8479774
-project-id = 854949
+[update.modrinth]
+mod-id = "p19vrgc2"
+version = "6tVqbtOY"

@@ -3,11 +3,11 @@ filename = "interiors-1.21.1-neoforge-0.6.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a558777ef4510da2f4d32ca3da6ac7384c9a9940"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/r4Knci2k/versions/gBrfZy6S/interiors-1.21.1-neoforge-0.6.1.jar"
+hash-format = "sha512"
+hash = "68b0d915e41fb0ce9d12a8c580d688a604770ded2b21e963058aa6d80cbc5661c481416d051a541395b5c79f461edcb658046e53cfcfb405179a450662ed01b5"
 
 [update]
-[update.curseforge]
-file-id = 7544005
-project-id = 906239
+[update.modrinth]
+mod-id = "r4Knci2k"
+version = "gBrfZy6S"

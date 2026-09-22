@@ -3,11 +3,11 @@ filename = "create_aeronautics_transmission_linkage-0.2.7.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "dee7a9879b27db5be4831d140e39aba3a051e3ae"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Y1dq5ioE/versions/VtjOWtYD/create_aeronautics_transmission_linkage-0.2.7.jar"
+hash-format = "sha512"
+hash = "41fc5c767c0802d727455413a252dd6c0b97f78722ea563f8b05bbc64164b2ddb64e2dc50b0d89f54da253d57cd67916ef29a7fd744919803fa814819d3279dc"
 
 [update]
-[update.curseforge]
-file-id = 8722967
-project-id = 1548056
+[update.modrinth]
+mod-id = "Y1dq5ioE"
+version = "VtjOWtYD"

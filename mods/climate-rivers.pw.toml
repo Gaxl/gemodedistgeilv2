@@ -3,11 +3,11 @@ filename = "ClimateRivers-v21.1.3-1.21.1-NeoForge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "6df9f2ee359a46de5c0baa29b426c541e06f50bd"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/DzZWws4q/versions/qHngFoBS/ClimateRivers-v21.1.3-1.21.1-NeoForge.jar"
+hash-format = "sha512"
+hash = "7d4d2c76b90149dfac47ce755efe2d809e42aefc4f43cfc8a42a777805ed75936d1adb215c15a3c08fd3b6662da05f38fe68a1cab78024d46970901fff034766"
 
 [update]
-[update.curseforge]
-file-id = 7116125
-project-id = 1255421
+[update.modrinth]
+mod-id = "DzZWws4q"
+version = "qHngFoBS"

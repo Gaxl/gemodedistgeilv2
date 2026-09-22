@@ -3,11 +3,11 @@ filename = "universalkeyboard-1.3.5.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "8d2371a8821e28628daec37c8c5065c90a8afee3"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/vnZAETyV/versions/x5QpcCMr/universalkeyboard-1.3.5.jar"
+hash-format = "sha512"
+hash = "aff726a18dc2a324178b4a4bd8a37f4c749f391fbe2b3cfb7986603a6b93369a5cc8bb191f5dd97c52e35d7bcb24562efb8a0297c48e76ac5693e53ec5acdf28"
 
 [update]
-[update.curseforge]
-file-id = 8841727
-project-id = 1538547
+[update.modrinth]
+mod-id = "vnZAETyV"
+version = "x5QpcCMr"

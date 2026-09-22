@@ -3,11 +3,11 @@ filename = "noisiumed-3.0.6-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "e44c648f5719eacc2a35e69fb78dbb625bf4f12b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/M8MasaZG/versions/U3gpLtpO/noisiumed-3.0.6-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "327f828d09b0a7365b31c9eae253969c2a18c6581fdc0b93032e5ccac813eaf3c09d84cf1cddc6242f5930a508f24b21e355e4998ff57c811586e8f983e66919"
 
 [update]
-[update.curseforge]
-file-id = 8475257
-project-id = 1430156
+[update.modrinth]
+mod-id = "M8MasaZG"
+version = "U3gpLtpO"

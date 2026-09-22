@@ -3,11 +3,11 @@ filename = "naturalist-1.0.2-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d026c2c4ac66a9bc656e9b894683d1131054a80a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/F8BQNPWX/versions/t5ONaov5/naturalist-1.0.2-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "52ae7bf9574e454382546c8c20e6f96bbb4e928e9800749367b74958d9cdd6f3a759a752840db4b7e12e75c932878b90366db069f1beab1a55e6510b8e860845"
 
 [update]
-[update.curseforge]
-file-id = 8007879
-project-id = 627986
+[update.modrinth]
+mod-id = "F8BQNPWX"
+version = "t5ONaov5"
