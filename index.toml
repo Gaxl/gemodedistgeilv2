@@ -13195,6 +13195,11 @@ hash = "c67fe503f4a75671d1fcdbc72d793b08b70cba23ab3ebfdb50c49272fcc3ecfc"
 metafile = true
 
 [[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "03084ff4f74cedc1b8ac6c85a98842f75956fb4fa811d285d8ca7caa8d54da5d"
+metafile = true
+
+[[files]]
 file = "mods/better-stats.pw.toml"
 hash = "7b87ea6e0623ada323e65fa0420e0827f6e88689898a0454376e460ad8cbc5dc"
 metafile = true
@@ -13840,6 +13845,11 @@ hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
 
 [[files]]
+file = "mods/kubejs.pw.toml"
+hash = "7e0eca275f27b6543f06c36dec433851a956960cbedd2be57d19e159d636bfc1"
+metafile = true
+
+[[files]]
 file = "mods/l_enders-cataclysm-delight.pw.toml"
 hash = "637e5b445b28d460884ce868948328ef512eb10ab2af60a86bd3e2c37ac49697"
 metafile = true
@@ -14147,6 +14157,11 @@ metafile = true
 [[files]]
 file = "mods/resourceful-refinement.pw.toml"
 hash = "5502fa42afacd88588a6e9be591f93a94288659553b6c403c169c77b68f58c96"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
 metafile = true
 
 [[files]]
