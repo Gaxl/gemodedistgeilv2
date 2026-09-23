@@ -12965,6 +12965,30 @@ file = "journeymap/icon/theme/victorian_/victorian_.theme2.json"
 hash = "f272934e3c793b24f7f0373e2e9209b5a591100186a6e628c093e1d4aff05c61"
 
 [[files]]
+file = "kubejs/client_scripts/main.js"
+hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
+
+[[files]]
+file = "kubejs/config/client.json"
+hash = "d181dfd86af476d7c3293a2dc03476083c7aaae9c1086b92cc28ceb4729c475c"
+
+[[files]]
+file = "kubejs/config/common.json"
+hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
+
+[[files]]
+file = "kubejs/server_scripts/join_message.js"
+hash = "72233f33dead4294a52997cd9b65a6145b6d1aae95b97b9ec63c4a08d3d97328"
+
+[[files]]
+file = "kubejs/server_scripts/main.js"
+hash = "2e8da7dc1c262f5057165d707a351cbea3b536930cf8576d10c9a15de70cff22"
+
+[[files]]
+file = "kubejs/startup_scripts/main.js"
+hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+
+[[files]]
 file = "mods/advancedperipherals.pw.toml"
 hash = "8c0719220dd1ede9910e8bdaec75e2a46e683108eb52729d3bd3530d29a4b06a"
 metafile = true

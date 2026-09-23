@@ -1,0 +1,11 @@
+CLAUDE.md
+WORKFLOW.md
+
+# KubeJS: Beispiel-/Dev-Dateien (ProbeJS, VS Code)
+kubejs/README.txt
+kubejs/package.json
+kubejs/*/jsconfig.json
+kubejs/config/probe-settings.json
+
+# KubeJS: Webserver-Config mit Auth-Token – nie verteilen
+kubejs/config/web_server.json
