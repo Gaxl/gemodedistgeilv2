@@ -12970,7 +12970,7 @@ hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
 [[files]]
 file = "kubejs/config/client.json"
-hash = "d181dfd86af476d7c3293a2dc03476083c7aaae9c1086b92cc28ceb4729c475c"
+hash = "721901d714e02526b1b3221b30b61b27af16bd5fc63c0e23de7401ac070e1195"
 
 [[files]]
 file = "kubejs/config/common.json"
