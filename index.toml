@@ -12977,12 +12977,20 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
+file = "kubejs/server_scripts/commands.js"
+hash = "afd4be69d5c6e58d0cd21c7385adbb2cb22e42e456178b76fd50a436771c6251"
+
+[[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "72233f33dead4294a52997cd9b65a6145b6d1aae95b97b9ec63c4a08d3d97328"
+hash = "b1bcac34c687737299d601fb127a0f3ec4ca13d2b40efb86077349e93207821a"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
 hash = "2e8da7dc1c262f5057165d707a351cbea3b536930cf8576d10c9a15de70cff22"
+
+[[files]]
+file = "kubejs/server_scripts/recipes.js"
+hash = "39c7e3286649808acab2c4ee3789b5c2b59958c73d2a8a9e1b19ce7519dc2e4a"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
