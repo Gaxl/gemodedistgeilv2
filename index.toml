@@ -14229,11 +14229,6 @@ hash = "cca4b10598ae8cedcc2a6531a422453d624ceb4d1de1163ce46255415ccda045"
 metafile = true
 
 [[files]]
-file = "mods/slabbed.pw.toml"
-hash = "5efe5ece144c9f51713123c9ac20471fab5de427c33fefe3f62ed3cb33151f8b"
-metafile = true
-
-[[files]]
 file = "mods/smartbrainlib.pw.toml"
 hash = "6e7ce9c2aee5bb72d2698eb89035c9b2458d20daa0782e1a03cfba7a6647621e"
 metafile = true
