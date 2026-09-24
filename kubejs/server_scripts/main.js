@@ -4,8 +4,10 @@ console.info('Hello, World! (Loaded server example script)')
 
 const GIG_REPLIES = [
   'Gax ist Grün',
-  'Gemoded ist geil',
-  'Gax ist Geldgeil'
+  'Gax ist Geldgeil',
+  'Gax ist Göre',
+  'Gax ist Glücksspielsüchtig',
+  'Gax ist geschockt'
 ]
 
 PlayerEvents.chat(event => {
