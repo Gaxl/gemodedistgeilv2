@@ -4,6 +4,11 @@
 const BUGREPORT_DISCORD = 'Pingus1000'
 const BUGREPORT_ISSUES_URL = 'https://github.com/Gaxl/gemodedistgeilv2/issues/new'
 
+// /discord – zeigt den Einladungslink zum Discord-Server
+const DISCORD_INVITE_URL = 'https://discord.gg/Uc5j9KMy8' // TODO: echten Einladungslink eintragen
+
+
+//bugreport command
 ServerEvents.commandRegistry(event => {
   const { commands: Commands } = event
 
@@ -23,6 +28,26 @@ ServerEvents.commandRegistry(event => {
       .append(Text.aqua('Issue erstellen').underlined()
         .clickOpenUrl(BUGREPORT_ISSUES_URL)
         .hover(Text.gray(BUGREPORT_ISSUES_URL))))
+    player.tell(Text.gold('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'))
+    return 1
+  }))
+})
+
+//discord command
+ServerEvents.commandRegistry(event => {
+  const { commands: Commands } = event
+
+  event.register(Commands.literal('discord').executes(ctx => {
+    const player = ctx.source.player
+    if (!player) return 0 // z.B. von der Konsole ausgeführt
+
+    player.tell(Text.gold('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'))
+    player.tell(Text.aqua('Gax – Discord').bold())
+    player.tell(Text.gray('Tritt dem Discord bei für Support, Updates und Community!'))
+    player.tell(Text.of('  » ')
+      .append(Text.aqua(DISCORD_INVITE_URL).underlined()
+        .clickOpenUrl(DISCORD_INVITE_URL)
+        .hover(Text.gray('Klicken zum Öffnen'))))
     player.tell(Text.gold('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'))
     return 1
   }))
