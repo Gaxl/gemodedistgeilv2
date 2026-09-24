@@ -5430,7 +5430,7 @@ hash = "2e8496390d48740a81d12c5bbe542fd9abf8785862576d7352c7b50337a273f0"
 
 [[files]]
 file = "config/axiom/axiom.json"
-hash = "2e8496390d48740a81d12c5bbe542fd9abf8785862576d7352c7b50337a273f0"
+hash = "64b3093a892fb146f65a0ce17f720f7d63ce70fdb233fda1d59eb9e900384630"
 
 [[files]]
 file = "config/axiom/imgui.ini"
