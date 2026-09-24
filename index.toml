@@ -12969,6 +12969,10 @@ file = "kubejs/client_scripts/main.js"
 hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
 [[files]]
+file = "kubejs/client_scripts/tooltips.js"
+hash = "ab8eea6dfcbbe58e3e07c067fc88f894ed9b0e27ec6550ed94cde06ec13b24ba"
+
+[[files]]
 file = "kubejs/config/client.json"
 hash = "721901d714e02526b1b3221b30b61b27af16bd5fc63c0e23de7401ac070e1195"
 
@@ -12981,8 +12985,16 @@ file = "kubejs/server_scripts/commands.js"
 hash = "8c95ea33cae4f0da6ae7a78341f2f9f1298d40ad20d5db3b06369421a8e808d9"
 
 [[files]]
+file = "kubejs/server_scripts/end_toggle.js"
+hash = "156bbef4c023aaa34c1561034b0ad85d45beb98ba012dc309c59a63b6231fe15"
+
+[[files]]
+file = "kubejs/server_scripts/fixes.js"
+hash = "057f4bd84cecbc968ddab669028a10ad293973451c7bd6a5492e8351f59d1286"
+
+[[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "b1bcac34c687737299d601fb127a0f3ec4ca13d2b40efb86077349e93207821a"
+hash = "392fab14b6f4641bccc8350edc9b7e14e57233a21098207bbbe486c07eb69539"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"

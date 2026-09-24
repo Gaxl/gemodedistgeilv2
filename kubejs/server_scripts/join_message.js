@@ -2,9 +2,15 @@
 
 // Bei einem Update nur diese beiden Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.1'
+const VERSION = 'beta1.2'
 const CHANGES = [
-  ['-', 'Removed Recipe for Meka-Tool and Meka-Suite'],
+  ['+', 'Added /end command to enanble and disable the end dimension'],
+  ['+', 'Added /changelog command to show the changelog again'],
+  ['+', 'Added /discord command to show the Discord invite link'],
+  ['~', 'Added a tooltip to Mekanism tools and armor to show that there are no recipes for them'],
+  ['!', 'Fixed the Mekanism Error Message'],
+  
+  
 ]
 
 const CHANGE_COLORS = {
