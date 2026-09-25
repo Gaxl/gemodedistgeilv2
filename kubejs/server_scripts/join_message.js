@@ -2,13 +2,10 @@
 
 // Bei einem Update nur diese beiden Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.2'
+const VERSION = 'beta1.3'
 const CHANGES = [
-  ['+', 'Added /end command to enanble and disable the end dimension'],
-  ['+', 'Added /changelog command to show the changelog again'],
-  ['+', 'Added /discord command to show the Discord invite link'],
-  ['~', 'Added a tooltip to Mekanism tools and armor to show that there are no recipes for them'],
-  ['!', 'Fixed the Mekanism Error Message'],
+  ['!', 'Fixed the Immersive Engineering Garden Cloches'],
+  ['+', 'Added Mystical Agriculture Recipes for the Garden Cloches'],
   
   
 ]
