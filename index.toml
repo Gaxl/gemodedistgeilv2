@@ -13006,7 +13006,7 @@ hash = "f176792315d7aea31a374e2d58ab2340650c15abe4b34b9b678383f926786abe"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "5dab7a64dbe973991d71fe8233f51fcc7ad4e449f2b2df35f2d087804a0a6437"
+hash = "95385657f3016b75209452cb9cc0ad1342abe07e00ee45a528fc3b9ecfc2a800"
 
 [[files]]
 file = "kubejs/server_scripts/meltan_candy_block.js"

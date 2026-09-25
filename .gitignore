@@ -13,3 +13,6 @@ kubejs/config/web_server.json
 
 # Lokale Dev-Notizen – nie verteilen
 dev-notes/
+
+# macOS Finder
+.DS_Store
