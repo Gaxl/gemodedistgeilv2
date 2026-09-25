@@ -1,6 +1,6 @@
 name = "Cobbleworkers"
 filename = "cobbleworkers-neoforge-2.0.5+1.8.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/i3XVG2gn/versions/XMnis0fw/cobbleworkers-neoforge-2.0.5%2B1.8.0.jar"
