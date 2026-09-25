@@ -1,0 +1,13 @@
+name = "Cobblemon Pokedex (Cobbledex)"
+filename = "cobbledex-1.21.1-neoforge-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fKNwbN70/versions/KqwjnkSa/cobbledex-1.21.1-neoforge-1.2.0.jar"
+hash-format = "sha512"
+hash = "75cffbe81167c297f8c8f353d31bb039e8c3a73d9a3f31d7a1f184459ae47e860984e871ab4dc4e50d7ecb0024199a5783e30f43da1c045977a750601f4cce18"
+
+[update]
+[update.modrinth]
+mod-id = "fKNwbN70"
+version = "KqwjnkSa"

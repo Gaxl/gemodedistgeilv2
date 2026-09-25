@@ -1,0 +1,13 @@
+name = "Cobblemon Environment Interactions"
+filename = "cobblemon-environment-interactions-neoforge-3.1.0-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Gso5otOx/versions/1ENadCzD/cobblemon-environment-interactions-neoforge-3.1.0-neoforge.jar"
+hash-format = "sha512"
+hash = "05e73d532ad404dc21ac551ba2f11ee252855d9bd40d8712f9d61a6a5436be51c593a7acc3444c789fc3be92461f97da6554498b715cdd3691e340a4bd2399d7"
+
+[update]
+[update.modrinth]
+mod-id = "Gso5otOx"
+version = "1ENadCzD"

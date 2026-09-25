@@ -13013,6 +13013,11 @@ file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
+file = "mods/accessories.pw.toml"
+hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
+metafile = true
+
+[[files]]
 file = "mods/advancedperipherals.pw.toml"
 hash = "8c0719220dd1ede9910e8bdaec75e2a46e683108eb52729d3bd3530d29a4b06a"
 metafile = true
@@ -13263,6 +13268,11 @@ hash = "a73d8679c4bfd8fcb09b3c1397ee437fe22486db2a5819fad0a5a09fb281d952"
 metafile = true
 
 [[files]]
+file = "mods/botania.pw.toml"
+hash = "7d638bfbacdacb8198509524e80ee873de38f9bf46f00d77901271646f292ae5"
+metafile = true
+
+[[files]]
 file = "mods/cbc-locometal-armor.pw.toml"
 hash = "b76ce40150db7322ebb4d06ff1886a9dc4041f61394a9e9455707b9a3fda89e8"
 metafile = true
@@ -13323,8 +13333,73 @@ hash = "4a7a9d23ed6402020581e860f3c0b898797a482f3fb94757583aad0caf0af060"
 metafile = true
 
 [[files]]
+file = "mods/cobbleloots.pw.toml"
+hash = "266562ccf674fb755eb11ee7d89094198be6b64233a8978aff658dc83b9e9c60"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-capture-xp.pw.toml"
+hash = "0b372254e64baa6a9c67565cb5a981606bfc092bc9111b9d60c16ab17d3a97e5"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-environment-interactions.pw.toml"
+hash = "787519562370fe9c972a2296e893c0ae9616b03999d42106065eeab21a01c88c"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
+hash = "377225e34507e08f7d72d8332046c49e4d3e0cd5afcd0e955791cfa6fc8b1e43"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-mega-showdown.pw.toml"
+hash = "1b474234c41d45bcaaef752a71291e73301530abf2a31cc17a986a0ae5dffa22"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-move-inspector.pw.toml"
+hash = "60c53690ccf6b6f99a89bb6194138b29ff4453c6d1a428972b8d382697217289"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-playerxp.pw.toml"
+hash = "616eaac2c3d19eee876bf3979144c6c444f3adef4cfca8a364fcf3eee2c2ec2b"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-pokedex.pw.toml"
+hash = "b4c19d6dcf50cfe6c3b32ece42dabae8a6af41b184c8fda5af82a9367d97564a"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-pokenav.pw.toml"
+hash = "30c64afe323a053cfb5b40afae3a78eab6f5b602abee66c5f4b750fbeade9654"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-safepastures.pw.toml"
+hash = "52882937234e2a0f640c91295703b4af2044e3be859959ceca6d10494db02607"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-tim-core.pw.toml"
+hash = "b10cbaa997f2a836ab453aadc73d6ad5291b659ed158c185f5fd7f4c0f097a5d"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "f480fa46d7f4800dad4414d136541f8f8410d5907fc014e389b648d20b1065ce"
+metafile = true
+
+[[files]]
+file = "mods/cobbleworkers.pw.toml"
+hash = "5f655d8a38f11fb6586537eafbe63659186c4df4216be191e2333ae91ac0d22e"
+metafile = true
+
+[[files]]
+file = "mods/cobbreeding.pw.toml"
+hash = "245af393a759166ebb4888550e307abcb27af8ae3772136eed6945116fdd18c1"
 metafile = true
 
 [[files]]
@@ -13678,6 +13753,11 @@ hash = "9fe802c6e911ccd7117578a9fd92b0d1e1eb569c56535fadfbeedf8fe8045137"
 metafile = true
 
 [[files]]
+file = "mods/elevatormod.pw.toml"
+hash = "58a52192b85fb49a4b772cd54677f84515a2dfc26a14d54eb880ed01f1186c5a"
+metafile = true
+
+[[files]]
 file = "mods/enderio.pw.toml"
 hash = "bb335808d1873c81f83ec9cf4ca15e8820cfcbd6354beb331a01dc7c2c711ca9"
 metafile = true
@@ -13910,6 +13990,11 @@ metafile = true
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
+metafile = true
+
+[[files]]
+file = "mods/legendary-monuments.pw.toml"
+hash = "f122d679665b3caffac4869d5805cbfd987617f4995508fd6f1ad8e9a619f015"
 metafile = true
 
 [[files]]
@@ -14158,11 +14243,6 @@ hash = "1c5522db3b8327e889b0ec6fe8569c4f864b8515a5f1cf439c4bae86a86234e2"
 metafile = true
 
 [[files]]
-file = "mods/project-1405949.pw.toml"
-hash = "6bfc1dbaad0c7d3fe5a48c5cbbd42e776812e09c8d1908a17c6ac0b58328a5b6"
-metafile = true
-
-[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "6be463e57622036302e6555834d4b915e9d0407ce646a20edc770901111eca0d"
 metafile = true
@@ -14258,6 +14338,11 @@ hash = "cca4b10598ae8cedcc2a6531a422453d624ceb4d1de1163ce46255415ccda045"
 metafile = true
 
 [[files]]
+file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
+hash = "307a39080394cbe930be57e67fb8dae37601e8f0842da10da10977d261dac07d"
+metafile = true
+
+[[files]]
 file = "mods/smartbrainlib.pw.toml"
 hash = "6e7ce9c2aee5bb72d2698eb89035c9b2458d20daa0782e1a03cfba7a6647621e"
 metafile = true
@@ -14309,7 +14394,7 @@ metafile = true
 
 [[files]]
 file = "mods/streams-reflowing.pw.toml"
-hash = "601b3b6086130077a78ada3fca19d2b94505f9d3f8482ff5f79334eb90b00f2b"
+hash = "55883199396efd8487abc36cb7d03e08a5d874ecaf6f61b1c0373a3d1266fc08"
 metafile = true
 
 [[files]]

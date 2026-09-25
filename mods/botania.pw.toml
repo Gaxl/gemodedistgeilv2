@@ -1,0 +1,8 @@
+name = "Botania"
+filename = "botania-neoforge-1.21.1-457-20260922.100929-7.jar"
+side = "both"
+
+[download]
+url = "https://maven.blamejared.com/vazkii/botania/botania-neoforge-1.21.1/457-SNAPSHOT/botania-neoforge-1.21.1-457-20260922.100929-7.jar"
+hash-format = "sha256"
+hash = "e358558e457fd838002ae8676e40ba9013179e1e537a7ced2428d259867687b3"

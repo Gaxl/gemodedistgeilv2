@@ -1,0 +1,13 @@
+name = "Cobblemon Fight or Flight Reborn"
+filename = "fightorflight-neoforge-0.11.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cTdIg5HZ/versions/IYZaXJ3Y/fightorflight-neoforge-0.11.0.jar"
+hash-format = "sha512"
+hash = "a04a36a1cd3d4328648f48945e7e668a1e94720b66599cc233658a4d3348b1a492972a5188ac7a1d5550e6038b694a8c5c6611fe4de683aa50807cea5f2aa683"
+
+[update]
+[update.modrinth]
+mod-id = "cTdIg5HZ"
+version = "IYZaXJ3Y"

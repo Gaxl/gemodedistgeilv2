@@ -1,0 +1,13 @@
+name = "Cobblemon: SafePastures"
+filename = "SafePastures(Neoforge)-1.1.2+1.21.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/qpe01spE/versions/lJEU7MPU/SafePastures%28Neoforge%29-1.1.2%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "8acbc7f2981836ae0c61dfa9c6fcb48390bc413b2a51c582261a37cd40bddd921f682553f4099f0eed6a9e7f4295f3a258d8cee8a64407dff7599a6e7265e0a0"
+
+[update]
+[update.modrinth]
+mod-id = "qpe01spE"
+version = "lJEU7MPU"

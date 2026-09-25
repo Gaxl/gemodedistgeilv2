@@ -1,0 +1,13 @@
+name = "SimpleTMs: TMs and TRs for Cobblemon"
+filename = "SimpleTMs-neoforge-2.3.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yFqR0DNc/versions/uaKfPMYS/SimpleTMs-neoforge-2.3.3.jar"
+hash-format = "sha512"
+hash = "9adb638419e08c05fc1eb123903848c3e999cfea9b3e111f22f4869891be282fc18b4a17066027757bbb0a5ee3ef0be0a7d278d7f593f26a5dd68280ef0edc01"
+
+[update]
+[update.modrinth]
+mod-id = "yFqR0DNc"
+version = "uaKfPMYS"
