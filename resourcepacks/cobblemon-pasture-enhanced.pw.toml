@@ -1,0 +1,13 @@
+name = "Cobblemon Pasture Enhanced"
+filename = "Cobblemon Pasture Enhanced v4.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/mBVaf2pS/versions/MjjUrnl1/Cobblemon%20Pasture%20Enhanced%20v4.zip"
+hash-format = "sha512"
+hash = "eec0c044dd9b064336474aedcd526f69cda04bda208e8da67e618e19b3320c3a93b6636c9e0635bee8fdbf3ce8730bb46fcb6eca05b845a3663f516bb7ec31a9"
+
+[update]
+[update.modrinth]
+mod-id = "mBVaf2pS"
+version = "MjjUrnl1"

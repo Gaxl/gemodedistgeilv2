@@ -2,11 +2,21 @@
 
 // Bei einem Update nur diese beiden Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.3'
+const VERSION = 'beta1.4'
 const CHANGES = [
+  ['+', 'Cobblemon: Mega Showdown, Cobbreeding, Cobbleworkers, PokeNav'],
+  ['+', 'Cobblemon: Fight or Flight, Legendary Monuments, Cobbleloots'],
+  ['+', 'Cobblemon: SimpleTMs, Cobbledex, Move Inspector, SafePastures'],
+  ['+', 'Cobblemon: PlayerXP, Capture XP, Environment Interactions'],
+  ['+', 'ElevatorMod'],
+  ['+', 'Resource pack Cobblemon Pasture Enhanced (enable in Options)'],
+  ['~', 'Botania switched to the official build'],
+  ['!', 'Botania: Petal Apothecary water displays correctly again'],
+  ['~', 'Streams Reflowing 2.13.1 -> 2.13.8'],
+  ['!', 'Pumps and tanks now get normal water from streams'],
   ['!', 'Fixed the Immersive Engineering Garden Cloches'],
   ['+', 'Added Mystical Agriculture Recipes for the Garden Cloches'],
-  
+
   
 ]
 

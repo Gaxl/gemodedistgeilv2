@@ -12994,7 +12994,7 @@ hash = "057f4bd84cecbc968ddab669028a10ad293973451c7bd6a5492e8351f59d1286"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "ffc0d1a8cbf2184d923c93ca77a1164b204b0db319eeeddaacb5a882efea903e"
+hash = "c828f53a3ad8eb3dbd15062ac7dbb7651687d81e950d7fc75e75e27fca0becbe"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -14615,6 +14615,11 @@ metafile = true
 [[files]]
 file = "patchouli_data.json"
 hash = "0d6f8bff5d59d58e2ddda36b742394251afe308cb8cf96fac6c6c06144e28a15"
+
+[[files]]
+file = "resourcepacks/cobblemon-pasture-enhanced.pw.toml"
+hash = "1b803dd34c7686e35c73dc68feeef750bb05e4ef2582a84bb5f51b28a6c52cf1"
+metafile = true
 
 [[files]]
 file = "shaderpacks/BSL_v10.0.zip"
