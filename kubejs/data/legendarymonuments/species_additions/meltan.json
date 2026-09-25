@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:meltan",
+  "evolutions": [
+    {
+      "id": "meltan_melmetal_metal_coat",
+      "variant": "item_interact",
+      "result": "melmetal",
+      "consumeHeldItem": false,
+      "requiredContext": "cobblemon:metal_coat",
+      "learnableMoves": [],
+      "requirements": []
+    }
+  ]
+}

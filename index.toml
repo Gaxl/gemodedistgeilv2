@@ -21,6 +21,10 @@ file = "config/DistantHorizons.toml"
 hash = "46277db3b67677d951ac00e43241fb9924ae548786166ca34198f7d7475b4136"
 
 [[files]]
+file = "config/LegendaryMonuments/config.json"
+hash = "d8ec378103592de6d9869e7a1e1b2344c447e3f97a40148125c822c947c281bc"
+
+[[files]]
 file = "config/Mekanism/client.toml"
 hash = "5a3febd891fbed6961403ad21b32ff89e7165fdb2c5e82c43d6d5fc2d99b7cc0"
 
@@ -12981,6 +12985,10 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
+file = "kubejs/data/legendarymonuments/species_additions/meltan.json"
+hash = "1b67903ad7cd4dd19658b16892e92b22bd2050881c20cb818689602c873704b7"
+
+[[files]]
 file = "kubejs/server_scripts/commands.js"
 hash = "8c95ea33cae4f0da6ae7a78341f2f9f1298d40ad20d5db3b06369421a8e808d9"
 
@@ -12994,11 +13002,15 @@ hash = "057f4bd84cecbc968ddab669028a10ad293973451c7bd6a5492e8351f59d1286"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "c828f53a3ad8eb3dbd15062ac7dbb7651687d81e950d7fc75e75e27fca0becbe"
+hash = "f176792315d7aea31a374e2d58ab2340650c15abe4b34b9b678383f926786abe"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
 hash = "5dab7a64dbe973991d71fe8233f51fcc7ad4e449f2b2df35f2d087804a0a6437"
+
+[[files]]
+file = "kubejs/server_scripts/meltan_candy_block.js"
+hash = "256e4f2361a10bfc92714d0017e8591e078af555b823dd4ac1c53d7cf1a38ca6"
 
 [[files]]
 file = "kubejs/server_scripts/mystical_agriculture_cloche.js"
@@ -13365,11 +13377,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-playerxp.pw.toml"
 hash = "616eaac2c3d19eee876bf3979144c6c444f3adef4cfca8a364fcf3eee2c2ec2b"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-pokedex.pw.toml"
-hash = "b4c19d6dcf50cfe6c3b32ece42dabae8a6af41b184c8fda5af82a9367d97564a"
 metafile = true
 
 [[files]]

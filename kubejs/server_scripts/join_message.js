@@ -6,9 +6,11 @@ const VERSION = 'beta1.4'
 const CHANGES = [
   ['+', 'Cobblemon: Mega Showdown, Cobbreeding, Cobbleworkers, PokeNav'],
   ['+', 'Cobblemon: Fight or Flight, Legendary Monuments, Cobbleloots'],
-  ['+', 'Cobblemon: SimpleTMs, Cobbledex, Move Inspector, SafePastures'],
+  ['+', 'Cobblemon: SimpleTMs, Move Inspector, SafePastures'],
   ['+', 'Cobblemon: PlayerXP, Capture XP, Environment Interactions'],
   ['+', 'ElevatorMod'],
+  ['~', 'Meltan evolves into Melmetal with a Metal Coat (candy disabled)'],
+  ['~', 'Reshiram/Zekrom pedestals need a Fire/Electric Gem Block'],
   ['+', 'Resource pack Cobblemon Pasture Enhanced (enable in Options)'],
   ['~', 'Botania switched to the official build'],
   ['!', 'Botania: Petal Apothecary water displays correctly again'],
