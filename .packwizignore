@@ -10,3 +10,6 @@ kubejs/config/probe-settings.json
 
 # KubeJS: Webserver-Config mit Auth-Token – nie verteilen
 kubejs/config/web_server.json
+
+# Lokale Dev-Notizen – nie verteilen
+dev-notes/

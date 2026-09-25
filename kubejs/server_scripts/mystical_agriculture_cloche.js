@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
       render: { type: 'immersiveengineering:crop', block: `mysticalagriculture:${name}_crop` },
       results: [
         { count: 2, id: essence },
-        { chance: 0.25, output: { id: seedId } }
+        { chance: 0.1, output: { id: seedId } }
       ],
       time: MA_CLOCHE_TIME
     }).id(`kubejs:cloche/mysticalagriculture/${name}`)

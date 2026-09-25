@@ -13002,7 +13002,7 @@ hash = "5dab7a64dbe973991d71fe8233f51fcc7ad4e449f2b2df35f2d087804a0a6437"
 
 [[files]]
 file = "kubejs/server_scripts/mystical_agriculture_cloche.js"
-hash = "ce408bfe76da3c9b7d39b36558abac05bf0dee550bc031777979ca37d447048a"
+hash = "bde43002513188da5b6737f5aefe3b3badd83a9f5c959743c4c4a2f71672d9ff"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
