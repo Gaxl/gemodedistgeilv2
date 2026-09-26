@@ -52,3 +52,42 @@ ServerEvents.commandRegistry(event => {
     return 1
   }))
 })
+
+//handy command
+const HANDY_PASTEBIN_CMD = 'pastebin get 5tb2ffvG pos'
+
+function tellHandy(player) {
+  const step = (nr, text) => Text.of('  ').append(Text.yellow(nr + '. ').bold()).append(text)
+  const copyLine = (cmd) => Text.of('     ').append(Text.aqua(cmd).clickCopy(cmd)
+    .hover(Text.gray('Klicken zum Kopieren')))
+
+  player.tell(Text.gold('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'))
+  player.tell(Text.green('Pocket OS – Anleitung fürs Handy').bold())
+  player.tell(Text.gray('Öffne dein Pocket Computer (Handy) und gib nacheinander ein:'))
+  player.tell(step(1, Text.gray('Installieren:')))
+  player.tell(copyLine(HANDY_PASTEBIN_CMD))
+  player.tell(step(2, Text.gray('Startup-Datei öffnen:')))
+  player.tell(copyLine('edit startup.lua'))
+  player.tell(step(3, Text.gray('Darin diese Zeile einfügen:')))
+  player.tell(copyLine('shell.run("pos")'))
+  player.tell(step(4, Text.gray('Speichern: ')
+    .append(Text.white('Strg').bold()).append(Text.gray(' → '))
+    .append(Text.white('Save').bold()).append(Text.gray(' → '))
+    .append(Text.white('Strg').bold()).append(Text.gray(' → '))
+    .append(Text.white('Exit').bold())))
+  player.tell(step(5, Text.gray('Handy neu starten – fertig!')))
+  player.tell(Text.darkGray('Tipp: Auf eine Zeile klicken, um sie zu kopieren.'))
+  player.tell(Text.gold('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'))
+}
+
+ServerEvents.commandRegistry(event => {
+  const { commands: Commands } = event
+
+  event.register(Commands.literal('handy').executes(ctx => {
+    const player = ctx.source.player
+    if (!player) return 0 // z.B. von der Konsole ausgeführt
+
+    tellHandy(player)
+    return 1
+  }))
+})

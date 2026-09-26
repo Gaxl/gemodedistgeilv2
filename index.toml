@@ -12990,7 +12990,7 @@ hash = "1b67903ad7cd4dd19658b16892e92b22bd2050881c20cb818689602c873704b7"
 
 [[files]]
 file = "kubejs/server_scripts/commands.js"
-hash = "8c95ea33cae4f0da6ae7a78341f2f9f1298d40ad20d5db3b06369421a8e808d9"
+hash = "8cc739984ac06d65c26dfdf081f6da45e572b6619a89a248723b07607503ccaa"
 
 [[files]]
 file = "kubejs/server_scripts/end_toggle.js"
@@ -13002,7 +13002,7 @@ hash = "057f4bd84cecbc968ddab669028a10ad293973451c7bd6a5492e8351f59d1286"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "f176792315d7aea31a374e2d58ab2340650c15abe4b34b9b678383f926786abe"
+hash = "7bf4f3df5d055d825ecb27d8208bb7c2dc293939b74a1e841f2c64b2268dfc85"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
