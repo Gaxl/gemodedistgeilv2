@@ -5617,8 +5617,16 @@ file = "config/climbable_ropes-server.toml"
 hash = "f72f094ea3c2af730edcadf11e4d883ec348acae5dfff66984ca3bc19a7d4bf2"
 
 [[files]]
+file = "config/cobblemon-riding-tweaks.json"
+hash = "e16bb494f83dbeed2c9899b95cde4ff58b452a64db4f0d7be3cf242a1ca0fe24"
+
+[[files]]
 file = "config/cobblemon/main.json"
 hash = "6bc5db67030737b00178bc032d0460095bc3a9b6ea7019a0e679432d0dd69b3e"
+
+[[files]]
+file = "config/cobbreeding/main.json"
+hash = "235d1bc9ceda9e6fbc1deef3457544d0fde98865f669834169f9fede3ccb37b2"
 
 [[files]]
 file = "config/computercraft-client.toml"
@@ -13382,6 +13390,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
 hash = "30c64afe323a053cfb5b40afae3a78eab6f5b602abee66c5f4b750fbeade9654"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-riding-tweaks.pw.toml"
+hash = "0d895bdbb0d391b74b094b14290b53480411887ce87d15f297066e06f58370a3"
 metafile = true
 
 [[files]]

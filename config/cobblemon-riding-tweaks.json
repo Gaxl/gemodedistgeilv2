@@ -1,0 +1,128 @@
+{
+  "configVersion": "1.3.0",
+  "enabled": true,
+  "debugLogging": false,
+  "stamina": {
+    "statScaling": {
+      "stat": "hp",
+      "natureScalingEnabled": true,
+      "allowMints": true,
+      "ivEvScalingMode": "separate",
+      "allowHyperTraining": true,
+      "combinedZeroMultiplier": 1.0,
+      "combinedMaxMultiplier": 1.0,
+      "ivZeroMultiplier": 0.8,
+      "ivMaxMultiplier": 1.3,
+      "evZeroMultiplier": 1.0,
+      "evMaxMultiplier": 1.2
+    },
+    "enabled": true,
+    "stackingMode": "additive",
+    "globalMultiplier": 1.0,
+    "levelScalingEnabled": true,
+    "ridingMultipliersEnabled": true,
+    "labelMultipliersEnabled": true,
+    "labelMode": "highest",
+    "speciesOverridesEnabled": true,
+    "speciesMode": "override",
+    "minFinalMultiplier": 0.01,
+    "maxFinalMultiplier": 25.0,
+    "levelScaling": {
+      "level1Multiplier": 0.8,
+      "level100Multiplier": 1.2
+    },
+    "rideStyleMultipliers": {
+      "land": 1.0,
+      "liquid": 1.0,
+      "air": 1.0
+    },
+    "behaviourMultipliers": {
+      "horse": 1.0,
+      "minekart": 1.0,
+      "vehicle": 1.0,
+      "bird": 1.0,
+      "glider": 1.0,
+      "helicopter": 1.0,
+      "hover": 1.0,
+      "jet": 1.0,
+      "rocket": 1.0,
+      "boat": 1.0,
+      "burst": 1.0,
+      "dolphin": 1.0,
+      "submarine": 1.0
+    },
+    "defaultLabelMultiplier": 1.0,
+    "labelMultipliers": {
+      "legendary": 1.0,
+      "restricted": 1.0,
+      "mythical": 1.0,
+      "ultra_beast": 1.0,
+      "powerhouse": 1.0,
+      "mega": 1.0,
+      "primal": 1.0,
+      "gmax": 1.0
+    },
+    "speciesOverrides": []
+  },
+  "speed": {
+    "statScaling": {
+      "natureScalingEnabled": true,
+      "allowMints": true,
+      "ivEvScalingMode": "separate",
+      "allowHyperTraining": true,
+      "combinedZeroMultiplier": 1.0,
+      "combinedMaxMultiplier": 1.0,
+      "ivZeroMultiplier": 0.8,
+      "ivMaxMultiplier": 1.3,
+      "evZeroMultiplier": 1.0,
+      "evMaxMultiplier": 1.2
+    },
+    "enabled": true,
+    "stackingMode": "additive",
+    "globalMultiplier": 1.0,
+    "levelScalingEnabled": true,
+    "ridingMultipliersEnabled": true,
+    "labelMultipliersEnabled": true,
+    "labelMode": "highest",
+    "speciesOverridesEnabled": true,
+    "speciesMode": "override",
+    "minFinalMultiplier": 0.01,
+    "maxFinalMultiplier": 5.0,
+    "levelScaling": {
+      "level1Multiplier": 1.0,
+      "level100Multiplier": 1.0
+    },
+    "rideStyleMultipliers": {
+      "land": 1.0,
+      "liquid": 1.0,
+      "air": 1.0
+    },
+    "behaviourMultipliers": {
+      "horse": 1.0,
+      "minekart": 1.0,
+      "vehicle": 1.0,
+      "bird": 1.0,
+      "glider": 1.0,
+      "helicopter": 1.0,
+      "hover": 1.0,
+      "jet": 1.0,
+      "rocket": 1.0,
+      "boat": 1.0,
+      "burst": 1.0,
+      "dolphin": 1.0,
+      "submarine": 1.0
+    },
+    "defaultLabelMultiplier": 1.0,
+    "labelMultipliers": {
+      "legendary": 1.0,
+      "restricted": 1.0,
+      "mythical": 1.0,
+      "ultra_beast": 1.0,
+      "powerhouse": 1.0,
+      "mega": 1.0,
+      "primal": 1.0,
+      "gmax": 1.0
+    },
+    "speciesOverrides": []
+  }
+}
