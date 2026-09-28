@@ -11234,7 +11234,7 @@ hash = "953c25175979cbd19d583e07986d4a1ffb124cebdf05b64917554295b79f78b0"
 
 [[files]]
 file = "config/voltaic-common.toml"
-hash = "232dc9684be10d8d9af12da662aa10d88b817515ae8b5d6133775354ea18d2e7"
+hash = "586d811948da2632488737e1813fcb46885ef14fd62ec653af619503efcc0195"
 
 [[files]]
 file = "config/voxy-client.toml"

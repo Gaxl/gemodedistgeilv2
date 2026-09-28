@@ -12,7 +12,7 @@
 	# Default: 0.8
 	# Range: 1.0 ~ 1.7976931348623157E308
 	iodineRadreduction = 1.0
-	radiationSystemEnabled = true
+	radiationSystemEnabled = false
 	#Whether ores like Uranium emit radiation
 	oresEmitRadiation = true
 	#How frequently ores random tick radiation. Value of 1 is fastest rate.
