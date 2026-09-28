@@ -66,5 +66,5 @@
   "generateTuffGolemInStronghold": true,
   "enableWildfire": true,
   "generateCitadelStructure": true,
-  "enableZombieHorseTrap": true
+  "enableZombieHorseTrap": false
 }

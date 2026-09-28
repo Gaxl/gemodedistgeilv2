@@ -6530,7 +6530,7 @@ hash = "f5195de9bc0c700f3adc4b7f3cc4bf96ea696248e8b9dae28b62c9e79c19d106"
 
 [[files]]
 file = "config/friendsandfoes.json"
-hash = "858c5784048dbedf407356cabc4cda234b5c3419bec9563d31c2378277e2d5b0"
+hash = "2bde8184abb442df5d3f281ccead968e134ca87e60a2941e36604859e14b382d"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
