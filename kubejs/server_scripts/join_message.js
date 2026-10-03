@@ -4,20 +4,7 @@
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
 const VERSION = 'beta1.5'
 const CHANGES = [
-  ['+', 'added /handy command'],
-  ['+', 'Cobblemon: Mega Showdown, Cobbreeding, Cobbleworkers, PokeNav'],
-  ['+', 'Cobblemon: Fight or Flight, Legendary Monuments, Cobbleloots'],
-  ['+', 'Cobblemon: SimpleTMs, Move Inspector, SafePastures'],
-  ['+', 'Cobblemon: PlayerXP, Capture XP, Environment Interactions'],
-  ['+', 'ElevatorMod'],
-  ['~', 'Meltan evolves into Melmetal with a Metal Coat (candy disabled)'],
-  ['~', 'Reshiram/Zekrom pedestals need a Fire/Electric Gem Block'],
-  ['+', 'Resource pack Cobblemon Pasture Enhanced (enable in Options)'],
-  ['~', 'Botania switched to the official build'],
-  ['!', 'Botania: Petal Apothecary water displays correctly again'],
-  ['~', 'Streams Reflowing 2.13.1 -> 2.13.8'],
-  ['!', 'Pumps and tanks now get normal water from streams'],
-  
+  ['+', 'Invisible Item Frame: 8 Item Frames around a Potion of Invisibility'],
 ]
 
 const CHANGE_COLORS = {
