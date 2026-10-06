@@ -5440,21 +5440,6 @@ file = "config/auroras/the_end.json"
 hash = "2be2af5e5a1049775fb6e2a54fa9ce164d94083097753e9edfebed7f42354015"
 
 [[files]]
-file = "config/axiom/axiom.json"
-hash = "64b3093a892fb146f65a0ce17f720f7d63ce70fdb233fda1d59eb9e900384630"
-preserve = true
-
-[[files]]
-file = "config/axiom/imgui.ini"
-hash = "e41c73c603d1a04c00147951ad0a7642da5f140c0253bd9c6cbcb002909d956b"
-preserve = true
-
-[[files]]
-file = "config/axiom/tool_presets/path/arc_ring_walls.nbt"
-hash = "6526ba2e4c023deb3b34d17f4bf94d4390970d6bc41bb0f81f9d2dc6950d7338"
-preserve = true
-
-[[files]]
 file = "config/badoptimizations.txt"
 hash = "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9"
 
@@ -10525,7 +10510,7 @@ hash = "95d27fbaa6286cce754a19b45f056d1653ec81d7e0e882ade0e3e857252aa016"
 
 [[files]]
 file = "config/litematica.json"
-hash = "b67b08329c12e74271b3f4f812a92998821021336e88d53602ce952198a48ba5"
+hash = "e6cc32dcf3079d707fc903870a32a73a49fc789a4cfcb250d02e0fad2690cb2a"
 
 [[files]]
 file = "config/litematica/litematica_New World finale bitte.json"
@@ -13340,11 +13325,6 @@ metafile = true
 [[files]]
 file = "mods/auroras.pw.toml"
 hash = "ed60e047a5a85492c3d761238524888dca729e923b6753e060fd3dc986a8e54c"
-metafile = true
-
-[[files]]
-file = "mods/axiom.pw.toml"
-hash = "d96e1e5aa63a1a6023578fc3d8f4de1239da8bd105769c43ed2798082ff0acf3"
 metafile = true
 
 [[files]]

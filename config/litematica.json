@@ -73,7 +73,7 @@
     "renderThreadNoTimeout": true,
     "serverNbtRequestRate": 2,
     "signTextPaste": true,
-    "toolItemEnabled": true,
+    "toolItemEnabled": false,
     "unhideSchematicVCS": false,
     "pasteReplaceBehavior": "none",
     "pasteLayerBehavior": "all",
