@@ -1,0 +1,10 @@
+Fantasy's Furniture - NeoForge 1.21.1 (Unofficial Port), Version 10.2
+Datei: mods/fantasyfurniture_complete-1.21.1-10.2.jar (unveraendert, SHA-1 7aedab428f911cc4b849344577fd6ae48d374689)
+
+Port von Ashley1, basierend auf Fantasy's Furniture von ApexModder / ApexStudios.
+Lizenz: GNU General Public License v3.0 (siehe GPL-3.0.txt in diesem Ordner).
+Quellcode: https://github.com/Ashley123477/FantasyFurniture
+Original-Download: https://www.curseforge.com/minecraft/mc-mods/fantasys-furniture-1-21-1-neoforge-unofficial-port
+
+Die Jar liegt hier im Pack, weil der CurseForge-Download fuer Launcher/Modpack-Tools gesperrt ist.
+Die GPL-3.0 erlaubt die unveraenderte Weitergabe zusammen mit dieser Lizenz und dem Quellcode-Hinweis.

@@ -1,6 +1,6 @@
 {
   "arcPhone": {
-    "healingUpgrade": true,
+    "healingUpgrade": false,
     "enderUpgrade": true,
     "dexUpgrade": true,
     "pcUpgrade": true,

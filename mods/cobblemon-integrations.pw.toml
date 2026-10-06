@@ -1,0 +1,13 @@
+name = "Cobblemon Integrations"
+filename = "cobblemonintegrations-neoforge-1.21.1-1.1.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NPCfuUI4/versions/E4CZjM14/cobblemonintegrations-neoforge-1.21.1-1.1.8.jar"
+hash-format = "sha512"
+hash = "acec119c188b4c4f4d7e26d26271ed7a05cbd977366c0825fdc15cf9dd45a379b5f266212b24350d0778534f089bf815684974ee5e2948579196760c3b1724da"
+
+[update]
+[update.modrinth]
+mod-id = "NPCfuUI4"
+version = "E4CZjM14"

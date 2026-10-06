@@ -1,0 +1,13 @@
+name = "Primal Magick"
+filename = "primalmagick-neoforge-1.21.1-6.0.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VlgDBPBy/versions/zdRhg0nF/primalmagick-neoforge-1.21.1-6.0.7.jar"
+hash-format = "sha512"
+hash = "91f578f9e7898275fcc6fc2f474a1e81901e51eb0f0bff074f2f2776c9d11a18eb075ebd9e381bd7afe8070837773345a751658f48c4bdc458b1c2ac808931ea"
+
+[update]
+[update.modrinth]
+mod-id = "VlgDBPBy"
+version = "zdRhg0nF"

@@ -1,0 +1,13 @@
+name = "Create: Simulated Thrusters"
+filename = "create_simulated_thrusters-1.21.1-NeoForge-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EAUfbep8/versions/GFGgvio1/create_simulated_thrusters-1.21.1-NeoForge-1.0.1.jar"
+hash-format = "sha512"
+hash = "ed961f359f14c39be5bc1b05b197abd3a079fe626dee7e6a377d8739484a060df535cc7fe379e0f9ec7050957fc44c8feeeadb1e51cded08f30c4496dcdd394e"
+
+[update]
+[update.modrinth]
+mod-id = "EAUfbep8"
+version = "GFGgvio1"

@@ -3,18 +3,18 @@ heightAboveGroundLimit = -1
 [air]
 	# Default: 450
 	# Range: > 1
-	seconds_per_tank = 450
+	seconds_per_tank = 240
 	# Default: 900
 	# Range: > 1
-	seconds_per_tank_hover = 900
+	seconds_per_tank_hover = 480
 
 [speed]
 	# Default: 0.02
 	# Range: 0.01 ~ 100.0
-	horizontal = 0.02
+	horizontal = 0.015
 	# Default: 0.4
 	# Range: 0.01 ~ 100.0
-	vertical = 0.4
+	vertical = 0.3
 	# Default: 0.6
 	# Range: 0.01 ~ 100.0
 	acceleration = 0.6
