@@ -1,0 +1,13 @@
+name = "Advanced Backups"
+filename = "AdvancedBackups-neoforge-1.21-3.7.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Jrmoreqs/versions/ufIaRDFo/AdvancedBackups-neoforge-1.21-3.7.1.jar"
+hash-format = "sha512"
+hash = "8b5daf057985f1cec4b3d6f27e202ccc91b6e0c008b4c8ea4900c33508471c0c518c9830da61f85aa100c43b4fa08857eb6ecb82ae53205ef5db0bc02f959e04"
+
+[update]
+[update.modrinth]
+mod-id = "Jrmoreqs"
+version = "ufIaRDFo"

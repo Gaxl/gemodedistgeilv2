@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/AdvancedBackups.properties"
+hash = "cb098bcc6b576f6b3b2d418bf24ca0d44960aee39ebbc2cca72a725d1f977dd2"
+
+[[files]]
 file = "config/Advancedperipherals/general.toml"
 hash = "63ad4a8da1e61a8b35c6b9058e4056b13072f2c86a10d2f0d8d9b84d4ddd5899"
 
@@ -13110,6 +13114,11 @@ hash = "6626f060743de512c3379ca6f9a1eab1bff90a0644e3eae2f3c279e0dcc065c5"
 [[files]]
 file = "mods/accessories.pw.toml"
 hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
+metafile = true
+
+[[files]]
+file = "mods/advanced-backups.pw.toml"
+hash = "732787f222641ecfed68d2cbf6e498324061b51ebb8ee08af322cefd9c4a91ed"
 metafile = true
 
 [[files]]
