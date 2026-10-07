@@ -13797,6 +13797,11 @@ hash = "805e6a398dca87c65ea5bdf9540b85dff128f5fd3bd0540fed59c0f967488534"
 metafile = true
 
 [[files]]
+file = "mods/create_collision_fix.pw.toml"
+hash = "3e2c2a1acfa7af2647e0e5f79a59047980987d39387856f559f32ebe8a7bcc74"
+metafile = true
+
+[[files]]
 file = "mods/createaddition.pw.toml"
 hash = "350357b34feae2f0971d114ba856e4915e508efec110eea5ebdeac419d515e08"
 metafile = true
