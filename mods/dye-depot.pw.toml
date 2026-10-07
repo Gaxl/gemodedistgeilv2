@@ -1,0 +1,13 @@
+name = "Dye Depot"
+filename = "dye_depot-2.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dl88rsIq/versions/tT2TDzmL/dye_depot-2.1.1.jar"
+hash-format = "sha512"
+hash = "d737c70c0ca1758d09e30882ec34240ccd9ad429323160fd6436610c37bed62bfac2f82fa7177aa803ad3c06bf0d1d7a0da93696ec9d692f055b08f650de6bb8"
+
+[update]
+[update.modrinth]
+mod-id = "dl88rsIq"
+version = "tT2TDzmL"

@@ -13372,6 +13372,11 @@ hash = "125e92dcc1a9d38a76a1a05090924e3495eed8128db72f56b570095cd358a434"
 metafile = true
 
 [[files]]
+file = "mods/blueprint.pw.toml"
+hash = "932b1f0df544525e277b4f75fc47dc9c01d0481d773f026082f1cae5c4afdb69"
+metafile = true
+
+[[files]]
 file = "mods/blur-plus.pw.toml"
 hash = "a73d8679c4bfd8fcb09b3c1397ee437fe22486db2a5819fad0a5a09fb281d952"
 metafile = true
@@ -13424,6 +13429,11 @@ metafile = true
 [[files]]
 file = "mods/citadel-(1.21.1-port).pw.toml"
 hash = "80d7af83c244304212b8d95ab2e3525b3eeae02f31e41474c2cdec2f4d370723"
+metafile = true
+
+[[files]]
+file = "mods/clayworks.pw.toml"
+hash = "171914c4eb938f32813bc9449ca5dc90210b33b5b389b4c9f2d718b4e34df2f1"
 metafile = true
 
 [[files]]
@@ -13867,6 +13877,11 @@ hash = "f943c276fcebd5542c4b3dda60634728e1a70212f15dc9af8f0b7b9bb40199db"
 metafile = true
 
 [[files]]
+file = "mods/dye-depot.pw.toml"
+hash = "3f2b8acea20b5966d65a0ac9509fa31d346c08d86e71bd597e1911a71814462c"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-trees-terralith.pw.toml"
 hash = "46b7d908b379ba6bafa386dd1f4794fee673390d675f73d4b2b159780fcfc0d1"
 metafile = true
@@ -13924,6 +13939,11 @@ metafile = true
 [[files]]
 file = "mods/evilcraft.pw.toml"
 hash = "1b7f8a8545735f4c7e9d5df8eac18e02b070da12ef48e5d6ec222c47ea0fee74"
+metafile = true
+
+[[files]]
+file = "mods/evolved-mekanism.pw.toml"
+hash = "7473e2d1255dcc6a300ca58e821a87f255f16a032ffa868338297759a2cb961c"
 metafile = true
 
 [[files]]
@@ -14070,6 +14090,11 @@ hash = "c104293981bbfbf0b194c9428e8ec71fd980e80d80050204a83835a01deeecf3"
 metafile = true
 
 [[files]]
+file = "mods/iglee-library.pw.toml"
+hash = "2148b44cf26025607d1a73a03e5e4a0b3a7f05b1c7442736eccc1ed64de985cd"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "48b746cb623c16a8cee88ec0d7d42233d74d97b9cf92d662f121633723d50876"
 metafile = true
@@ -14172,6 +14197,11 @@ metafile = true
 [[files]]
 file = "mods/legendary-monuments.pw.toml"
 hash = "f122d679665b3caffac4869d5805cbfd987617f4995508fd6f1ad8e9a619f015"
+metafile = true
+
+[[files]]
+file = "mods/lets-do-farm-charm.pw.toml"
+hash = "2d028106c1f7699bf2ba779aaf6b892be7dbac0aa380eed2abe79e9e9a459686"
 metafile = true
 
 [[files]]

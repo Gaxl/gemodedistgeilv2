@@ -1,0 +1,13 @@
+name = "Iglee's Library"
+filename = "igleelib-1.21.1-1.2.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6n6toXVb/versions/5mObcFWo/igleelib-1.21.1-1.2.7.jar"
+hash-format = "sha512"
+hash = "6cdd170d7e6d88056c18b7e4c1edbf7ec569f1146c9d06f706b47006cad1bc73a70447b82ffbe54cb918d08142e0ae89e585223dba6ee47f94612edc2b03a702"
+
+[update]
+[update.modrinth]
+mod-id = "6n6toXVb"
+version = "5mObcFWo"
