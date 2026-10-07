@@ -10815,7 +10815,7 @@ hash = "0614f722541191b6ddcfb686f97d5ea9a3280d32f8e0607c0d31dffe9a2dc5d7"
 
 [[files]]
 file = "config/safepaths-common.toml"
-hash = "6291a94316015c42f76b4016439684eac2821903e742ac4edb75b1a7e2731836"
+hash = "ba11637a65cbd4fd631e2787c9a2db6d8068e268f7221ad26ef197ef00400429"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
