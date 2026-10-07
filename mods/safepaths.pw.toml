@@ -1,0 +1,13 @@
+name = "Safepaths (MineColonies)"
+filename = "safepaths-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ec6ewft2/versions/i7Xp8PMP/safepaths-2.0.1.jar"
+hash-format = "sha512"
+hash = "5136334e503dff25b55197698998964a373dd5ec6c8cbac232e8d00a5093528d4b904e759a5ab4f1d1e7fe9b63d4c5c4cb76b68d68fbe1f6f93cb64530d47573"
+
+[update]
+[update.modrinth]
+mod-id = "ec6ewft2"
+version = "i7Xp8PMP"

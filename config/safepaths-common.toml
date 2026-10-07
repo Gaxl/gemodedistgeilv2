@@ -1,0 +1,21 @@
+["Path Settings"]
+	#Time limit to perform required steps before the progress resets. (24,000 ticks = 1 Minecraft day).
+	# Default: 24000
+	# Range: 1000 ~ 72000
+	constructionTime = 24000
+	#Number of steps to create a path (e.g., 20)
+	# Default: 20
+	# Range: 1 ~ 1000
+	requiredPasses = 20
+	#Time in ticks for an unused path to revert (72,000 ticks = 3 Minecraft days).
+	# Default: 72000
+	# Range: 1000 ~ 240000
+	decayTime = 72000
+	#Enable or disable movement speed boost on paths.
+	enableSpeedBoost = true
+	#Movement speed boost percentage on paths (e.g., 0.2 = +20% speed).
+	# Default: 0.2
+	# Range: 0.0 ~ 5.0
+	speedMultiplier = 0.05
+	#Custom block conversions in format: source_block -> target_block
+	customConversions = ["minecraft:grass_block -> minecraft:dirt_path", "minecraft:dirt -> minecraft:dirt_path", "minecraft:sand -> minecraft:dirt_path", "minecraft:gravel -> minecraft:gravel", "biomeswevegone:lush_grass_block -> biomeswevegone:lush_dirt_path", "biomeswevegone:lush_dirt -> biomeswevegone:lush_dirt_path", "biomeswevegone:sandy_dirt -> biomeswevegone:sandy_dirt_path", "biomesoplenty:origin_grass_block -> minecraft:dirt_path", "regions_unexplored:peat_grass_block -> regions_unexplored:peat_dirt_path", "regions_unexplored:peat_dirt -> regions_unexplored:peat_dirt_path", "regions_unexplored:silt_grass_block -> regions_unexplored:silt_dirt_path", "regions_unexplored:silt_dirt -> regions_unexplored:silt_dirt_path", "regions_unexplored:chalk_grass_block -> regions_unexplored:chalk_dirt_path", "regions_unexplored:chalk_dirt -> regions_unexplored:chalk_dirt_path"]

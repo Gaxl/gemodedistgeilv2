@@ -10814,6 +10814,10 @@ file = "config/sable-common.toml"
 hash = "0614f722541191b6ddcfb686f97d5ea9a3280d32f8e0607c0d31dffe9a2dc5d7"
 
 [[files]]
+file = "config/safepaths-common.toml"
+hash = "6291a94316015c42f76b4016439684eac2821903e742ac4edb75b1a7e2731836"
+
+[[files]]
 file = "config/saturn-optimizations.toml"
 hash = "f18ce3963bfb77822357b4a45f901cd036113a607d284ffcb074dcbfac6792c1"
 
@@ -14566,6 +14570,11 @@ metafile = true
 [[files]]
 file = "mods/sable.pw.toml"
 hash = "674aaf0dc67f808f0054cfc7bbe041d6725fcbbe97644a85ffbd946a22d35666"
+metafile = true
+
+[[files]]
+file = "mods/safepaths.pw.toml"
+hash = "ee8a7699b3d5592d6467c14b791eac813231470e4ad57f03c62c56709fa59edb"
 metafile = true
 
 [[files]]
