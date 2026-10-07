@@ -6413,7 +6413,7 @@ hash = "1bf6d2c17d2aabb47790325e597439981f5bb145ef7432a6a84642fa8eee7695"
 
 [[files]]
 file = "config/enhanced_bes.properties"
-hash = "1a4273c5e44c24a4413995eb4c10ce69a1aaf8725c1a1631c085dfa0fb97ff0f"
+hash = "c6e8b5ba85b647ba32961c53ceeef3248654058af56f41840261d2ab84bde231"
 
 [[files]]
 file = "config/entityculling.json"
@@ -13899,6 +13899,11 @@ metafile = true
 [[files]]
 file = "mods/easy-villagers.pw.toml"
 hash = "d629988991e4e0c461a5031b8c774c184ef409f5b57187211c3abe5b1a21fc3c"
+metafile = true
+
+[[files]]
+file = "mods/ebe.pw.toml"
+hash = "b1f89407254a20cde6c60994a6315bd841b7f562669a1d29b436ec97463ff2ae"
 metafile = true
 
 [[files]]
