@@ -13085,7 +13085,7 @@ hash = "057f4bd84cecbc968ddab669028a10ad293973451c7bd6a5492e8351f59d1286"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "577ca43e12d7f09916736cfbb79b6efa48aa657ade6c2bf8ceb015ae62f65ac4"
+hash = "b180ce73552d6cca524e927cb806306e4797edbb46c3cb79249c5ae6c65d4937"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -13097,7 +13097,7 @@ hash = "256e4f2361a10bfc92714d0017e8591e078af555b823dd4ac1c53d7cf1a38ca6"
 
 [[files]]
 file = "kubejs/server_scripts/mystical_agriculture_cloche.js"
-hash = "bde43002513188da5b6737f5aefe3b3badd83a9f5c959743c4c4a2f71672d9ff"
+hash = "5a977c87dbfd30a6732b57d75573a3b8dec76958bca01c6a85806281132820d5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
