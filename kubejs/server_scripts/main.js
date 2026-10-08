@@ -10,7 +10,8 @@ const GIG_REPLIES = [
   'Gax ist geschockt',
   'Gax isst Gurken',
   'Gaxs intesives Gecrafte',
-  'Gepeinigt im Gulag'
+  'Gepeinigt im Gulag',
+  'Gepeinigt ist gemein'
 ]
 
 PlayerEvents.chat(event => {

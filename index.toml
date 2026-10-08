@@ -39,7 +39,7 @@ hash = "135c4f3482c6581b8d48843a004a88e15389c4932540d19560fb2ed11f5c5803"
 
 [[files]]
 file = "config/Mekanism/gear.toml"
-hash = "eeb62bc06f139cb02bb199e0c1da8907ce24fcba9eb03a8c60f2c4f614081c78"
+hash = "2966c33df68a477620b3ea89bb2bdba73475cb7e7a1d9f8a926312117b55e6f5"
 
 [[files]]
 file = "config/Mekanism/general.toml"
@@ -13089,7 +13089,7 @@ hash = "577ca43e12d7f09916736cfbb79b6efa48aa657ade6c2bf8ceb015ae62f65ac4"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "7a6f832157fb397a95e882be283fc6eab3eba5e7b8b804994e048de486b4b589"
+hash = "512c32ccb31d136d494f2f9489f6a16ea9d85f2e5cf7eb87f88fb4eccb108b0f"
 
 [[files]]
 file = "kubejs/server_scripts/meltan_candy_block.js"
