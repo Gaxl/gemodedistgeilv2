@@ -2,9 +2,9 @@
 
 // Bei einem Update nur diese beiden Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.5'
+const VERSION = 'beta1.6'
 const CHANGES = [
-  ['+', 'Invisible Item Frame: 8 Item Frames around a Potion of Invisibility'],
+  ['!', 'Mystical Agriculture: Garden Cloches now need the right tier farmland'],
 ]
 
 const CHANGE_COLORS = {
