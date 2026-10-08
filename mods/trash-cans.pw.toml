@@ -1,0 +1,13 @@
+name = "Trash Cans"
+filename = "trashcans-1.1.1-neoforge-mc1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4QrnfueM/versions/zjFylsMq/trashcans-1.1.1-neoforge-mc1.21.jar"
+hash-format = "sha512"
+hash = "f53d01c5982d678a11a075658bf3750e13f5ec323eb84e0dc453624dcf8a7d2974176c368599d8b4f34ceedd7f0a402944cc3afbb9e86ffbf98e41915a7cf012"
+
+[update]
+[update.modrinth]
+mod-id = "4QrnfueM"
+version = "zjFylsMq"
