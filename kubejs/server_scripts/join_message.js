@@ -5,6 +5,8 @@
 const VERSION = 'beta1.6'
 const CHANGES = [
   ['!', 'Mystical Agriculture: Garden Cloches now need the right tier farmland'],
+  ['+', 'Added Trash Cans'],
+
 ]
 
 const CHANGE_COLORS = {
