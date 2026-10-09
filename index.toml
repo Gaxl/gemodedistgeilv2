@@ -10839,6 +10839,10 @@ file = "config/securitycraft-server.toml"
 hash = "3bc7c384f456a62d04bdc52c86ff1ddb1bf9874c18a8ac0d5e414ec4d1590fce"
 
 [[files]]
+file = "config/sereneseasons/fertility.toml"
+hash = "8c63aaab6ecd6cb945f4aa7409b2800b33ff9f2446d9f2b768ea360dbf102d8d"
+
+[[files]]
 file = "config/simulated-client.toml"
 hash = "944ba0d36dfe00436e814fffd736acdd51292da18a01a060ea6ffbcf3dc7388b"
 preserve = true
