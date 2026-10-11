@@ -2,10 +2,9 @@
 
 // Bei einem Update nur diese beiden Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.6'
+const VERSION = 'beta1.6.1'
 const CHANGES = [
-  ['!', 'Mystical Agriculture: Garden Cloches now need the right tier farmland'],
-  ['+', 'Added Trash Cans'],
+  ['+', 'Added /gigreplies command to show all possible GIG replies'],
 
 ]
 
