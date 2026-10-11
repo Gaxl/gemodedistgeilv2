@@ -13089,11 +13089,11 @@ hash = "057f4bd84cecbc968ddab669028a10ad293973451c7bd6a5492e8351f59d1286"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "95baa5e0a9475dab2bc80828dfeb7e7471cdeb82c7aa939e78fd23b69d64c645"
+hash = "0581aa65e15cfa4adbbb13223a4df20c97396bafee9cab867fd06e83cb07a2c3"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "6d9a49a84b78a2f5ec2557a77b5c7a8d964829255bb73b539fd31f7d6f8e00f9"
+hash = "e999e8383cec94f6d27a7da1af130c245acc516aced465d4664cbb87884d3245"
 
 [[files]]
 file = "kubejs/server_scripts/meltan_candy_block.js"
