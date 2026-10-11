@@ -13625,11 +13625,6 @@ hash = "c43a63422172da82f7bf9331f54b298058df9fbef57cb32473de691ce91f580d"
 metafile = true
 
 [[files]]
-file = "mods/create-aeronautics-gadgets-and-gizmos.pw.toml"
-hash = "2a71a45778e2100a32b93f7820c535de4c1cfb012516b78cbce31799fdf52444"
-metafile = true
-
-[[files]]
 file = "mods/create-aeronautics-gyroscope-stabilizers.pw.toml"
 hash = "845db39ab8c05bcd2f047d7bd810ea0d27f027ebbaf7f8db872126e8bc89ee2d"
 metafile = true
@@ -13842,11 +13837,6 @@ metafile = true
 [[files]]
 file = "mods/create-transmission!.pw.toml"
 hash = "f81e4d339828288b77584cce5d0942c058cb68f00e70d623b8b12c6691874e1b"
-metafile = true
-
-[[files]]
-file = "mods/create-vintage-(unofficial-port).pw.toml"
-hash = "9d2a13d5dbf8523bb2ad37af1c9cea89b69707836fe599142fefd84243de06ad"
 metafile = true
 
 [[files]]
