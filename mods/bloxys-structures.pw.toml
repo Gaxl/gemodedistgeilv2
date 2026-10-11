@@ -1,0 +1,13 @@
+name = "Bloxy's Structures"
+filename = "bloxysstructures-1.17.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vo7reSUa/versions/lVNORyR5/bloxysstructures-1.17.1-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "52308964c800c7e8056e6f4b93d2a6f4fa5d7b98288a673c7312cc19626d9859f956962bd1f01ff61d5019cc433c2526e8aea1590bb0a283a1a37b7887bc0c4f"
+
+[update]
+[update.modrinth]
+mod-id = "vo7reSUa"
+version = "lVNORyR5"

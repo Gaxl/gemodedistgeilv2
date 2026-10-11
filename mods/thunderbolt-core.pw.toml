@@ -1,0 +1,13 @@
+name = "Thunderbolt Core"
+filename = "thunderbolt-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/M5jhzZXH/versions/TVoZndZv/thunderbolt-2.0.1.jar"
+hash-format = "sha512"
+hash = "a7c510765b53d5841f3f5b4e75b4e14cbaa2447afe88c3fa21286fee11c1d3bb5eca2db010d77f11c4eb689d1d6f4ab2c3ee4474e83857f3f9a15332b2a49a5b"
+
+[update]
+[update.modrinth]
+mod-id = "M5jhzZXH"
+version = "TVoZndZv"

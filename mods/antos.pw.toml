@@ -1,0 +1,13 @@
+name = "AntOS Computer | Quests + Guidebook"
+filename = "antos-neoforge-1.21.1-1.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MzU6Lh9B/versions/LH3JCCSk/antos-neoforge-1.21.1-1.3.0.jar"
+hash-format = "sha512"
+hash = "ffa297fdd0d279cc6c5d8381570c5ce3b53d186eb4765510c1783ebf28fdeaf6899a2e3eb588cff8b101823f9435e40369395fa67b355b8a21c6436832da2708"
+
+[update]
+[update.modrinth]
+mod-id = "MzU6Lh9B"
+version = "LH3JCCSk"

@@ -1,0 +1,13 @@
+name = "AnvilCraft"
+filename = "anvilcraft-neoforge-1.21.1-1.5.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vuISAWPc/versions/jSOlcpar/anvilcraft-neoforge-1.21.1-1.5.5.jar"
+hash-format = "sha512"
+hash = "c170f485026a671d0732792bb322d9d34add97dcd860d9f18ee0ed0e6950ae8cd10fd2aeed67b2eb772c2fdf73a9253465c2a64062c618580a6bf75a7a69a443"
+
+[update]
+[update.modrinth]
+mod-id = "vuISAWPc"
+version = "jSOlcpar"

@@ -1,0 +1,13 @@
+name = "Extended Terminal"
+filename = "ExtendedTerminal-1.21.1-19.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SwdQUhgJ/versions/Vmah5idO/ExtendedTerminal-1.21.1-19.1.0.jar"
+hash-format = "sha512"
+hash = "84a45e4fda55d30ff28e40cc6de9c6ad511aeed86a7e6fea07dd69a577870955b85499ffd79628fae22cc54be17a6f09cde6427b845bab421b14f9479e886443"
+
+[update]
+[update.modrinth]
+mod-id = "SwdQUhgJ"
+version = "Vmah5idO"

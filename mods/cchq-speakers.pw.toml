@@ -1,0 +1,13 @@
+name = "CC:HQ Speakers"
+filename = "hqspeaker-neoforge-1.21.1-1.0.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ygA78R8l/versions/1uUfQ9Aw/hqspeaker-neoforge-1.21.1-1.0.7.jar"
+hash-format = "sha512"
+hash = "61d6f41c0216cc6ea1e0ef738e37c1ab523929738173bf4aa08a9a9bfd70f81d061f373a63237fc6f8b748e0bd9873a61715a8d2fba35c81b14fb9ef36cbba39"
+
+[update]
+[update.modrinth]
+mod-id = "ygA78R8l"
+version = "1uUfQ9Aw"

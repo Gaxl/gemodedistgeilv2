@@ -1,0 +1,13 @@
+name = "Sleep Tight"
+filename = "sleep_tight-1.21-1.6.2-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tNai0h2Y/versions/lZXumOcA/sleep_tight-1.21-1.6.2-neoforge.jar"
+hash-format = "sha512"
+hash = "7afceff709eea6a7474da89c8b4cf5c0b92a322af57a253cad8b37f38d7af5bbab647b21b75660ad100bd1c940dd62e3b65d39f0be3a20c25ac1ae08a81c9f7a"
+
+[update]
+[update.modrinth]
+mod-id = "tNai0h2Y"
+version = "lZXumOcA"
