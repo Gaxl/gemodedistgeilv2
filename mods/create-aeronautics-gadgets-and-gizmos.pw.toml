@@ -1,0 +1,13 @@
+name = "Create Aeronautics: Gadgets & Gizmos"
+filename = "gadgets-and-gizmos-bundled-V1.2.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Sza3GgEL/versions/D1zhtUJo/gadgets-and-gizmos-bundled-V1.2.8.jar"
+hash-format = "sha512"
+hash = "252d6fd21083dd604e6b886196ab52f47729d0c556a9e9edab171d82019c4da6cdc986a06d6ac754c7782c5666b1c1d3c954016f24c5e6b87eef93518c798f2d"
+
+[update]
+[update.modrinth]
+mod-id = "Sza3GgEL"
+version = "D1zhtUJo"
