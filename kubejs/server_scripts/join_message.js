@@ -13,6 +13,7 @@ const CHANGES = [
   ['+', 'Sleep Tight: hammocks, sleeping bags and more'],
   ['+', 'CC:HQ Speakers: CC speakers can play MP3s'],
   ['~', 'GiG Arena: brighter arenas, 13x9 screens, spectators stay on the stands'],
+  ['+', 'added /gigreplies'],
 ]
 
 const CHANGE_COLORS = {
