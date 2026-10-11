@@ -1,6 +1,7 @@
 name = "Create Aeronautics: Gadgets & Gizmos"
 filename = "gadgets-and-gizmos-bundled-V1.2.8.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/Sza3GgEL/versions/D1zhtUJo/gadgets-and-gizmos-bundled-V1.2.8.jar"
