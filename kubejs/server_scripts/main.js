@@ -11,7 +11,9 @@ const GIG_REPLIES = [
   'Gax isst Gurken',
   'Gaxs intesives Gecrafte',
   'Gepeinigt im Gulag',
-  'Gax ist gemein'
+  'Gax ist gemein',
+  'Gemolken ist genial',
+  'Gemästet ist Gesättigt'
 ]
 
 PlayerEvents.chat(event => {
@@ -21,4 +23,18 @@ PlayerEvents.chat(event => {
       event.server.tell(Text.green(reply))
     })
   }
+})
+
+// /gigreplies – zeigt alle möglichen GIG-Antworten an
+ServerEvents.commandRegistry(event => {
+  const { commands: Commands } = event
+
+  event.register(Commands.literal('gigreplies')
+    .executes(ctx => {
+      ctx.source.sendSuccess(Text.gold('GIG Replies (' + GIG_REPLIES.length + '):'), false)
+      GIG_REPLIES.forEach((reply, i) => {
+        ctx.source.sendSuccess(Text.green((i + 1) + '. ' + reply), false)
+      })
+      return GIG_REPLIES.length
+    }))
 })
