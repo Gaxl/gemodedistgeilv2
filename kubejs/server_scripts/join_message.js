@@ -2,17 +2,11 @@
 
 // Bei einem Update nur diese beiden Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.7'
+const VERSION = 'beta1.8'
 const CHANGES = [
-  ['+', 'Antarchy: 45+ new mobs, 8 bosses and 3 new dimensions'],
-  ['+', "Bloxy's Structures: new structures with 4 boss fights"],
-  ['+', 'Create Aeronautics: Gadgets & Gizmos (thrusters, ship controllers, autopilot)'],
-  ['+', 'AnvilCraft: tech mod built around anvils'],
-  ['+', 'AE2 Lightning Tech: lightning energy and new ME machines'],
-  ['+', 'Extended Terminal: more ME terminal options'],
-  ['+', 'Sleep Tight: hammocks, sleeping bags and more'],
-  ['+', 'CC:HQ Speakers: CC speakers can play MP3s'],
-  ['~', 'GiG Arena: brighter arenas, 13x9 screens, spectators stay on the stands'],
+  ['!', 'Fixed server crash with the Stellaris Fuel Refinery and Water Separator'],
+  ['!', 'Fewer connection timeouts when joining (Packet Fixer, NoTimeOut)'],
+  ['+', 'Optional resource pack: German Pokemon names, moves and battle log'],
   ['+', 'added /gigreplies'],
 ]
 
