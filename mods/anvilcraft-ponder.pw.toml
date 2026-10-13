@@ -1,0 +1,13 @@
+name = "AnvilCraft: Ponder"
+filename = "anvilcraft_ponder-neoforge-anc-1.6-1.21.1-1.0.0+build.15.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qfaJCGqW/versions/hBdCL5Qo/anvilcraft_ponder-neoforge-anc-1.6-1.21.1-1.0.0%2Bbuild.15.jar"
+hash-format = "sha512"
+hash = "467b3a0fea86e0823a41306b0995552a64b84d456d30e2c7c36f76c456e0639c3a4fea30509b9b5ff51ba5fd88c5f046a70eca27a4ab5f44ad586b9d380417b8"
+
+[update]
+[update.modrinth]
+mod-id = "qfaJCGqW"
+version = "hBdCL5Qo"

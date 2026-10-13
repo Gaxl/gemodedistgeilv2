@@ -13240,6 +13240,11 @@ hash = "c97baa64853ddb2e57c49c281260e9c9d9ef9943aec8850c74fba9861f4c69d3"
 metafile = true
 
 [[files]]
+file = "mods/anvilcraft-ponder.pw.toml"
+hash = "a79534227f9d1af0c812bfd0f709cbf287c4c0dd9bf9dbf61409d06c6aa1b932"
+metafile = true
+
+[[files]]
 file = "mods/anvilcraft.pw.toml"
 hash = "7cdc66f2832958b5e64b7500fcd048da867fb10decf932c4303c21abfebaa4f6"
 metafile = true
