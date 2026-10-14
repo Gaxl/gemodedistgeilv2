@@ -2,15 +2,19 @@
 
 // Bei einem Update nur diese beiden Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.8.2'
+const VERSION = 'beta1.8.3'
 const CHANGES = [
+  ['+', 'AnvilCraft 6.0 with Ponder scenes'],
   ['+', 'Stellaris: rocket models craftable again (Tiny -> Small -> Normal -> Big)'],
   ['+', 'Stellaris: recipes for cheese block, cosmo bread, cosmo coffee, coffee cup, globes, gravity normalizer module and coal lantern'],
   ['+', 'Stellaris: cracked bricks (furnace) and planet cobblestone (stonecutter)'],
-  ['!', 'Create spout can fill Stellaris oxygen tanks again'],
-  ['!', 'German names fixed: Mars Globe, Moon Steel Ore, Mercury Deepslate'],
-  ['~', 'Server makes a backup on every start'],
+  ['~', 'Difficulty is now Hard'],
+  ['~', 'Better server performance: fewer wild Pokemon at once, view distance 8, Incendium optimized'],
   ['~', 'Server restarts are announced with a countdown and shut down cleanly'],
+  ['~', 'Server makes a backup on every start'],
+  ['!', 'Create spout can fill Stellaris oxygen tanks again'],
+  ['!', 'Fixed signs and the Amendments config'],
+  ['!', 'German names fixed: Mars Globe, Moon Steel Ore, Mercury Deepslate'],
   ['-', 'Removed leftover configs of old mods (smaller download)'],
 ]
 
