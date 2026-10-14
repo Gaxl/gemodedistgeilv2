@@ -1553,7 +1553,7 @@ hash = "e16bb494f83dbeed2c9899b95cde4ff58b452a64db4f0d7be3cf242a1ca0fe24"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "6bc5db67030737b00178bc032d0460095bc3a9b6ea7019a0e679432d0dd69b3e"
+hash = "9be4f3edeed28723ce5122d34f5781f37a6d7f1b87ed213ae32e80fe75deabb9"
 
 [[files]]
 file = "config/cobbreeding/main.json"

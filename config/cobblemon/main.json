@@ -39,7 +39,7 @@
   "luckyEggMultiplier": 1.5,
   "allowSpectating": true,
   "experienceMultiplier": 2.0,
-  "pokemonPerChunk": 0.6,
+  "pokemonPerChunk": 0.4,
   "pokeSnackPokemonPerChunk": 2.0,
   "passiveStatuses": {
     "cobblemon:poison": "180-300",
@@ -114,7 +114,7 @@
   "despawnerNearDistance": 32.0,
   "despawnerFarDistance": 96.0,
   "despawnerMinAgeTicks": 600,
-  "despawnerMaxAgeTicks": 3600,
+  "despawnerMaxAgeTicks": 2400,
   "monitorAlphaRate": 40,
   "monitorShinyRate": 200
 }
