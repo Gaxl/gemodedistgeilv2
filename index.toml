@@ -5297,7 +5297,7 @@ hash = "842b13da4f900c1d724dca00b6adec7d2a43ba2e0d7fff27b10b76eac32d2d87"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "80829be121e4a1d5024327bda9e76fb729f6f4ac46e6309caaa83acd1a87721a"
+hash = "628c1e58c2e82d3a4ac4dd10df0b1e3efe0b1a4afeec774fb1760f4debb46955"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -6362,6 +6362,11 @@ metafile = true
 [[files]]
 file = "mods/iglee-library.pw.toml"
 hash = "2148b44cf26025607d1a73a03e5e4a0b3a7f05b1c7442736eccc1ed64de985cd"
+metafile = true
+
+[[files]]
+file = "mods/imgur-display.pw.toml"
+hash = "c7fa97c8f5b589bb9cb83542c1edf5a88e80b7593fcb811f905b96da0d250a6a"
 metafile = true
 
 [[files]]

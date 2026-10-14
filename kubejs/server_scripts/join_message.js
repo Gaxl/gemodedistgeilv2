@@ -2,12 +2,13 @@
 
 // Bei einem Update nur diese beiden Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.8.3'
+const VERSION = 'beta1.9'
 const CHANGES = [
   ['+', 'AnvilCraft 6.0 with Ponder scenes'],
   ['+', 'Stellaris: rocket models craftable again (Tiny -> Small -> Normal -> Big)'],
   ['+', 'Stellaris: recipes for cheese block, cosmo bread, cosmo coffee, coffee cup, globes, gravity normalizer module and coal lantern'],
   ['+', 'Stellaris: cracked bricks (furnace) and planet cobblestone (stonecutter)'],
+  ['+', 'Added Imgur Display'],
   ['~', 'Difficulty is now Hard'],
   ['~', 'Better server performance: fewer wild Pokemon at once, view distance 8, Incendium optimized'],
   ['~', 'Server restarts are announced with a countdown and shut down cleanly'],

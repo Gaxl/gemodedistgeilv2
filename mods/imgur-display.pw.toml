@@ -1,0 +1,13 @@
+name = "Imgur Display"
+filename = "imgurdisplay-1.21.1-0.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2LYmwlgc/versions/Lexgiktz/imgurdisplay-1.21.1-0.2.1.jar"
+hash-format = "sha512"
+hash = "3b1dbf11e36b0c0cb77ed34ff2d7224541756ef20429b67d1941ea56a3306e918598bb8dbf099ea89104879454862f56457e31aa4a9afbbe9fdf93b8570e38cb"
+
+[update]
+[update.modrinth]
+mod-id = "2LYmwlgc"
+version = "Lexgiktz"
