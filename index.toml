@@ -5292,8 +5292,12 @@ file = "kubejs/server_scripts/fixes.js"
 hash = "057f4bd84cecbc968ddab669028a10ad293973451c7bd6a5492e8351f59d1286"
 
 [[files]]
+file = "kubejs/server_scripts/gig_restart.js"
+hash = "842b13da4f900c1d724dca00b6adec7d2a43ba2e0d7fff27b10b76eac32d2d87"
+
+[[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "a0ef0666a144c718ec83f08a55e19bf92acfabae18f575f7257e1334624b56d0"
+hash = "ed0f6928eb4e229f9c1ea179db30b36b25a13a17a6de09d2747077a164b65569"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"

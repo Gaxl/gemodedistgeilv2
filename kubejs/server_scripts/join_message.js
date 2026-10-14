@@ -10,6 +10,7 @@ const CHANGES = [
   ['!', 'Create spout can fill Stellaris oxygen tanks again'],
   ['!', 'German names fixed: Mars Globe, Moon Steel Ore, Mercury Deepslate'],
   ['~', 'Server makes a backup on every start'],
+  ['~', 'Server restarts are announced with a countdown and shut down cleanly'],
   ['-', 'Removed leftover configs of old mods (smaller download)'],
 ]
 
