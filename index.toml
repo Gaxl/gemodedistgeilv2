@@ -4699,7 +4699,7 @@ hash = "01c2ebdeb209469fce1739fc94a4c4ec7fa1588e398525fabd77dadc66576c1a"
 
 [[files]]
 file = "config/amendments-client.toml"
-hash = "2dbfa347cc72f0f72765f1fd72d973cc074d846912e58416eb68b0f5e6210838"
+hash = "b9cbb9e5178038aa444ee7949b2575febb89c6218ed068df1fad73190a633c2c"
 preserve = true
 
 [[files]]
@@ -13089,7 +13089,7 @@ hash = "057f4bd84cecbc968ddab669028a10ad293973451c7bd6a5492e8351f59d1286"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "813a5a65b172e2f49fbbcd57d472f6c50e6a223260fcd7124125ea330577bbad"
+hash = "8747e2e4a146a1ff1fac799b55079e898723036eeb411dac52dbc73115a1b545"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -13246,7 +13246,7 @@ metafile = true
 
 [[files]]
 file = "mods/anvilcraft.pw.toml"
-hash = "7cdc66f2832958b5e64b7500fcd048da867fb10decf932c4303c21abfebaa4f6"
+hash = "4df75df83ae336fe1bf1df9a8ad3338cd017a9e682666c31d41c1bbf0f77c42c"
 metafile = true
 
 [[files]]

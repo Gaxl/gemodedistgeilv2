@@ -2,12 +2,17 @@
 
 // Bei einem Update nur diese beiden Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.8'
+const VERSION = 'beta1.8.1'
 const CHANGES = [
   ['!', 'Fixed server crash with the Stellaris Fuel Refinery and Water Separator'],
   ['!', 'Fewer connection timeouts when joining (Packet Fixer, NoTimeOut)'],
   ['+', 'Optional resource pack: German Pokemon names, moves and battle log'],
   ['+', 'added /gigreplies'],
+  ['!', 'fixed Signs'],
+  ['~', 'Updated to AnvilCraft 6.0'],
+
+
+  
 ]
 
 const CHANGE_COLORS = {
