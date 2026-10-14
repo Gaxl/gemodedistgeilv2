@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/AdvancedBackups.properties"
-hash = "cb098bcc6b576f6b3b2d418bf24ca0d44960aee39ebbc2cca72a725d1f977dd2"
+hash = "cc514a9953a3cdd07d9d649cf04febda01c4b236c15d2bc888502384c9bd1b06"
 
 [[files]]
 file = "config/Advancedperipherals/general.toml"
@@ -13049,6 +13049,10 @@ hash = "2765ceaed6f26855206f8d4c6a67c4f6175ebae23607c8a4615d4d975afae33e"
 [[files]]
 file = "journeymap/icon/theme/victorian_/victorian_.theme2.json"
 hash = "f272934e3c793b24f7f0373e2e9209b5a591100186a6e628c093e1d4aff05c61"
+
+[[files]]
+file = "kubejs/assets/stellaris/lang/de_de.json"
+hash = "b6562dbed084b099e5c2f2bed760fa97679e6a5454ea1d50c37e859753195d80"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
