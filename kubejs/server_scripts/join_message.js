@@ -2,17 +2,15 @@
 
 // Bei einem Update nur diese beiden Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.8.1'
+const VERSION = 'beta1.8.2'
 const CHANGES = [
-  ['!', 'Fixed server crash with the Stellaris Fuel Refinery and Water Separator'],
-  ['!', 'Fewer connection timeouts when joining (Packet Fixer, NoTimeOut)'],
-  ['+', 'Optional resource pack: German Pokemon names, moves and battle log'],
-  ['+', 'added /gigreplies'],
-  ['!', 'fixed Signs'],
-  ['~', 'Updated to AnvilCraft 6.0'],
-
-
-  
+  ['+', 'Stellaris: rocket models craftable again (Tiny -> Small -> Normal -> Big)'],
+  ['+', 'Stellaris: recipes for cheese block, cosmo bread, cosmo coffee, coffee cup, globes, gravity normalizer module and coal lantern'],
+  ['+', 'Stellaris: cracked bricks (furnace) and planet cobblestone (stonecutter)'],
+  ['!', 'Create spout can fill Stellaris oxygen tanks again'],
+  ['!', 'German names fixed: Mars Globe, Moon Steel Ore, Mercury Deepslate'],
+  ['~', 'Server makes a backup on every start'],
+  ['-', 'Removed leftover configs of old mods (smaller download)'],
 ]
 
 const CHANGE_COLORS = {
