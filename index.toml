@@ -4700,7 +4700,6 @@ hash = "01c2ebdeb209469fce1739fc94a4c4ec7fa1588e398525fabd77dadc66576c1a"
 [[files]]
 file = "config/amendments-client.toml"
 hash = "b9cbb9e5178038aa444ee7949b2575febb89c6218ed068df1fad73190a633c2c"
-preserve = true
 
 [[files]]
 file = "config/amendments-common.toml"
