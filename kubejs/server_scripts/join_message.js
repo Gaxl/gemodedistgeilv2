@@ -2,15 +2,9 @@
 
 // Bei einem Update nur diese Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.9.2'
+const VERSION = 'beta1.9.3'
 const CHANGES = [
-  ['+', 'AllTheMons x Mega Showdown: models for Celebi, Cresselia, Jirachi, Manaphy & more, plus many new Pokemon'],
-  ['!', 'Legendaries from Legendary Monuments no longer invisible'],
-  ['~', 'Legendaries & Mythicals only from Legendary Monuments temples (no wild spawns)'],
-  ['~', 'Paradox Pokemon and Ultra Beasts spawn rarely in the wild'],
-  ['!', 'Fixed server freeze: Supplementaries road signs disabled'],
-  ['-', 'Removed AnvilCraft (+ AnvilCraft Ponder)'],
-  ['+', 'Create: Nuclear (reactors, uranium & thorium, radiation - careful, meltdowns explode!)'],
+  ['-', 'Removed AE2 Lightning Tech (+ Thunderbolt)'],
 ]
 // Wichtige Hinweise, werden rot unter dem Changelog angezeigt (leer lassen, wenn nichts ansteht)
 const NOTES = [

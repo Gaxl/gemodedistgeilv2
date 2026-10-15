@@ -5298,7 +5298,7 @@ hash = "842b13da4f900c1d724dca00b6adec7d2a43ba2e0d7fff27b10b76eac32d2d87"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "19a52161dcc5d42f26efbf35ec0f42df4a19482b98966856f416e8d57374e96c"
+hash = "6f061f6052e0f58cece66b01de274125827c5d4e3cc42aa8773bc919444c1612"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -5366,11 +5366,6 @@ metafile = true
 [[files]]
 file = "mods/ae2-jei-integration.pw.toml"
 hash = "491974dc6adba0e893fb755f55dfe833a1076ba49fdf9e4f92b8b9fa069ce9b5"
-metafile = true
-
-[[files]]
-file = "mods/ae2-lightning-tech.pw.toml"
-hash = "9564d7e732c1a82698fcf9497d6d4580dc3643612458d5acf83851bfb0ed4148"
 metafile = true
 
 [[files]]
@@ -7043,11 +7038,6 @@ metafile = true
 [[files]]
 file = "mods/theurgy.pw.toml"
 hash = "9e916797940e94bc0594e789dd0ba548030589c201d86a353ad158a51961bffb"
-metafile = true
-
-[[files]]
-file = "mods/thunderbolt-core.pw.toml"
-hash = "c531631140ef15cbe7a1409f648ecac58a1bfb7afcee03d4007bb9d0d75530b8"
 metafile = true
 
 [[files]]
