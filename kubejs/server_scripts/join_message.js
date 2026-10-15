@@ -6,6 +6,7 @@ const VERSION = 'beta1.9.1'
 const CHANGES = [
   ['+', 'Added Imgur Display'],
   ['!', 'Added Recipe for Stellaris SpeedUpgrade'],
+  ['!', 'Fixed server crash: TFMG Blast Stove next to AnvilCraft pipes'],
 ]
 
 const CHANGE_COLORS = {
