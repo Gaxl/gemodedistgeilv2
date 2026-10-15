@@ -3362,7 +3362,7 @@ preserve = true
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "44a6fd1fd21a294ac73527e51972709c31b71be7a738cbb07153fc3bfccecf43"
+hash = "f18fa553e478d582fe55afe27b960d1b0c69049779065453f54bd15f63f5a9f6"
 
 [[files]]
 file = "config/tectonic.json"
@@ -5297,7 +5297,7 @@ hash = "842b13da4f900c1d724dca00b6adec7d2a43ba2e0d7fff27b10b76eac32d2d87"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "76f9ba55a744ce84f31672f939f4bd0e0169f84981e68d84cf7f0517d4256fad"
+hash = "b8de7014ac66b2f0bde75379d65ff06f82fec313ad87e06b4a3fa80b3c4e04fd"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"

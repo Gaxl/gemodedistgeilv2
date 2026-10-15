@@ -428,13 +428,13 @@
 
 		[building.way_sign.road_signs]
 			#Entirely disables them from spawning
-			enabled = true
+			enabled = false
 			#With this option road signs will display the distance to the structure that they are pointing to
 			show_distance_text = true
 			#Maximum distance in chunks that road signs will search for structures
 			# Default: 200
 			# Range: 0 ~ 1000
-			max_search_radius = 200
+			max_search_radius = 0
 			#Speeds up way sign feature searching by making the search stop at the first found structure. This means that way signs won't point to the nearest structure anymore
 			exit_search_early = true
 			#Maximum number of structure types from the tag that road signs will attempt to look for every time. Decreasing might speed up search at the cost of making them not point to the nearest structure out of all. Also if made too low and in cases it were to pick a structure that only spawns very rarely, this would actually slow down the search instead of speeding it up

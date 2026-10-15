@@ -8,6 +8,7 @@ const CHANGES = [
   ['!', 'Legendaries from Legendary Monuments no longer invisible'],
   ['~', 'Legendaries & Mythicals only from Legendary Monuments temples (no wild spawns)'],
   ['~', 'Paradox Pokemon and Ultra Beasts spawn rarely in the wild'],
+  ['!', 'Fixed server freeze: Supplementaries road signs disabled'],
 ]
 // Wichtige Hinweise, werden rot unter dem Changelog angezeigt (leer lassen, wenn nichts ansteht)
 const NOTES = [
