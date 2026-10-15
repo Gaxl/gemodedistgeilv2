@@ -1,12 +1,17 @@
 // Begrüßungsnachricht beim Joinen – nur für den joinenden Spieler sichtbar
 
-// Bei einem Update nur diese beiden Werte anpassen
+// Bei einem Update nur diese Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.9.1'
+const VERSION = 'beta1.9.2'
 const CHANGES = [
-  ['+', 'Added Imgur Display'],
-  ['!', 'Added Recipe for Stellaris SpeedUpgrade'],
-  ['!', 'Fixed server crash: TFMG Blast Stove next to AnvilCraft pipes'],
+  ['+', 'AllTheMons x Mega Showdown: models for Celebi, Cresselia, Jirachi, Manaphy & more, plus many new Pokemon'],
+  ['!', 'Legendaries from Legendary Monuments no longer invisible'],
+  ['~', 'Legendaries & Mythicals only from Legendary Monuments temples (no wild spawns)'],
+  ['~', 'Paradox Pokemon and Ultra Beasts spawn rarely in the wild'],
+]
+// Wichtige Hinweise, werden rot unter dem Changelog angezeigt (leer lassen, wenn nichts ansteht)
+const NOTES = [
+  'Wichtig: Resourcepack "ATM x MSD" aktivieren (Optionen > Ressourcenpakete), sonst sind neue Pokemon unsichtbar!',
 ]
 
 const CHANGE_COLORS = {
@@ -26,6 +31,7 @@ function tellChangelog(player, withWelcome) {
     const type = change[0]
     player.tell(Text.of('  ').append(CHANGE_COLORS[type](type + ' ').bold()).append(Text.gray(change[1])))
   })
+  NOTES.forEach(note => player.tell(Text.red(note).bold()))
   player.tell(Text.gold('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'))
 }
 

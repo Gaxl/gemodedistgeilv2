@@ -5297,7 +5297,7 @@ hash = "842b13da4f900c1d724dca00b6adec7d2a43ba2e0d7fff27b10b76eac32d2d87"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "4843cb8c4e3b32d9fad94a8a7d7cd3842a500833bfe2468744006ebc2d6e927c"
+hash = "76f9ba55a744ce84f31672f939f4bd0e0169f84981e68d84cf7f0517d4256fad"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -7205,12 +7205,150 @@ hash = "96f866de9f3ebaa42dfcb92392684c241ff189f82ce24c3e7a32c1d0b8f37db8"
 metafile = true
 
 [[files]]
+file = "moonlight-global-datapacks/allthemons-x-mega-showdown.pw.toml"
+hash = "4edf027458da25ae0f3f8e3a6fdae79464b104d70d12c07edac2f8c41fc95f1f"
+metafile = true
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/fezandipiti.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/groudon.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/koraidon.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/kubfu.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/kyogre.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/landorus.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/miraidon.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/munkidori.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/necrozma.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/ogerpon.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/okidogi.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/rayquaza.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/regice.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/tapubulu.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/tapufini.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/tapukoko.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/tapulele.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/thundurus.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/tornadus.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/zygarde.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/mythical/deoxys.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/mythical/diancie.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/mythical/jirachi.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/mythical/magearna.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/mythical/manaphy.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/mythical/pecharunt.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/mythical/phione.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/mythical/shaymin.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/mythical/volcanion.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/mythical/zarude.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/mythical/zeraora.json"
+hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/pack.mcmeta"
+hash = "4096a270b547930a4367e1f11a93fe6fe655d64400e1e9a8a5f1877b0e66f8c9"
+
+[[files]]
 file = "patchouli_data.json"
 hash = "0d6f8bff5d59d58e2ddda36b742394251afe308cb8cf96fac6c6c06144e28a15"
 
 [[files]]
 file = "resourcepacks/Deutsche-Pokemon-Namen.zip"
 hash = "ea32d3e070a597bd5464697c962d73c4df62264c1b837f6812522dce90a6c491"
+
+[[files]]
+file = "resourcepacks/allthemons-x-mega-showdown.pw.toml"
+hash = "b94bb18a0ca0a49aa9e054548d3d3740b6e4086546098dfaeb6b2ac28074acbd"
+metafile = true
 
 [[files]]
 file = "resourcepacks/cobblemon-pasture-enhanced.pw.toml"
