@@ -1,6 +1,6 @@
 name = "Chunky Offline"
 filename = "chunky-offline-v1.1.0.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/VfHc5JEX/versions/56xL4i2r/chunky-offline-v1.1.0.jar"

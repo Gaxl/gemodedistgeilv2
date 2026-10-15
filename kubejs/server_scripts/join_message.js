@@ -9,6 +9,8 @@ const CHANGES = [
   ['~', 'Legendaries & Mythicals only from Legendary Monuments temples (no wild spawns)'],
   ['~', 'Paradox Pokemon and Ultra Beasts spawn rarely in the wild'],
   ['!', 'Fixed server freeze: Supplementaries road signs disabled'],
+  ['-', 'Removed AnvilCraft (+ AnvilCraft Ponder)'],
+  ['+', 'Create: Nuclear (reactors, uranium & thorium, radiation - careful, meltdowns explode!)'],
 ]
 // Wichtige Hinweise, werden rot unter dem Changelog angezeigt (leer lassen, wenn nichts ansteht)
 const NOTES = [

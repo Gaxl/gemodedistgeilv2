@@ -1,6 +1,6 @@
 name = "Chunky"
 filename = "Chunky-NeoForge-1.4.23.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/fALzjamp/versions/LuFhm4eU/Chunky-NeoForge-1.4.23.jar"

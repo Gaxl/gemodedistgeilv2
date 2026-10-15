@@ -627,6 +627,7 @@ hash = "01c2ebdeb209469fce1739fc94a4c4ec7fa1588e398525fabd77dadc66576c1a"
 [[files]]
 file = "config/amendments-client.toml"
 hash = "b9cbb9e5178038aa444ee7949b2575febb89c6218ed068df1fad73190a633c2c"
+preserve = true
 
 [[files]]
 file = "config/amendments-common.toml"
@@ -3048,7 +3049,7 @@ preserve = true
 
 [[files]]
 file = "config/securitycraft-server.toml"
-hash = "3bc7c384f456a62d04bdc52c86ff1ddb1bf9874c18a8ac0d5e414ec4d1590fce"
+hash = "773a5b48579f2a3caad8337016042c439ca18292b9de1189fefdde71a8effe4f"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -5297,7 +5298,7 @@ hash = "842b13da4f900c1d724dca00b6adec7d2a43ba2e0d7fff27b10b76eac32d2d87"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "b8de7014ac66b2f0bde75379d65ff06f82fec313ad87e06b4a3fa80b3c4e04fd"
+hash = "19a52161dcc5d42f26efbf35ec0f42df4a19482b98966856f416e8d57374e96c"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -5445,16 +5446,6 @@ metafile = true
 [[files]]
 file = "mods/antos.pw.toml"
 hash = "c97baa64853ddb2e57c49c281260e9c9d9ef9943aec8850c74fba9861f4c69d3"
-metafile = true
-
-[[files]]
-file = "mods/anvilcraft-ponder.pw.toml"
-hash = "a79534227f9d1af0c812bfd0f709cbf287c4c0dd9bf9dbf61409d06c6aa1b932"
-metafile = true
-
-[[files]]
-file = "mods/anvilcraft.pw.toml"
-hash = "4df75df83ae336fe1bf1df9a8ad3338cd017a9e682666c31d41c1bbf0f77c42c"
 metafile = true
 
 [[files]]
@@ -5669,12 +5660,12 @@ metafile = true
 
 [[files]]
 file = "mods/chunky-offline.pw.toml"
-hash = "986f28c111e5ecf1a77054203ddcc6642d269561827cab3968c811672a7ce53c"
+hash = "7f158107e75890807a24c3911700fd2dab08dde7d8e001c26d347f9f566c134d"
 metafile = true
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
+hash = "68cc51e721e993a8b7a2cbaf45369933b22b07a9c82327ab14757ee10684aa81"
 metafile = true
 
 [[files]]
@@ -6080,6 +6071,11 @@ metafile = true
 [[files]]
 file = "mods/createaddoncompatibility.pw.toml"
 hash = "046a80051e21c0bab042ad1b7e27d42a7456fd36cfabf0454e9110ec345078fd"
+metafile = true
+
+[[files]]
+file = "mods/createnuclear.pw.toml"
+hash = "65aabaa29d30b7bf5dfb2485f1ed918fe925c10662686d9047e1d3f654f28058"
 metafile = true
 
 [[files]]

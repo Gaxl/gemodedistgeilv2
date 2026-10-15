@@ -1,13 +1,13 @@
 #Can the admin tool be used?
 allowAdminTool = true
 #Should mines spawn fire after exploding?
-shouldSpawnFire = true
+shouldSpawnFire = false
 #Should mines' explosions be smaller than usual?
 smallerMineExplosion = false
 #Should mines explode if broken while in Creative mode?
 mineExplodesWhenInCreative = true
 #Set this to false if you want mines to not break blocks when they explode. If this is set to true, the blockExplosionDropDecay gamerule will be respected
-mineExplosionsBreakBlocks = true
+mineExplosionsBreakBlocks = false
 #At most from how many blocks away can a laser block connect to another laser block?
 # Default: 5
 # Range: > 0
