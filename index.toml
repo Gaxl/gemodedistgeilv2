@@ -5297,7 +5297,7 @@ hash = "842b13da4f900c1d724dca00b6adec7d2a43ba2e0d7fff27b10b76eac32d2d87"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "628c1e58c2e82d3a4ac4dd10df0b1e3efe0b1a4afeec774fb1760f4debb46955"
+hash = "b8ca95c8b140a2fc7c2ae539b8c67b406d69c89bbb69e6b9955e5f105f8901aa"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -5313,7 +5313,7 @@ hash = "5a977c87dbfd30a6732b57d75573a3b8dec76958bca01c6a85806281132820d5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "36519f9f5a9226ad2894268eab642c882f208c1171cb5ca9b06f76762059a091"
+hash = "8462c7d25705f41e615a37e9f5dceb43c6e225665c41684143780d8f9a7a38e5"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

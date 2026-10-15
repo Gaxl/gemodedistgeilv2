@@ -19,4 +19,20 @@ event.shaped(
   }
 ).id('minecraft:invisible_item_frame')
 
+// Stellaris: Speed Upgrade (Mod liefert kein Rezept)
+event.shaped(
+  'stellaris:speed_upgrade',
+  [
+    'SDS',
+    'DFD',
+    'SBS'
+  ],
+  {
+    S: '#c:ingots/steel',
+    D: 'stellaris:desh_ingot',
+    F: 'stellaris:engine_fan',
+    B: 'stellaris:battery'
+  }
+).id('gig:stellaris_speed_upgrade')
+
 })
