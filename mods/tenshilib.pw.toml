@@ -1,0 +1,13 @@
+name = "TenshiLib"
+filename = "tenshilib-1.21.1-2.3.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/P2rffivS/versions/fcNC0Ok0/tenshilib-1.21.1-2.3.1-neoforge.jar"
+hash-format = "sha512"
+hash = "25cea06beb1ee84f70b3d94d5f903e059976de48f4cbcaef2feff88ef5d4c90d9eb4d5acab87db8470d702218d5493a910a5137af8cc0fef17f662e37bace565"
+
+[update]
+[update.modrinth]
+mod-id = "P2rffivS"
+version = "fcNC0Ok0"

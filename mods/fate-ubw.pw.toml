@@ -1,0 +1,13 @@
+name = "Fate/Unlimited Block Works"
+filename = "fateubw-1.21.1-2.3.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/q021y7rs/versions/BCkAJ73U/fateubw-1.21.1-2.3.1-neoforge.jar"
+hash-format = "sha512"
+hash = "1ebc337ae56bdff0c6e4c5ec3087c485edb041033a4678821b345377cb16d661adf0d13c239127325c54c4459e36fff960b520856e0a50c5886a6d18d97bd91e"
+
+[update]
+[update.modrinth]
+mod-id = "q021y7rs"
+version = "BCkAJ73U"

@@ -1,0 +1,10 @@
+{
+  "values": {
+    "kubejs:fate_attack": {
+      "absorption": 0.0
+    },
+    "kubejs:fate_piercing": {
+      "absorption": 0.0
+    }
+  }
+}

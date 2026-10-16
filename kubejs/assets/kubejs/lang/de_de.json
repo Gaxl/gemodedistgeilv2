@@ -1,0 +1,8 @@
+{
+  "death.attack.kubejs.fate_attack": "%1$s wurde von %2$s getötet",
+  "death.attack.kubejs.fate_attack.player": "%1$s wurde von %2$s getötet",
+  "death.attack.kubejs.fate_attack.item": "%1$s wurde von %2$s mit %3$s getötet",
+  "death.attack.kubejs.fate_piercing": "%1$s wurde vom Noble Phantasm von %2$s niedergestreckt",
+  "death.attack.kubejs.fate_piercing.player": "%1$s wurde im Kampf gegen %2$s von einem Noble Phantasm niedergestreckt",
+  "death.attack.kubejs.fate_piercing.item": "%1$s wurde vom Noble Phantasm von %2$s niedergestreckt"
+}

@@ -2,9 +2,13 @@
 
 // Bei einem Update nur diese Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.9.3'
+const VERSION = 'beta1.10'
 const CHANGES = [
-  ['-', 'Removed AE2 Lightning Tech (+ Thunderbolt)'],
+  ['+', 'Fate/Unlimited Block Works: Holy Grail War with servants (+ TenshiLib, Modopedia guidebook)'],
+  ['~', 'Grail War balance: weapons, spells and cannons from other mods deal much less damage to servants and grail war masters'],
+  ['~', 'MekaSuit no longer fully absorbs servant attacks'],
+  ['~', 'Grail reward "Legendary Armaments": netherite instead of diamond armor'],
+  ['~', 'NeoForge updated to 21.1.248'],
 ]
 // Wichtige Hinweise, werden rot unter dem Changelog angezeigt (leer lassen, wenn nichts ansteht)
 const NOTES = [

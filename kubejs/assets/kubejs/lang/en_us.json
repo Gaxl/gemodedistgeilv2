@@ -1,0 +1,8 @@
+{
+  "death.attack.kubejs.fate_attack": "%1$s was slain by %2$s",
+  "death.attack.kubejs.fate_attack.player": "%1$s was slain by %2$s",
+  "death.attack.kubejs.fate_attack.item": "%1$s was slain by %2$s using %3$s",
+  "death.attack.kubejs.fate_piercing": "%1$s was struck down by the Noble Phantasm of %2$s",
+  "death.attack.kubejs.fate_piercing.player": "%1$s was struck down by a Noble Phantasm while fighting %2$s",
+  "death.attack.kubejs.fate_piercing.item": "%1$s was struck down by the Noble Phantasm of %2$s"
+}

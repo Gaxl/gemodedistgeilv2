@@ -5253,6 +5253,14 @@ file = "journeymap/icon/theme/victorian_/victorian_.theme2.json"
 hash = "f272934e3c793b24f7f0373e2e9209b5a591100186a6e628c093e1d4aff05c61"
 
 [[files]]
+file = "kubejs/assets/kubejs/lang/de_de.json"
+hash = "2e50e17d3b269798b695315dca51ac3c953d247b821230acaa26d12b474c293e"
+
+[[files]]
+file = "kubejs/assets/kubejs/lang/en_us.json"
+hash = "8e0d53e674d0b4832259c1d1cc8b76f20ad2255600e629ac1ecc4e49226179e1"
+
+[[files]]
 file = "kubejs/assets/stellaris/lang/de_de.json"
 hash = "b6562dbed084b099e5c2f2bed760fa97679e6a5454ea1d50c37e859753195d80"
 
@@ -5273,8 +5281,32 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
+file = "kubejs/data/fateubw/fateubw/grail_loot_tables/legendary_armaments.json"
+hash = "863ee8211ae34125f4570f10faf79e3aff711e66ee3d164558c17055dc648b30"
+
+[[files]]
+file = "kubejs/data/kubejs/damage_type/fate_attack.json"
+hash = "8de81a6325108edb137d682d8112114fdf6cdaa7ce0ec7d092df06bb604b5dd3"
+
+[[files]]
+file = "kubejs/data/kubejs/damage_type/fate_piercing.json"
+hash = "ef3bd1791ca0238406915f0330ee19943f60d196e1685aab19cd76b38c1117e9"
+
+[[files]]
 file = "kubejs/data/legendarymonuments/species_additions/meltan.json"
 hash = "1b67903ad7cd4dd19658b16892e92b22bd2050881c20cb818689602c873704b7"
+
+[[files]]
+file = "kubejs/data/mekanism/data_maps/damage_type/mekasuit_absorption.json"
+hash = "d48e3af69790833eb4ebf6e6a19438cc9824c8ed8413ae7ee236501d8b2da6d0"
+
+[[files]]
+file = "kubejs/data/minecraft/tags/damage_type/bypasses_armor.json"
+hash = "f12eaf5348d16140bf016fd1d2e1af724863f74d10301f9158d00ec38260bf5f"
+
+[[files]]
+file = "kubejs/data/minecraft/tags/damage_type/bypasses_shield.json"
+hash = "f12eaf5348d16140bf016fd1d2e1af724863f74d10301f9158d00ec38260bf5f"
 
 [[files]]
 file = "kubejs/server_scripts/advancedae_balance.js"
@@ -5289,6 +5321,10 @@ file = "kubejs/server_scripts/end_toggle.js"
 hash = "156bbef4c023aaa34c1561034b0ad85d45beb98ba012dc309c59a63b6231fe15"
 
 [[files]]
+file = "kubejs/server_scripts/fateubw_balance.js"
+hash = "f8d9811b2f2b183cd13dfd92ac1c1349f7f16036d7345c6c6f16b7319a1e868d"
+
+[[files]]
 file = "kubejs/server_scripts/fixes.js"
 hash = "057f4bd84cecbc968ddab669028a10ad293973451c7bd6a5492e8351f59d1286"
 
@@ -5298,7 +5334,7 @@ hash = "842b13da4f900c1d724dca00b6adec7d2a43ba2e0d7fff27b10b76eac32d2d87"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "6f061f6052e0f58cece66b01de274125827c5d4e3cc42aa8773bc919444c1612"
+hash = "c2f2647bb76b86b490cfdf39454ac8643477e7620127f4c7f300a8c867da2b21"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -6238,6 +6274,11 @@ hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
 metafile = true
 
 [[files]]
+file = "mods/fate-ubw.pw.toml"
+hash = "4b56a0493fba873ad9ba7a9055f62713e50d0f3ddae51eb0f891b122c7f08312"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
@@ -6651,6 +6692,11 @@ hash = "d72083c1a59af176a97bea991a7f5d04ec2ffe1b63794c1290b29ec3ec3cfe8a"
 metafile = true
 
 [[files]]
+file = "mods/modopedia.pw.toml"
+hash = "e2c7bb4803def8211db5d07c3adca4d0e8877e1a9590174e972cbd0f05fc116b"
+metafile = true
+
+[[files]]
 file = "mods/modular-force-field-systems.pw.toml"
 hash = "8b07e3ae8e5c0228aba6d49fdaad8676a0f095676c1925b270baa36ecfa4dc5b"
 metafile = true
@@ -7008,6 +7054,11 @@ metafile = true
 [[files]]
 file = "mods/tectonic.pw.toml"
 hash = "fef2f8085bbdf6d398b02c87225ad9ccf9cc5d71edde13cd18e12a154764c84e"
+metafile = true
+
+[[files]]
+file = "mods/tenshilib.pw.toml"
+hash = "8a78c4d50191dd24096c788ea20f1ebec472a02bad3967578e4d0532e0e729d1"
 metafile = true
 
 [[files]]

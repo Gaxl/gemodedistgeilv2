@@ -1,0 +1,91 @@
+{
+  "loot_pools": [
+    {
+      "type": "fateubw:xp_entry",
+      "range": {
+        "type": "minecraft:uniform",
+        "max": 9000.0,
+        "min": 5000.0
+      }
+    },
+    {
+      "type": "fateubw:servant_entry",
+      "as_loot": true
+    },
+    {
+      "type": "fateubw:attribute_entry",
+      "attribute": "minecraft:generic.armor",
+      "max": 3.0,
+      "range": {
+        "type": "minecraft:uniform",
+        "max": 0.4,
+        "min": 0.2
+      }
+    },
+    {
+      "type": "fateubw:vanilla_entry",
+      "loot_pool": {
+        "type": "minecraft:item",
+        "name": "minecraft:netherite_helmet",
+        "functions": [
+          {
+            "function": "fateubw:max_enchant",
+            "enchantments": [
+              "minecraft:protection",
+              "minecraft:unbreaking"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fateubw:vanilla_entry",
+      "loot_pool": {
+        "type": "minecraft:item",
+        "name": "minecraft:netherite_chestplate",
+        "functions": [
+          {
+            "function": "fateubw:max_enchant",
+            "enchantments": [
+              "minecraft:protection",
+              "minecraft:unbreaking"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fateubw:vanilla_entry",
+      "loot_pool": {
+        "type": "minecraft:item",
+        "name": "minecraft:netherite_leggings",
+        "functions": [
+          {
+            "function": "fateubw:max_enchant",
+            "enchantments": [
+              "minecraft:protection",
+              "minecraft:unbreaking"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "fateubw:vanilla_entry",
+      "loot_pool": {
+        "type": "minecraft:item",
+        "name": "minecraft:netherite_boots",
+        "functions": [
+          {
+            "function": "fateubw:max_enchant",
+            "enchantments": [
+              "minecraft:protection",
+              "minecraft:unbreaking"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "name": "fateubw.loot.legendary_armaments"
+}
