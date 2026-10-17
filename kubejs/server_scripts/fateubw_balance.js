@@ -10,111 +10,165 @@
 //    (kubejs:fate_attack / kubejs:fate_piercing, siehe kubejs/data). Ihre normalen Rüstungspunkte zählen weiter.
 //
 // Außerhalb des Gralkriegs (Bosse, Mobs, normales PvP) ändert sich nichts.
+//
+// Fehler im NativeEvents-Handler würden den ganzen Server crashen, deshalb alles in try/catch,
+// Klassen werden beim Laden aufgelöst und das Script läuft in einer eigenen Funktion (gemeinsamer Script-Scope).
 
-// Bei Balance-Änderungen nur diese Werte anpassen
-const FATE_FOREIGN_DAMAGE_MULT = 0.4 // fremder Schaden gegen Servants / Teilnehmer
-const FATE_SERVANT_HIT_CAP = 0.05 // fremder Schaden max. 5 % der Servant-Max-HP pro Treffer
+(function () {
+  // Bei Balance-Änderungen nur diese Werte anpassen
+  var FOREIGN_DAMAGE_MULT = 0.4 // fremder Schaden gegen Servants / Teilnehmer
+  var SERVANT_HIT_CAP = 0.05 // fremder Schaden max. 5 % der Servant-Max-HP pro Treffer
 
-const FATE_NS = 'fateubw'
-const FATE_NATIVE_NS = { minecraft: true, fateubw: true }
+  var FATE_NS = 'fateubw'
+  var NATIVE_NS = { minecraft: true, fateubw: true }
 
-const FateEventPriority = Java.loadClass('net.neoforged.bus.api.EventPriority')
-const FateLivingIncomingDamageEvent = Java.loadClass('net.neoforged.neoforge.event.entity.living.LivingIncomingDamageEvent')
-const FateBuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
-const FateRegistries = Java.loadClass('net.minecraft.core.registries.Registries')
-const FateResourceKey = Java.loadClass('net.minecraft.resources.ResourceKey')
-const FateResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
-const FateDamageSource = Java.loadClass('net.minecraft.world.damagesource.DamageSource')
-const FateDamageTypeTags = Java.loadClass('net.minecraft.tags.DamageTypeTags')
-const FateEquipmentSlot = Java.loadClass('net.minecraft.world.entity.EquipmentSlot')
-const FateGrailWarHandler = Java.loadClass('io.github.flemmli97.fateubw.common.world.GrailWarHandler')
-
-const FATE_ARMOR_SLOTS = [FateEquipmentSlot.HEAD, FateEquipmentSlot.CHEST, FateEquipmentSlot.LEGS, FateEquipmentSlot.FEET]
-
-function fateEntityNs(entity) {
-  return entity ? String(FateBuiltInRegistries.ENTITY_TYPE.getKey(entity.getType()).getNamespace()) : null
-}
-
-function fateItemNs(stack) {
-  return String(FateBuiltInRegistries.ITEM.getKey(stack.getItem()).getNamespace())
-}
-
-function fateDamageTypeNs(source) {
-  return String(source.typeHolder().getRegisteredName()).split(':')[0]
-}
-
-function fateIsForeign(ns) {
-  return ns != null && !FATE_NATIVE_NS[ns]
-}
-
-// Stammt der Schaden von Waffen, Zaubern oder Entities anderer Mods?
-function fateIsForeignDamage(source, attacker, direct) {
-  if (fateIsForeign(fateDamageTypeNs(source))) return true
-  if (direct && fateIsForeign(fateEntityNs(direct))) return true
-  if (attacker && fateIsForeign(fateEntityNs(attacker))) return true
-  // Nahkampf: Waffe in der Hand prüfen
-  if (attacker && attacker.isPlayer() && direct != null && direct.equals(attacker)) {
-    const weapon = attacker.getMainHandItem()
-    if (!weapon.isEmpty() && fateIsForeign(fateItemNs(weapon))) return true
+  var EventPriority, LivingIncomingDamageEvent, BuiltInRegistries, Registries, ResourceKey, ResourceLocation
+  var DamageSource, DamageTypeTags, EquipmentSlot, Player, GrailWarHandler
+  try {
+    EventPriority = Java.loadClass('net.neoforged.bus.api.EventPriority')
+    LivingIncomingDamageEvent = Java.loadClass('net.neoforged.neoforge.event.entity.living.LivingIncomingDamageEvent')
+    BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
+    Registries = Java.loadClass('net.minecraft.core.registries.Registries')
+    ResourceKey = Java.loadClass('net.minecraft.resources.ResourceKey')
+    ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
+    DamageSource = Java.loadClass('net.minecraft.world.damagesource.DamageSource')
+    DamageTypeTags = Java.loadClass('net.minecraft.tags.DamageTypeTags')
+    EquipmentSlot = Java.loadClass('net.minecraft.world.entity.EquipmentSlot')
+    Player = Java.loadClass('net.minecraft.world.entity.player.Player')
+    GrailWarHandler = Java.loadClass('io.github.flemmli97.fateubw.common.world.GrailWarHandler')
+  } catch (e) {
+    console.error('[fateubw_balance] Klassen nicht gefunden, Gralkrieg-Balance ist AUS: ' + e)
+    return
   }
-  return false
-}
 
-function fateIsFateSource(source, attacker, direct) {
-  return fateDamageTypeNs(source) === FATE_NS || fateEntityNs(attacker) === FATE_NS || fateEntityNs(direct) === FATE_NS
-}
+  var ARMOR_SLOTS = [EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET]
+  var KEY_FATE_ATTACK = ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse('kubejs:fate_attack'))
+  var KEY_FATE_PIERCING = ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse('kubejs:fate_piercing'))
+  var loggedErrors = {}
+  var loggedCount = 0
 
-function fateWearsMekaSuit(player) {
-  return FATE_ARMOR_SLOTS.some(slot => {
-    const stack = player.getItemBySlot(slot)
-    if (stack.isEmpty()) return false
-    const id = FateBuiltInRegistries.ITEM.getKey(stack.getItem())
-    return String(id.getNamespace()) === 'mekanism' && String(id.getPath()).startsWith('mekasuit')
-  })
-}
-
-function fateDamageTypeHolder(server, id) {
-  const key = FateResourceKey.create(FateRegistries.DAMAGE_TYPE, FateResourceLocation.parse(id))
-  return server.registryAccess().registryOrThrow(FateRegistries.DAMAGE_TYPE).getHolderOrThrow(key)
-}
-
-NativeEvents.onEvent(FateEventPriority.HIGHEST, FateLivingIncomingDamageEvent, event => {
-  const victim = event.getEntity()
-  if (victim.level().isClientSide()) return
-
-  const source = event.getSource()
-  const attacker = source.getEntity()
-  const direct = source.getDirectEntity()
-  const typeId = String(source.typeHolder().getRegisteredName())
-
-  // Eigene Ersatz-Schadenstypen nicht erneut behandeln
-  if (typeId === 'kubejs:fate_attack' || typeId === 'kubejs:fate_piercing') return
-
-  // Servants untereinander (auch Lancelot mit fremden Waffen) bleiben unverändert
-  if (fateEntityNs(attacker) === FATE_NS) {
-    // 3) MekaSuit soll Fate-Schaden nicht komplett schlucken
-    if (victim.isPlayer() && fateWearsMekaSuit(victim)) {
-      const amount = event.getAmount()
-      const replacement = source.is(FateDamageTypeTags.BYPASSES_ARMOR) ? 'kubejs:fate_piercing' : 'kubejs:fate_attack'
-      event.setCanceled(true)
-      victim.hurt(new FateDamageSource(fateDamageTypeHolder(victim.server, replacement), direct, attacker), amount)
+  // KubeJS blendet manche Vanilla-Methoden aus (z.B. DamageSource.getEntity), deshalb mit Ausweichnamen
+  function call(obj, names) {
+    for (var i = 0; i < names.length; i++) {
+      var v = obj[names[i]]
+      if (typeof v === 'function') return v.call(obj)
+      if (v !== undefined && v !== null) return v
     }
-    return
+    return null
   }
 
-  // 1) Fremder Schaden gegen Servants und ihre Beschwörungen
-  if (fateEntityNs(victim) === FATE_NS) {
-    if (!fateIsForeignDamage(source, attacker, direct)) return
-    const cap = victim.getMaxHealth() * FATE_SERVANT_HIT_CAP
-    event.setAmount(Math.min(event.getAmount() * FATE_FOREIGN_DAMAGE_MULT, cap))
-    return
+  function sourceAttacker(source) {
+    return call(source, ['getEntity', 'getActual', 'actual', 'entity'])
   }
 
-  // 2) Fremde Waffen gegen Gralkrieg-Teilnehmer (Master)
-  if (victim.isPlayer() && attacker && attacker.isPlayer() && !attacker.equals(victim)) {
-    if (!FateGrailWarHandler.get(victim.server).isParticipant(victim)) return
-    if (fateIsFateSource(source, attacker, direct)) return
-    if (!fateIsForeignDamage(source, attacker, direct)) return
-    event.setAmount(event.getAmount() * FATE_FOREIGN_DAMAGE_MULT)
+  function sourceDirect(source) {
+    return call(source, ['getDirectEntity', 'getImmediate', 'immediate', 'directEntity'])
   }
-})
+
+  // KubeJS liefert bei entity.getType() die ID als Text ("fateubw:emiya_archer"), nicht den EntityType
+  function entityNs(entity) {
+    if (!entity) return null
+    var type = entity.getType()
+    var id = String(type)
+    if (id.indexOf(':') < 0) id = String(BuiltInRegistries.ENTITY_TYPE.getKey(type))
+    return id.split(':')[0]
+  }
+
+  function itemNs(stack) {
+    return String(BuiltInRegistries.ITEM.getKey(stack.getItem()).getNamespace())
+  }
+
+  function damageTypeNs(source) {
+    return String(source.typeHolder().getRegisteredName()).split(':')[0]
+  }
+
+  function isForeign(ns) {
+    return ns != null && !NATIVE_NS[ns]
+  }
+
+  function isPlayer(entity) {
+    return entity != null && entity instanceof Player
+  }
+
+  // Stammt der Schaden von Waffen, Zaubern oder Entities anderer Mods?
+  function isForeignDamage(source, attacker, direct) {
+    if (isForeign(damageTypeNs(source))) return true
+    if (direct && isForeign(entityNs(direct))) return true
+    if (attacker && isForeign(entityNs(attacker))) return true
+    // Nahkampf: Waffe in der Hand prüfen
+    if (isPlayer(attacker) && direct != null && direct.equals(attacker)) {
+      var weapon = attacker.getMainHandItem()
+      if (!weapon.isEmpty() && isForeign(itemNs(weapon))) return true
+    }
+    return false
+  }
+
+  function isFateSource(source, attacker, direct) {
+    return damageTypeNs(source) === FATE_NS || entityNs(attacker) === FATE_NS || entityNs(direct) === FATE_NS
+  }
+
+  function wearsMekaSuit(player) {
+    return ARMOR_SLOTS.some(function (slot) {
+      var stack = player.getItemBySlot(slot)
+      if (stack.isEmpty()) return false
+      var id = BuiltInRegistries.ITEM.getKey(stack.getItem())
+      return String(id.getNamespace()) === 'mekanism' && String(id.getPath()).startsWith('mekasuit')
+    })
+  }
+
+  function handle(event) {
+    var victim = event.getEntity()
+    if (victim.level.isClientSide()) return
+
+    var source = event.getSource()
+    var attacker = sourceAttacker(source)
+    var direct = sourceDirect(source)
+    var typeId = String(source.typeHolder().getRegisteredName())
+
+    // Eigene Ersatz-Schadenstypen nicht erneut behandeln
+    if (typeId === 'kubejs:fate_attack' || typeId === 'kubejs:fate_piercing') return
+
+    // Servants untereinander (auch Lancelot mit fremden Waffen) bleiben unverändert
+    if (entityNs(attacker) === FATE_NS) {
+      // 3) MekaSuit soll Fate-Schaden nicht komplett schlucken
+      if (isPlayer(victim) && wearsMekaSuit(victim)) {
+        var amount = event.getAmount()
+        var key = source.is(DamageTypeTags.BYPASSES_ARMOR) ? KEY_FATE_PIERCING : KEY_FATE_ATTACK
+        var holder = victim.level.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(key)
+        event.setCanceled(true)
+        victim.hurt(new DamageSource(holder, direct, attacker), amount)
+      }
+      return
+    }
+
+    // 1) Fremder Schaden gegen Servants und ihre Beschwörungen
+    if (entityNs(victim) === FATE_NS) {
+      if (!isForeignDamage(source, attacker, direct)) return
+      var cap = victim.getMaxHealth() * SERVANT_HIT_CAP
+      event.setAmount(Math.min(event.getAmount() * FOREIGN_DAMAGE_MULT, cap))
+      return
+    }
+
+    // 2) Fremde Waffen gegen Gralkrieg-Teilnehmer (Master)
+    if (isPlayer(victim) && isPlayer(attacker) && !attacker.equals(victim)) {
+      if (!GrailWarHandler.get(victim.getServer()).isParticipant(victim)) return
+      if (isFateSource(source, attacker, direct)) return
+      if (!isForeignDamage(source, attacker, direct)) return
+      event.setAmount(event.getAmount() * FOREIGN_DAMAGE_MULT)
+    }
+  }
+
+  NativeEvents.onEvent(EventPriority.HIGHEST, LivingIncomingDamageEvent, function (event) {
+    try {
+      handle(event)
+    } catch (e) {
+      // Jeden Fehler nur einmal loggen (max. 5), sonst flutet jeder Treffer das Log
+      var msg = String(e)
+      if (!loggedErrors[msg] && loggedCount < 5) {
+        loggedErrors[msg] = true
+        loggedCount++
+        console.error('[fateubw_balance] Fehler im Schadens-Handler (Schaden bleibt unverändert): ' + e)
+      }
+    }
+  })
+})()

@@ -5322,7 +5322,7 @@ hash = "156bbef4c023aaa34c1561034b0ad85d45beb98ba012dc309c59a63b6231fe15"
 
 [[files]]
 file = "kubejs/server_scripts/fateubw_balance.js"
-hash = "f8d9811b2f2b183cd13dfd92ac1c1349f7f16036d7345c6c6f16b7319a1e868d"
+hash = "d30df21494ba4d8b32d711376449637fa35ac5cba68c3a6e71ce1c475acb788e"
 
 [[files]]
 file = "kubejs/server_scripts/fixes.js"
@@ -5334,7 +5334,7 @@ hash = "842b13da4f900c1d724dca00b6adec7d2a43ba2e0d7fff27b10b76eac32d2d87"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "c2f2647bb76b86b490cfdf39454ac8643477e7620127f4c7f300a8c867da2b21"
+hash = "34212e06437f2debff18c5959e9f8af632be7794113195d98f56ede5cf698a2c"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"

@@ -12,6 +12,7 @@ const CHANGES = [
 ]
 // Wichtige Hinweise, werden rot unter dem Changelog angezeigt (leer lassen, wenn nichts ansteht)
 const NOTES = [
+  'Wichtig: Im Launcher NeoForge auf 21.1.248 stellen, sonst startet der Client nicht!',
   'Wichtig: Resourcepack "ATM x MSD" aktivieren (Optionen > Ressourcenpakete), sonst sind neue Pokemon unsichtbar!',
 ]
 
