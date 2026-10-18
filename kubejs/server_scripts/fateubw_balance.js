@@ -1,8 +1,9 @@
 // Fate/Unlimited Block Works: Gralkrieg soll nicht von Waffen und Rüstungen anderer Mods überlagert werden.
 //
 // 1) Fremde Waffen gegen Servants: Schaden von Waffen, Zaubern, Projektilen und Maschinen anderer Mods
-//    (z.B. Cataclysm, Iron's Spells, Ars Nouveau, Create Big Cannons) gegen Servants und ihre Beschwörungen
+//    (z.B. Cataclysm, Ars Nouveau, Create Big Cannons) gegen Servants und ihre Beschwörungen
 //    wird stark reduziert und pro Treffer gedeckelt. Vanilla- und Fate-Waffen bleiben unverändert.
+//    Ausnahmen pro Mod in MOD_RULES: Iron's Spells soll im Gralkrieg als Magier-Spielstil nutzbar bleiben.
 // 2) Fremde Waffen zwischen Mastern: Greift ein Spieler einen Gralkrieg-Teilnehmer mit Waffen anderer Mods an,
 //    wird der Schaden ebenfalls reduziert.
 // 3) MekaSuit: Die MekaSuit würde Servant-Nahkampf und Medeas Magie zu 100 % absorbieren. Fate-Schaden an
@@ -18,6 +19,10 @@
   // Bei Balance-Änderungen nur diese Werte anpassen
   var FOREIGN_DAMAGE_MULT = 0.4 // fremder Schaden gegen Servants / Teilnehmer
   var SERVANT_HIT_CAP = 0.05 // fremder Schaden max. 5 % der Servant-Max-HP pro Treffer
+  // Eigene Werte für einzelne Mods (Mod-ID: mult = Schadensfaktor, cap = max. Anteil der Servant-Max-HP pro Treffer)
+  var MOD_RULES = {
+    irons_spellbooks: { mult: 0.75, cap: 0.08 }
+  }
 
   var FATE_NS = 'fateubw'
   var NATIVE_NS = { minecraft: true, fateubw: true }
@@ -90,17 +95,28 @@
     return entity != null && entity instanceof Player
   }
 
-  // Stammt der Schaden von Waffen, Zaubern oder Entities anderer Mods?
-  function isForeignDamage(source, attacker, direct) {
-    if (isForeign(damageTypeNs(source))) return true
-    if (direct && isForeign(entityNs(direct))) return true
-    if (attacker && isForeign(entityNs(attacker))) return true
+  // Von welcher fremden Mod stammt der Schaden (Schadenstyp, Projektil/Beschwörung, Angreifer, Nahkampfwaffe)?
+  // null = Vanilla oder Fate
+  function foreignNs(source, attacker, direct) {
+    var ns = damageTypeNs(source)
+    if (isForeign(ns)) return ns
+    ns = entityNs(direct)
+    if (isForeign(ns)) return ns
+    ns = entityNs(attacker)
+    if (isForeign(ns)) return ns
     // Nahkampf: Waffe in der Hand prüfen
     if (isPlayer(attacker) && direct != null && direct.equals(attacker)) {
       var weapon = attacker.getMainHandItem()
-      if (!weapon.isEmpty() && isForeign(itemNs(weapon))) return true
+      if (!weapon.isEmpty()) {
+        ns = itemNs(weapon)
+        if (isForeign(ns)) return ns
+      }
     }
-    return false
+    return null
+  }
+
+  function ruleFor(ns) {
+    return MOD_RULES[ns] || { mult: FOREIGN_DAMAGE_MULT, cap: SERVANT_HIT_CAP }
   }
 
   function isFateSource(source, attacker, direct) {
@@ -143,9 +159,10 @@
 
     // 1) Fremder Schaden gegen Servants und ihre Beschwörungen
     if (entityNs(victim) === FATE_NS) {
-      if (!isForeignDamage(source, attacker, direct)) return
-      var cap = victim.getMaxHealth() * SERVANT_HIT_CAP
-      event.setAmount(Math.min(event.getAmount() * FOREIGN_DAMAGE_MULT, cap))
+      var ns = foreignNs(source, attacker, direct)
+      if (ns == null) return
+      var rule = ruleFor(ns)
+      event.setAmount(Math.min(event.getAmount() * rule.mult, victim.getMaxHealth() * rule.cap))
       return
     }
 
@@ -153,8 +170,9 @@
     if (isPlayer(victim) && isPlayer(attacker) && !attacker.equals(victim)) {
       if (!GrailWarHandler.get(victim.getServer()).isParticipant(victim)) return
       if (isFateSource(source, attacker, direct)) return
-      if (!isForeignDamage(source, attacker, direct)) return
-      event.setAmount(event.getAmount() * FOREIGN_DAMAGE_MULT)
+      var pvpNs = foreignNs(source, attacker, direct)
+      if (pvpNs == null) return
+      event.setAmount(event.getAmount() * ruleFor(pvpNs).mult)
     }
   }
 
