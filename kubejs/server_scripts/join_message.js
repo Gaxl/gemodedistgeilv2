@@ -2,8 +2,9 @@
 
 // Bei einem Update nur diese Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.10'
+const VERSION = 'beta1.10.1'
 const CHANGES = [
+  ['!', 'Fixed client crash when breaking a completed Summoning Altar (Fate)'],
   ['+', 'Fate/Unlimited Block Works: Holy Grail War with servants (+ TenshiLib, Modopedia guidebook)'],
   ['~', 'NeoForge updated to 21.1.248'],
 ]

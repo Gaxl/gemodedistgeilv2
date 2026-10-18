@@ -5334,7 +5334,7 @@ hash = "842b13da4f900c1d724dca00b6adec7d2a43ba2e0d7fff27b10b76eac32d2d87"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "43a73a62de3afa8be90116b1fc5af921e516bdc21e6e970bbaca8df0cb5bc645"
+hash = "15606048166f4f6862fa026b983133fbd4a7e8d902a6c564ea9bf21d0e5a57d3"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -6354,8 +6354,8 @@ hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
 metafile = true
 
 [[files]]
-file = "mods/gig-aliases-neoforge-1.21.1-1.2.0.jar"
-hash = "66d2b910f77ab635fcf96c2f6b674603704eb887a5ad92b3a1682c567558c9f1"
+file = "mods/gig-aliases-neoforge-1.21.1-1.3.0.jar"
+hash = "bf06c97accb2c7177f1884846b13ff38874040c8fd789d2c823a1e706d1ceea8"
 
 [[files]]
 file = "mods/gig-arena-neoforge-1.21.1-1.0.0.jar"
