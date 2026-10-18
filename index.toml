@@ -5322,7 +5322,7 @@ hash = "156bbef4c023aaa34c1561034b0ad85d45beb98ba012dc309c59a63b6231fe15"
 
 [[files]]
 file = "kubejs/server_scripts/fateubw_balance.js"
-hash = "f2fa808d468908d1c87b0f7530d664bef6f719cbfb6079beabbfe941309a7c7d"
+hash = "cfbcc71f025e6498377b395f2220aecc6ef18ca151fbf0dc8a8231c1099f0442"
 
 [[files]]
 file = "kubejs/server_scripts/fixes.js"

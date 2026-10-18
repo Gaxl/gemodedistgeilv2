@@ -1,9 +1,14 @@
 // Fate/Unlimited Block Works: Gralkrieg soll nicht von Waffen und Rüstungen anderer Mods überlagert werden.
 //
-// 1) Fremde Waffen gegen Servants: Schaden von Waffen, Zaubern, Projektilen und Maschinen anderer Mods
-//    (z.B. Cataclysm, Ars Nouveau, Create Big Cannons) gegen Servants und ihre Beschwörungen
-//    wird stark reduziert und pro Treffer gedeckelt. Vanilla- und Fate-Waffen bleiben unverändert.
-//    Ausnahmen pro Mod in MOD_RULES: Iron's Spells soll im Gralkrieg als Magier-Spielstil nutzbar bleiben.
+// 1) Fremde Mods gegen Servants: Jeder Spielstil (Iron's Spells, Ars Nouveau, Cataclysm-Waffen, Pistolen ...)
+//    soll nutzbar sein, Servants aber nie leicht fallen. Deshalb gleiche Regeln für alle Mods:
+//    - Spieler-Angriffe (auch über Projektile und Beschwörungen des Spielers) mit Waffen/Zaubern anderer Mods:
+//      PLAYER_MULT, pro Treffer max. PLAYER_CAP der Servant-Max-HP.
+//    - Schaden ohne Spieler dahinter (Geschütze, Kanonen, Maschinen, Mod-Mobs): AUTO_MULT / AUTO_CAP,
+//      damit Servants nicht per Automatik erledigt werden.
+//    - Burst-Grenze: Aller Schaden außer Fate zusammen höchstens BURST_CAP der Max-HP pro Sekunde,
+//      egal wie schnell eine Waffe trifft. Vanilla-Waffen bleiben sonst unverändert.
+//    Einzelne Mods lassen sich in MOD_RULES abweichend einstellen.
 // 2) Fremde Waffen zwischen Mastern: Greift ein Spieler einen Gralkrieg-Teilnehmer mit Waffen anderer Mods an,
 //    wird der Schaden ebenfalls reduziert.
 // 3) MekaSuit: Die MekaSuit würde Servant-Nahkampf und Medeas Magie zu 100 % absorbieren. Fate-Schaden an
@@ -17,12 +22,13 @@
 
 (function () {
   // Bei Balance-Änderungen nur diese Werte anpassen
-  var FOREIGN_DAMAGE_MULT = 0.4 // fremder Schaden gegen Servants / Teilnehmer
-  var SERVANT_HIT_CAP = 0.05 // fremder Schaden max. 5 % der Servant-Max-HP pro Treffer
-  // Eigene Werte für einzelne Mods (Mod-ID: mult = Schadensfaktor, cap = max. Anteil der Servant-Max-HP pro Treffer)
-  var MOD_RULES = {
-    irons_spellbooks: { mult: 0.75, cap: 0.08 }
-  }
+  var PLAYER_MULT = 0.75 // Spieler mit Waffen/Zaubern anderer Mods (auch PvP gegen Teilnehmer)
+  var PLAYER_CAP = 0.08 // ... max. 8 % der Servant-Max-HP pro Treffer
+  var AUTO_MULT = 0.3 // fremder Schaden ohne Spieler dahinter (Geschütze, Kanonen, Maschinen, Mod-Mobs)
+  var AUTO_CAP = 0.04 // ... max. 4 % pro Treffer
+  var BURST_CAP = 0.15 // aller Nicht-Fate-Schaden zusammen max. 15 % der Max-HP pro Sekunde
+  // Abweichende Werte für einzelne Mods (Mod-ID: mult = Schadensfaktor, cap = max. Anteil pro Treffer)
+  var MOD_RULES = {}
 
   var FATE_NS = 'fateubw'
   var NATIVE_NS = { minecraft: true, fateubw: true }
@@ -115,8 +121,43 @@
     return null
   }
 
-  function ruleFor(ns) {
-    return MOD_RULES[ns] || { mult: FOREIGN_DAMAGE_MULT, cap: SERVANT_HIT_CAP }
+  // Steckt ein Spieler hinter dem Angriff (direkt, Projektil-Besitzer oder Herr einer Beschwörung/Zähmung)?
+  function playerBehind(attacker) {
+    if (isPlayer(attacker)) return true
+    if (!attacker) return false
+    var owner = null
+    try {
+      owner = call(attacker, ['getOwner', 'getSummoner', 'owner', 'summoner'])
+    } catch (e) {
+      owner = null
+    }
+    return isPlayer(owner)
+  }
+
+  function ruleFor(ns, byPlayer) {
+    if (MOD_RULES[ns]) return MOD_RULES[ns]
+    return byPlayer ? { mult: PLAYER_MULT, cap: PLAYER_CAP } : { mult: AUTO_MULT, cap: AUTO_CAP }
+  }
+
+  // Burst-Grenze: Schaden pro Servant im laufenden 1-Sekunden-Fenster (Systemuhr; getGameTime ist in KubeJS ausgeblendet)
+  var burst = {}
+  var burstCleanup = 0
+  function applyBurst(victim, amount) {
+    var now = Date.now()
+    var id = String(call(victim, ['getStringUUID', 'stringUUID', 'getUUID', 'uuid']))
+    var b = burst[id]
+    if (!b || now - b.start >= 1000) {
+      b = { start: now, dealt: 0 }
+      burst[id] = b
+    }
+    var allowed = Math.max(0, victim.getMaxHealth() * BURST_CAP - b.dealt)
+    var dealt = Math.min(amount, allowed)
+    b.dealt += dealt
+    if (++burstCleanup >= 200) {
+      burstCleanup = 0
+      for (var k in burst) if (now - burst[k].start >= 1000) delete burst[k]
+    }
+    return dealt
   }
 
   function isFateSource(source, attacker, direct) {
@@ -157,12 +198,15 @@
       return
     }
 
-    // 1) Fremder Schaden gegen Servants und ihre Beschwörungen
+    // 1) Schaden gegen Servants und ihre Beschwörungen (Fate-Schaden wurde oben schon ausgenommen)
     if (entityNs(victim) === FATE_NS) {
+      var amount = event.getAmount()
       var ns = foreignNs(source, attacker, direct)
-      if (ns == null) return
-      var rule = ruleFor(ns)
-      event.setAmount(Math.min(event.getAmount() * rule.mult, victim.getMaxHealth() * rule.cap))
+      if (ns != null) {
+        var rule = ruleFor(ns, playerBehind(attacker))
+        amount = Math.min(amount * rule.mult, victim.getMaxHealth() * rule.cap)
+      }
+      event.setAmount(applyBurst(victim, amount))
       return
     }
 
@@ -172,7 +216,7 @@
       if (isFateSource(source, attacker, direct)) return
       var pvpNs = foreignNs(source, attacker, direct)
       if (pvpNs == null) return
-      event.setAmount(event.getAmount() * ruleFor(pvpNs).mult)
+      event.setAmount(event.getAmount() * ruleFor(pvpNs, true).mult)
     }
   }
 
