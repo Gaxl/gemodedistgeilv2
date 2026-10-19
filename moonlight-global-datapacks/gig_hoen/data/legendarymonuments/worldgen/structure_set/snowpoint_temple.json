@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387312,
+    "separation": 45,
+    "spacing": 65
+  },
+  "structures": [
+    {
+      "structure": "legendarymonuments:snowpoint_temple",
+      "weight": 1
+    }
+  ]
+}

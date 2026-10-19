@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "gig_hoen:marinetemple_default",
+      "weight": 1
+    },
+    {
+      "structure": "gig_hoen:marinetemple_cold",
+      "weight": 100
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 65,
+    "separation": 45,
+    "salt": 230106840
+  }
+}

@@ -5830,7 +5830,7 @@ hash = "842b13da4f900c1d724dca00b6adec7d2a43ba2e0d7fff27b10b76eac32d2d87"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "b5be4c61a171e79688b877d2bece017797c1681324df1c83666e4703fec761eb"
+hash = "ddb90b380245e51c7aefc409d7585b83c7295d9789648285dd133986e8f484ab"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -6304,6 +6304,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "f480fa46d7f4800dad4414d136541f8f8410d5907fc014e389b648d20b1065ce"
+metafile = true
+
+[[files]]
+file = "mods/cobblemonmonuments-of-hoen.pw.toml"
+hash = "a448069200449f3d20b112a6f1baabde3dee61f493d99213a61a97a1cfa7bd13"
 metafile = true
 
 [[files]]
@@ -7294,6 +7299,11 @@ hash = "69dcfe79203d12e1ae73cb5079db8ac76f37a3b0db2d3a48021f772b5e9b56cc"
 metafile = true
 
 [[files]]
+file = "mods/omnicompass.pw.toml"
+hash = "74c0d3b31cbef3ac4162f120557aee9cb6ea97518273e70feeaa0aa589790afe"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
 metafile = true
@@ -7767,6 +7777,154 @@ metafile = true
 file = "moonlight-global-datapacks/allthemons-x-mega-showdown.pw.toml"
 hash = "4edf027458da25ae0f3f8e3a6fdae79464b104d70d12c07edac2f8c41fc95f1f"
 metafile = true
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/regigigas_compass.json"
+hash = "3c6f43a8f2965fe1101a12b6747f6db49052d8514d0b17232bc6d0d0b1d8b400"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/recipe/craft_regigigas_compass.json"
+hash = "6153e30c8533f2b0b11333d6865e83b0c006df81cef1a9526d8c456f65cf5cb3"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/structure/groudon_crimson.nbt"
+hash = "913b38d372bbc78043174c5195471321f09d693f1debc341ca381b6d67d7b24a"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/structure/groudon_soul.nbt"
+hash = "3e9d0848b3d747316ba5310960272da601a0de1f27f957c81cf2f824aa9ac949"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/structure/groudon_warped.nbt"
+hash = "4ce01a141db19afb0df99a716ca6c2a3ad26c8984b6d8f998faa9f82c972351b"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/structure/kyogre_cold.nbt"
+hash = "a171abecec638da10fe23003d0d5a304cbfcd0d6d51c1c26a54a0c639c4dd145"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/structure/rayquaza_default.nbt"
+hash = "b2790a64ae8bcdd7c7ec487534805e95b4e302069660de057e9a36101c946c64"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/structure/rayquaza_red.nbt"
+hash = "1b77044403b5d456995c47b2755b12bcbc686c2587d3b842b90ee3c6af5d35d6"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/tags/worldgen/biome/nether_crimson.json"
+hash = "00740b6f90a3d42f4a06f2e665cb3adc8315efe69a95fa891895eae8c0a8e307"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/tags/worldgen/biome/nether_default.json"
+hash = "f42c132104e345d37692b45a21f501008b0615fe870225aa71dff4153554780d"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/tags/worldgen/biome/nether_soul.json"
+hash = "bc6ed4cf18986bf36035547d8225fdb5defcdcacae8317b586fac5c0fdf5c6a1"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/tags/worldgen/biome/nether_warped.json"
+hash = "9b372a9d5de76462559f5cc4f63437e8aed83025a79dfc01c8011eb269219213"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/tags/worldgen/biome/ocean_cold.json"
+hash = "b7633a55150d39246897846b85cda3ae2785ba893d7224781d039cae7cd4cbd7"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/tags/worldgen/biome/ocean_warm.json"
+hash = "dd3ccaee78f670e51bf9971f80af7a75fc9c3077210b986a20c3c04b90639243"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/tags/worldgen/biome/sky_red.json"
+hash = "8888e2de88aa318a23f0498bf54c51b540b4b831e1ec083c97155ecd2980ec7e"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/tags/worldgen/biome/sky_sand.json"
+hash = "58c17ed8c60e8a63ea1423be776ee3c06fb2afe8c9bdea18aa772edceef0bdd4"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/tags/worldgen/biome/snowpoint.json"
+hash = "167f7b9d58c3ac352004a012652f8606c4162c3646afe28d85c39b3d1d82e0da"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/worldgen/structure/magma_shrine_crimson.json"
+hash = "96181cad032d1b8f77128ee91ca3e0102d866e9e52f39394e1b9f2b5fe6cb351"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/worldgen/structure/magma_shrine_default.json"
+hash = "a7f2edc7273ac95fdd4989f87b0c11d2e225ae3489b2bac86894d17479cdeac1"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/worldgen/structure/magma_shrine_soul.json"
+hash = "69f32289e1042ab9dd4c7eee6fcb9aba65da29adccbbe950fe6a1cb22433c46a"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/worldgen/structure/magma_shrine_warped.json"
+hash = "a44890d87423680744b0be8b415fd2d3bc5cd7da330359383e257ecbdb76b91f"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/worldgen/structure/marinetemple_cold.json"
+hash = "616894f986da8630fc660c49932ab5c9667d9c38e3d5208bf1bb1b3f75a99a7c"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/worldgen/structure/marinetemple_default.json"
+hash = "679aba9013ed5c9c19af1fe7a260b3fc05a4d819b427895c7146836ce8cf6a1e"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/worldgen/structure/sky_pillar_default.json"
+hash = "a11179a244ad61543acde46055fd315cb506dd4e9123f1b821cd937e4ccb9dcb"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/worldgen/structure/sky_pillar_red.json"
+hash = "0dbe58b701cd1c63fec3bea8e4f0a3e09de4d53c21967440cea9f50071f2d6a3"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/worldgen/template_pool/magma_shrine_crimson.json"
+hash = "f0c310954ee632e0e42d90e513626ef0ab05751485fb22cded132ceb526c9dda"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/worldgen/template_pool/magma_shrine_soul.json"
+hash = "82f7aa4b8a1961e6f54033b7d7f81fcbb1da7a0abb506f8410a0bb4c76270b33"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/worldgen/template_pool/magma_shrine_warped.json"
+hash = "48d0d37428e4ff89556f6d094dfe866517908fc28bff9884a99b3b6e2cc720fb"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/worldgen/template_pool/marinetemple_cold.json"
+hash = "babfe8d10cf1ad90b45ab64c41270ff54b79f0edd95629c9dd9cadb23839e9c8"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/worldgen/template_pool/sky_pillar_default.json"
+hash = "4ef256dc84fb4bfdd72885efb39fb26d21325ab338de09a8e5c49b8ec851cc67"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/worldgen/template_pool/sky_pillar_red.json"
+hash = "556d4cf3653aef05f0d8a5e6bd071a36b65c1dc1f0e49760c5eaadb1eab7a0c4"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/hoenmonuments/worldgen/structure_set/magma_shrine.json"
+hash = "252d44bde8ecc26696874457fa5e34f7a266d49c28a7940013227aa40b8e804a"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/hoenmonuments/worldgen/structure_set/marinetemple.json"
+hash = "c099a3841c7b3f516f8ec816f8360110f3088639d0523b78bbba967118eb3cf7"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/hoenmonuments/worldgen/structure_set/sky_pillar.json"
+hash = "9c3f2a66438036711b4fa5a5790dcb71dff6cf0fbd4dcfb829e5545b6bbe8661"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/legendarymonuments/worldgen/structure/snowpoint_temple.json"
+hash = "d5a8cedf10a394af3b8bf3a54b37b8fdffa77cb5daec19395b2044050791efa2"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/legendarymonuments/worldgen/structure_set/snowpoint_temple.json"
+hash = "d50a288824de042003a5d411be19f7cacb06bbf224f38aa5800bf4ec15243b79"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/pack.mcmeta"
+hash = "d537dbdad9779a5017e5bce5e65c3a0351b3edbde509214c93c7ee98ee081e53"
 
 [[files]]
 file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/data/special_spawns/spawn_pool_world/legendary/fezandipiti.json"

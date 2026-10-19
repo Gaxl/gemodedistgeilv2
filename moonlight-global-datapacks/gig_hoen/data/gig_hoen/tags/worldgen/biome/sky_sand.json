@@ -1,0 +1,53 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:is_desert",
+      "required": false
+    },
+    {
+      "id": "minecraft:desert",
+      "required": false
+    },
+    {
+      "id": "terralith:ancient_sands",
+      "required": false
+    },
+    {
+      "id": "terralith:desert_oasis",
+      "required": false
+    },
+    {
+      "id": "terralith:desert_spires",
+      "required": false
+    },
+    {
+      "id": "terralith:gravel_desert",
+      "required": false
+    },
+    {
+      "id": "terralith:lush_desert",
+      "required": false
+    },
+    {
+      "id": "terralith:sandstone_valley",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:lively_dunes",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:scorched_dunes",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:blooming_dunes",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:stratified_desert",
+      "required": false
+    }
+  ]
+}

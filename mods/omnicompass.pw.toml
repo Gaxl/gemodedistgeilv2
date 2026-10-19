@@ -1,0 +1,13 @@
+name = "OmniCompass"
+filename = "OmniCompass-neoforge-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/eCgKR4yS/versions/DURJfHq0/OmniCompass-neoforge-1.2.1.jar"
+hash-format = "sha512"
+hash = "fcbeb7ffdc0e73fcbdf185926ffe0db9f9b27c60d4b2ace3da091e87667040741abe0745b33d76baf93d2e1b6ad0e1bad4533eefcff4bd5fda5af9b46f73c714"
+
+[update]
+[update.modrinth]
+mod-id = "eCgKR4yS"
+version = "DURJfHq0"

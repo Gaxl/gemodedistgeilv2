@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:snowy_plains",
+      "required": false
+    },
+    {
+      "id": "minecraft:ice_spikes",
+      "required": false
+    },
+    {
+      "id": "minecraft:snowy_taiga",
+      "required": false
+    },
+    {
+      "id": "minecraft:grove",
+      "required": false
+    },
+    {
+      "id": "terralith:snowy_maple_forest",
+      "required": false
+    },
+    {
+      "id": "terralith:snowy_shield",
+      "required": false
+    }
+  ]
+}

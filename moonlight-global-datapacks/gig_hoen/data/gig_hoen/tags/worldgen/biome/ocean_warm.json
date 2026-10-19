@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#minecraft:is_deep_ocean",
+      "required": false
+    },
+    {
+      "id": "terralith:deep_warm_ocean",
+      "required": false
+    }
+  ]
+}

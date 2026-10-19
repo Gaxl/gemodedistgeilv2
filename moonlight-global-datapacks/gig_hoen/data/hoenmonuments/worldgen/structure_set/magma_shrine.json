@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "gig_hoen:magma_shrine_default",
+      "weight": 1
+    },
+    {
+      "structure": "gig_hoen:magma_shrine_crimson",
+      "weight": 100
+    },
+    {
+      "structure": "gig_hoen:magma_shrine_warped",
+      "weight": 100
+    },
+    {
+      "structure": "gig_hoen:magma_shrine_soul",
+      "weight": 100
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 65,
+    "separation": 45,
+    "salt": 1018011039
+  }
+}

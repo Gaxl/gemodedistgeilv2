@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "gig_hoen:sky_pillar_default",
+      "weight": 1
+    },
+    {
+      "structure": "gig_hoen:sky_pillar_red",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 65,
+    "separation": 45,
+    "salt": 711629571
+  }
+}

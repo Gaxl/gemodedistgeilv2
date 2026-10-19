@@ -1,0 +1,13 @@
+name = "Cobblemon:Monuments of Hoen"
+filename = "Monuments Of Hoen Prism Expansion.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Rgav3l0t/versions/7AGJhS5r/Monuments%20Of%20Hoen%20Prism%20Expansion.jar"
+hash-format = "sha512"
+hash = "f6bd667a06b2430cb1e4e40dcf535ab15499fdeb4078d4228aff441918432083b7d2c8313415e6f0e012361c6678dcd8f724c44f716a5ea612e98a96763d7610"
+
+[update]
+[update.modrinth]
+mod-id = "Rgav3l0t"
+version = "7AGJhS5r"

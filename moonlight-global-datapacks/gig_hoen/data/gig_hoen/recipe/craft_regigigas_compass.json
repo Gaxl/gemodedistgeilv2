@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "S": {
+      "item": "cobblemon:ice_gem"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SCS",
+    " S "
+  ],
+  "result": {
+    "components": {
+      "omnicompass:compass_type": "gig_hoen:regigigas_compass"
+    },
+    "count": 1,
+    "id": "omnicompass:compass"
+  }
+}

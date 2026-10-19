@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#minecraft:is_badlands",
+      "required": false
+    },
+    {
+      "id": "terralith:desert_canyon",
+      "required": false
+    },
+    {
+      "id": "terralith:red_oasis",
+      "required": false
+    },
+    {
+      "id": "terralith:warped_mesa",
+      "required": false
+    },
+    {
+      "id": "terralith:white_mesa",
+      "required": false
+    }
+  ]
+}
