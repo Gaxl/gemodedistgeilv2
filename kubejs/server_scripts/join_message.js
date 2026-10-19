@@ -2,8 +2,9 @@
 
 // Bei einem Update nur diese Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.11'
+const VERSION = '2.0'
 const CHANGES = [
+  ['~', 'Beta is over: Gemoded Ist Geil is now version 2.0'],
   ['+', 'Radiation overhaul: radiation now comes from sources (uranium, waste, tanks, machines) instead of spreading from player to player. Falls off with distance, lead/concrete shield it'],
   ['+', 'All hazmat suits (Create Nuclear, Alex\'s Caves, Mekanism) protect equally against every kind of radiation, pieces can be mixed. Iodine too'],
   ['+', 'Uranium of all mods radiates by purity (see item tooltip). Lead-lined Reinforced Crate (Immersive Engineering) shields its contents'],
