@@ -5830,7 +5830,7 @@ hash = "842b13da4f900c1d724dca00b6adec7d2a43ba2e0d7fff27b10b76eac32d2d87"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "c648c71e78fb5e69cfaf3d06d44b80f3b62e82214b9aeb91d19d1ec0f2727df9"
+hash = "b5be4c61a171e79688b877d2bece017797c1681324df1c83666e4703fec761eb"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"

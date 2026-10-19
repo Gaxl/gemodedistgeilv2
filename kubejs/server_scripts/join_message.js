@@ -2,7 +2,7 @@
 
 // Bei einem Update nur diese Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.9'
+const VERSION = 'beta1.11'
 const CHANGES = [
   ['+', 'Radiation overhaul: radiation now comes from sources (uranium, waste, tanks, machines) instead of spreading from player to player. Falls off with distance, lead/concrete shield it'],
   ['+', 'All hazmat suits (Create Nuclear, Alex\'s Caves, Mekanism) protect equally against every kind of radiation, pieces can be mixed. Iodine too'],
