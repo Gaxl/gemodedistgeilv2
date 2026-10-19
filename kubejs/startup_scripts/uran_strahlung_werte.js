@@ -173,11 +173,11 @@ wert('evolvedmekanism:molten_plutonium_bucket', 27, 'spaltstoff')
 
 // --- Mekanism-Chemikalien in Tanks, Maschinen und Items (pro 1000 mB) ---
 chemikalie('mekanism:nuclear_waste', 20)
-chemikalie('mekanism:spent_nuclear_waste', 10)
+chemikalie('mekanism:spent_nuclear_waste', 20)
 chemikalie('mekanism:plutonium', 4)
 chemikalie('mekanism:polonium', 10)
-chemikalie('mekanism:fissile_fuel', 3)
-chemikalie('mekanism:uranium_oxide', 0.5)
+chemikalie('mekanism:fissile_fuel', 0.3)
+chemikalie('mekanism:uranium_oxide', 0.1)
 chemikalie('mekanism:uranium_hexafluoride', 0.5)
 
 // --- Flüssigkeiten in Tanks und Maschinen (pro 1000 mB) ---

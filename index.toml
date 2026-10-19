@@ -5866,7 +5866,7 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "kubejs/startup_scripts/uran_strahlung_werte.js"
-hash = "386f108e132e0a844fb4136b99d12f004c7711ff3a061edd1508739d48f1d3a3"
+hash = "3efb417944201fdf27134b2490894213261d7b314e29b985803f73c64a8754a2"
 
 [[files]]
 file = "licenses/fantasyfurniture/GPL-3.0.txt"
