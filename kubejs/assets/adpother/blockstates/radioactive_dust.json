@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "density=light": {
+      "model": "adpother:block/radioactive_dust_light"
+    },
+    "density=medium": {
+      "model": "adpother:block/radioactive_dust_medium"
+    },
+    "density=heavy": {
+      "model": "adpother:block/radioactive_dust_heavy"
+    }
+  }
+}

@@ -4,5 +4,21 @@
   "death.attack.kubejs.fate_attack.item": "%1$s wurde von %2$s mit %3$s getötet",
   "death.attack.kubejs.fate_piercing": "%1$s wurde vom Noble Phantasm von %2$s niedergestreckt",
   "death.attack.kubejs.fate_piercing.player": "%1$s wurde im Kampf gegen %2$s von einem Noble Phantasm niedergestreckt",
-  "death.attack.kubejs.fate_piercing.item": "%1$s wurde vom Noble Phantasm von %2$s niedergestreckt"
+  "death.attack.kubejs.fate_piercing.item": "%1$s wurde vom Noble Phantasm von %2$s niedergestreckt",
+  "gig.radiation.tooltip": "☢ Radioaktiv: %s pro Stück (%s)",
+  "gig.radiation.crate": "☢ Mit Blei ausgekleidet: schirmt radioaktiven Inhalt vollständig ab",
+  "gig.tooltip.disabled": "Deaktiviert: Dieses Item ist auf dem Server nicht herstellbar.",
+  "gig.radiation.join": "Du bekommst einmalig 30 Minuten Strahlenschutz (Iodine), um dich an die Änderungen zu gewöhnen. Er schützt gegen jede Strahlungsart. Details stehen im Uran & Strahlung Guide.",
+  "gig.radiation.join.title": "☢ Neues Strahlungssystem: ",
+  "gig.radiation.level.erz": "Erz",
+  "gig.radiation.level.roh": "Roh",
+  "gig.radiation.level.vorstufe": "Vorstufe",
+  "gig.radiation.level.rein": "Natürliches Uran",
+  "gig.radiation.level.abgereichert": "Abgereichert",
+  "gig.radiation.level.le": "Leicht angereichert",
+  "gig.radiation.level.he": "Hoch angereichert",
+  "gig.radiation.level.brennstab": "Frischer Brennstab",
+  "gig.radiation.level.spaltstoff": "Spaltstoff",
+  "gig.radiation.level.abgebrannt": "Abgebrannter Brennstab",
+  "gig.radiation.level.abfall": "Radioaktiver Abfall"
 }

@@ -4,5 +4,21 @@
   "death.attack.kubejs.fate_attack.item": "%1$s was slain by %2$s using %3$s",
   "death.attack.kubejs.fate_piercing": "%1$s was struck down by the Noble Phantasm of %2$s",
   "death.attack.kubejs.fate_piercing.player": "%1$s was struck down by a Noble Phantasm while fighting %2$s",
-  "death.attack.kubejs.fate_piercing.item": "%1$s was struck down by the Noble Phantasm of %2$s"
+  "death.attack.kubejs.fate_piercing.item": "%1$s was struck down by the Noble Phantasm of %2$s",
+  "gig.radiation.tooltip": "☢ Radioactive: %s per item (%s)",
+  "gig.radiation.crate": "☢ Lead-lined: fully shields radioactive contents",
+  "gig.tooltip.disabled": "Disabled: This item cannot be crafted on the server.",
+  "gig.radiation.join": "You get 30 minutes of radiation protection (Iodine) once, to get used to the changes. It protects against every kind of radiation. Details are in the Uranium & Radiation guide.",
+  "gig.radiation.join.title": "☢ New radiation system: ",
+  "gig.radiation.level.erz": "Ore",
+  "gig.radiation.level.roh": "Raw",
+  "gig.radiation.level.vorstufe": "Intermediate",
+  "gig.radiation.level.rein": "Natural uranium",
+  "gig.radiation.level.abgereichert": "Depleted",
+  "gig.radiation.level.le": "Low enriched",
+  "gig.radiation.level.he": "Highly enriched",
+  "gig.radiation.level.brennstab": "Fresh fuel rod",
+  "gig.radiation.level.spaltstoff": "Fissile material",
+  "gig.radiation.level.abgebrannt": "Spent fuel rod",
+  "gig.radiation.level.abfall": "Radioactive waste"
 }

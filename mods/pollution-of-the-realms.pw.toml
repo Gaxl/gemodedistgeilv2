@@ -1,0 +1,13 @@
+name = "Pollution of the Realms"
+filename = "AdPother-1.21.1-9.1.12.0-NeoForge-build.1184.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SN8xUUfR/versions/7biB1xfy/AdPother-1.21.1-9.1.12.0-NeoForge-build.1184.jar"
+hash-format = "sha512"
+hash = "75157a66fb1fc5d6fe3e7d4c6505bf185dbeb043ae18b17135c696d118af86a5fd80d7b7ff1b04417dc21a596584c90195db9c22dece97f0f3edfcbdb68966df"
+
+[update]
+[update.modrinth]
+mod-id = "SN8xUUfR"
+version = "7biB1xfy"

@@ -2,11 +2,14 @@
 
 // Bei einem Update nur diese Werte anpassen
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
-const VERSION = 'beta1.10.1'
+const VERSION = 'beta1.11'
 const CHANGES = [
-  ['!', 'Fixed client crash when breaking a completed Summoning Altar (Fate)'],
-  ['+', 'Fate/Unlimited Block Works: Holy Grail War with servants (+ TenshiLib, Modopedia guidebook)'],
-  ['~', 'NeoForge updated to 21.1.248'],
+  ['+', 'Radiation overhaul: radiation now comes from sources (uranium, waste, tanks, machines) instead of spreading from player to player. Falls off with distance, lead/concrete shield it'],
+  ['+', 'All hazmat suits (Create Nuclear, Alex\'s Caves, Mekanism) protect equally against every kind of radiation, pieces can be mixed. Iodine too'],
+  ['+', 'Uranium of all mods radiates by purity (see item tooltip). Lead-lined Reinforced Crate (Immersive Engineering) shields its contents'],
+  ['+', 'Pollution of the Realms + Advanced Chimneys: smoke, smog, filters, respirators. Forests and rain clean the air. Radioactive dust from uranium processing and meltdowns'],
+  ['+', 'Everyone gets 30 minutes of radiation protection once on the next join'],
+  ['~', 'GiG Aliases 1.7.2, ForgeEndertech 12.1.4'],
 ]
 // Wichtige Hinweise, werden rot unter dem Changelog angezeigt (leer lassen, wenn nichts ansteht)
 const NOTES = [

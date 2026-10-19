@@ -115,6 +115,450 @@ file = "config/accessories.json5"
 hash = "b9f6a56acdb02a286de9aa06578dac5485656fb476adc819fb3c63dd49ad0785"
 
 [[files]]
+file = "config/adpother/Biomes/antarchy$nadir_forest.cfg"
+hash = "ecf0fe9218ec580b9c87e1bc4cdd57cfe0cc86bdee2b0cec7de3225e039f8ff6"
+
+[[files]]
+file = "config/adpother/Biomes/antarchy$ouranwood_forest.cfg"
+hash = "958b6187b68d24e9640961a9861fb35d2add55194d06a43efd6d8d6a45ad5550"
+
+[[files]]
+file = "config/adpother/Biomes/antarchy$peach_forest.cfg"
+hash = "be438d415ad93729634bea2ef849833283992e6c12136a2cd70bdb5bc71cba44"
+
+[[files]]
+file = "config/adpother/Biomes/antarchy$sparse_ouranwood_forest.cfg"
+hash = "fa9fe7a24faf421429b0df3e61e87c5cd63387dccd3357f9bf538c5b59311aed"
+
+[[files]]
+file = "config/adpother/Biomes/antarchy$truffalo_forest.cfg"
+hash = "c3638d4b61856d73511097d5218a1f30b48bb59b057d86f834da42f8962180ab"
+
+[[files]]
+file = "config/adpother/Biomes/ars_elemental$blazing_forest.cfg"
+hash = "17a579e15bf8bd68468b8c128ef804bf87ace13673b7508e0e91b795c4314a27"
+
+[[files]]
+file = "config/adpother/Biomes/ars_elemental$cascading_forest.cfg"
+hash = "6a79c7e6f69ff56bef6730fed48b407469a98aa00bc1e6332443a5e34f0201c9"
+
+[[files]]
+file = "config/adpother/Biomes/ars_elemental$flashing_forest.cfg"
+hash = "597f56afeaef7143c7a1576e637349704da98d60b70c42bcb7add7c11e096058"
+
+[[files]]
+file = "config/adpother/Biomes/ars_elemental$flourishing_forest.cfg"
+hash = "11e5a3b7b157894b004f5c20effdbd02148b748511682d312bc2dfac4b334487"
+
+[[files]]
+file = "config/adpother/Biomes/ars_nouveau$archwood_forest.cfg"
+hash = "6d937c409069e41878bda9af60950677d33bb0a1548cecf21393f5c0034dda22"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$bamboo_jungle.cfg"
+hash = "6383dd3af9f7ff4dd8db72f3089a2442ab6d8c27fc1b710cda016bfaeaf8255d"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$birch_forest.cfg"
+hash = "cb2d7611da9cfab350b17fa90772f45e1dc06561ac275766d548b0f5886a5c07"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$cherry_grove.cfg"
+hash = "3ecc4c63ca7edabb3c24f11a7038aaba1db502083e754da3342b09e31ca7901a"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$dark_forest.cfg"
+hash = "dad65529c33d31d27a62705edf01e82c1507b245e530254e9de0fc5cb67b4666"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$flower_forest.cfg"
+hash = "79c2840c85985936c35199db7b588a8bf396784a5dce05c284c773a0ed469d7f"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$forest.cfg"
+hash = "707f726f348215959dadb0660414cfcc558ccf5983adf0aa22f16ba55a7ac65d"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$grove.cfg"
+hash = "a9186d1b11e911b14537f37c785316139e3726f9d40e75f97a11e17847cb7718"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$jungle.cfg"
+hash = "ca41fac1af60cc6c4c0f5cc0f6804ca74f10edcec311d534ab5c9b5448bc04c1"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$mangrove_swamp.cfg"
+hash = "d19584489ad4318675fd2b3a732dea06da68ea6c033f259308e80263d1012d9e"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$old_growth_birch_forest.cfg"
+hash = "69f355e5f221ccb1bc9428ed39d719972a79239dd5ab4e67d90a5cba1ea32676"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$old_growth_pine_taiga.cfg"
+hash = "fab392f99617b90f48f811584f0089999941e5ac05fef803f3e9fa9aa04dc82a"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$old_growth_spruce_taiga.cfg"
+hash = "b91ed8f1464832fd2f329ff016d6584c9cc240b5a4758edc586756b1b1076814"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$snowy_taiga.cfg"
+hash = "d194fe37b5a412dd49ac5902850d8b8b1950f581ec25be549ca46aca4a2766da"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$sparse_jungle.cfg"
+hash = "3edd327723e54a7b1a462922c56cfa2e7c81627458dc03a92d7f86c87756c206"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$taiga.cfg"
+hash = "3e0b2d0d43ec8d636f3829a7d6ec2569414ba10bde83282c19b5e1b0382dd61f"
+
+[[files]]
+file = "config/adpother/Biomes/minecraft$windswept_forest.cfg"
+hash = "47c83603fa17aec5bd0352b93196325f9e69a11718a2e24c4b53e64a19f78d1f"
+
+[[files]]
+file = "config/adpother/Biomes/natures_spirit$aspen_forest.cfg"
+hash = "4e26a152b7c2fe60e0d7ed9ebd46ea3081d24c05ebab68eed885421faa903bd1"
+
+[[files]]
+file = "config/adpother/Biomes/natures_spirit$blooming_sugi_forest.cfg"
+hash = "3424042af654ce95434eac06ee2261a51e20f9a5c3ec141a0a35d84bfa8e619c"
+
+[[files]]
+file = "config/adpother/Biomes/natures_spirit$boreal_taiga.cfg"
+hash = "31fa187e9ec1565f513852f0787aef28233619ee76c63b6768afc8f01a90fbfa"
+
+[[files]]
+file = "config/adpother/Biomes/natures_spirit$cedar_thicket.cfg"
+hash = "f0581e1d90cc77514695da787c57a3d060640c1f26fa45e812a8f32bb186da3d"
+
+[[files]]
+file = "config/adpother/Biomes/natures_spirit$fir_forest.cfg"
+hash = "7b210bcd5691d9622c2373a9eda420aaac82a29d4a93be4f6606a81484f4bd32"
+
+[[files]]
+file = "config/adpother/Biomes/natures_spirit$maple_woodlands.cfg"
+hash = "15a239b11ad7fd08f9b8e37ca72c65f92a064a1285e8a131bf87191f76f18427"
+
+[[files]]
+file = "config/adpother/Biomes/natures_spirit$redwood_forest.cfg"
+hash = "98eabd62f8df510c6ac017328ea574729053154575ae0e59201995460250a351"
+
+[[files]]
+file = "config/adpother/Biomes/natures_spirit$snowy_fir_forest.cfg"
+hash = "283bb7dcb4a374008f1f46f2516961d212acf3d7a9d838844a951eb452be7ba3"
+
+[[files]]
+file = "config/adpother/Biomes/natures_spirit$snowy_redwood_forest.cfg"
+hash = "4757a58ed279604577d20d36922e6d7cd6f957d5728f16ed02a48b33aff791d3"
+
+[[files]]
+file = "config/adpother/Biomes/natures_spirit$sparse_tropical_woods.cfg"
+hash = "160bc361e83dce0fc7798a362e87e0715a59dea5f83e91b85f6122498b2da268"
+
+[[files]]
+file = "config/adpother/Biomes/natures_spirit$sugi_forest.cfg"
+hash = "366969eb09a9e345a04163aa2667fa80ad64aef6529018fd9fa6ff5f9810c015"
+
+[[files]]
+file = "config/adpother/Biomes/natures_spirit$tropical_woods.cfg"
+hash = "262875f36b6691f85bcc7aa896db8be02517edd038fda6b8f4e7548bc835ef97"
+
+[[files]]
+file = "config/adpother/Biomes/natures_spirit$windswept_sugi_forest.cfg"
+hash = "bada3553f0ca2b7d49589d8e0bd392f0a9347bce82dccb508a47cbaebe2af48f"
+
+[[files]]
+file = "config/adpother/Biomes/natures_spirit$wisteria_forest.cfg"
+hash = "0c3a69a9e0c26c04257c1f240878b5e093c5dcd5b698e24291f8b57c22aa377f"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$alpha_grove.cfg"
+hash = "df2f341be98cc202b9f8e0dd15f2c0e8b24a2d6af3510f60c1a640136b2f8ab4"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$ashen_woodland.cfg"
+hash = "2a3e22f3b05ef913cb325f20b0b0b9948ab76e18099cd5d5d827b3fac6d07844"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$autumnal_maple_forest.cfg"
+hash = "c6fb43a5f4f903c9b741da0760ffb41b147872bbdbd71c5cf6d798c8730a22f2"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$bamboo_forest.cfg"
+hash = "b74bfaf6f21cf96a67b72a7c8918ec2971117cbb8186602bd663d0f0152e1336"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$blackwood_taiga.cfg"
+hash = "df0ec7b71fb5ab1ea5a5af74c3a17812bc8faf1432c1338ad1f1450a9f8d2881"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$boreal_taiga.cfg"
+hash = "7634d8be6b7a559dfb59dfb64106c8b018f4fc78958f033c0416a766383affd6"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$cold_boreal_taiga.cfg"
+hash = "8fc392b01d7b727daed4581416468887eb430123f387b1b4a5f7b94073983c4d"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$cold_deciduous_forest.cfg"
+hash = "483ce84e1491cc7c88442f74538c44f534818624737b55b0dbc7d8b915405de8"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$deciduous_forest.cfg"
+hash = "8f4c03e9c46a5810011fb3c1f0f0a1e54dc8fb138346d18f00dd7dd8bf48ee7d"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$eucalyptus_forest.cfg"
+hash = "c54a201b551b7d5c144d0befa2ce5efa43194168186c3adbcd80a93d9239e5e8"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$frozen_pine_taiga.cfg"
+hash = "87dcc0392bf3bfcde730836a03ac6067f76ecbf42d68322d24a21ab1c10bae05"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$golden_boreal_taiga.cfg"
+hash = "552c9c060127476cd63a1ef019e0cb853dc548a3003c9af52f8c4c30bd277dc6"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$magnolia_woodland.cfg"
+hash = "ff1407646b8b4a8ba4cc3de222dfe3e6df4c57626080e2c8d253fd491c9fe9b3"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$maple_forest.cfg"
+hash = "466bb85c18b8675070bcaaa9677363b6382bb5c81ab040295e40f8c35e3af257"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$old_growth_boreal_taiga.cfg"
+hash = "f637dde7d347c4bc3cb51f591cafc650ec0c23a3c18f90a92a2b1724f63a05e0"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$old_growth_forest.cfg"
+hash = "52e2eeb32155df2b7d405b11dd9dd6689ae2b3f6ea6a23b3e479e523741a7152"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$old_growth_golden_boreal_taiga.cfg"
+hash = "301405b9d4b0bb5bf7a12a66324694e067c96e5506b7d28b2677ade0b444cd7c"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$pine_taiga.cfg"
+hash = "ee6902b2c99910661aff12626be68d2ad209e86a101d5e7af367e9b63dd78890"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$rainforest.cfg"
+hash = "6e8dcb645a0eac1945631bbfa38cf78228d770df3f44fc9b6877c2a1a118fbd2"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$redwoods.cfg"
+hash = "4b358b0f71754d7c2774c41d9f0b3cd9e6db1ce42c63ed4502c3a881b4e90637"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$silver_birch_forest.cfg"
+hash = "ee89468a981dbc91425dc3a3f98722b3a50eb5e5ecc2ed393d42bae447648318"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$sparse_rainforest.cfg"
+hash = "edceeecc095b8184565c71925f7b1043f5c96a7a73fa7ecd37415df3bc8e5771"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$sparse_redwoods.cfg"
+hash = "924fbab00abb4664ea2ac323d69ed54f59d3b6c57f07b42a25955ea518c4598f"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$temperate_grove.cfg"
+hash = "20b5f4951edb0b8d745fd0268e27a395e44f6f50c7aa8f4fa1e96cb8172a0ab6"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$willow_forest.cfg"
+hash = "c9accc2fee2fdf9a5390d15257b7195d805cf6c67aa8137dd009b1f69f222ca1"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$windswept_maple_forest.cfg"
+hash = "05a8610b98b38a5cbd9b95428486f3a2607e3a46c2804c9d6361d647bf63f79b"
+
+[[files]]
+file = "config/adpother/Biomes/regions_unexplored$wisteria_grove.cfg"
+hash = "97e206fda2d0a3e0adcc5aa809e5bece362edfbcfe50d8f147f27c1b8794dc07"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$alpine_grove.cfg"
+hash = "57961e3c9cfb835c3c481e4d8a8b9a9d40e1e518bd340eb74363b0f069cbf2f0"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$amethyst_rainforest.cfg"
+hash = "f10d157a64600c41281f5a5728cbc5d777ef547a135e8ea3d79d455dcfa5a52e"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$birch_taiga.cfg"
+hash = "f005aeb3fa81a47960f57ad83fe2e7e1d83bf65d2f0ceda8055e3fc2c121ccfd"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$cave$underground_jungle.cfg"
+hash = "c4306bbde4eb363dbd84d50e47374cb216ae3986cc959bc03b0e7d09ae286f26"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$cloud_forest.cfg"
+hash = "b9285d80e60ccb0693867420d001ab1084d589e87fd98aa583b7ec2aa7f2fff9"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$forested_highlands.cfg"
+hash = "816d7e85093aa22b250d4dc53293e89fc884b719758130bf66a8b6f912c2b9e6"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$jungle_mountains.cfg"
+hash = "508507bae8cc89893ddf7365eef4b663dd2f886bba4b0ba401595dbdc073b246"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$lavender_forest.cfg"
+hash = "584c85048c110aeae35c6318559a55fc1912cdfec2ba47f25663433ebb2fc19e"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$moonlight_grove.cfg"
+hash = "f880fdf0b82104caf1ad9e57d40362a5402a3bd45ed5d1e5c0c601c9f98db4d2"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$rocky_jungle.cfg"
+hash = "ebed7e168cd4a5a3cb7ec1dcece465092dc8ae7049df25e3f023c2fed75f3b07"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$sakura_grove.cfg"
+hash = "1b5c55145a61603e6fe35ea4fd4504c02b222d2f3a71bd762171d5e5ed8c73b6"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$siberian_grove.cfg"
+hash = "6071373995dbf21dbe606be690a6d28f213de382207f89ddfc189a3f4d8b60fd"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$siberian_taiga.cfg"
+hash = "39b51251f24b36887e14e2c8758cc58e18ab134c826bf93e58fc1bd4271c1428"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$snowy_cherry_grove.cfg"
+hash = "2774fc6662b93419942e6dbfab457d7cebad1340b5f97dfad0cff8afb11ba0e8"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$snowy_maple_forest.cfg"
+hash = "37e7c6218eabb672a2160a780733af1ab1e51bc05f0d2a58c3313b8e252c85e7"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$tropical_jungle.cfg"
+hash = "cd0a1374827178857cd9d5cd64e0d0335fd1afbc35115d7c7c4a4fbeb2c1dd0d"
+
+[[files]]
+file = "config/adpother/Biomes/terralith$wintry_forest.cfg"
+hash = "25cde5e478d88c6e1fc1e38244c3200f0f50382ff70f598640ea675945abaf10"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$clearing.cfg"
+hash = "5725b28a915431455ec7d2ef94c9a2d04e55e6fddb44eb39e4284994abd67f1b"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$dark_forest.cfg"
+hash = "287d4acf3172c0d6cbc69c6d5d57b06c52bde395b9b773425b5e0d3f2d82197c"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$dark_forest_center.cfg"
+hash = "1c417677e409d55b1ae3ec5a5ed85296bb4c4fb5e8c12edd4ed94f56836d6908"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$dense_forest.cfg"
+hash = "0b6217815ee25c5a039a024fc92b92ea78d072c259a13f647dfb38ac80f9603a"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$dense_mushroom_forest.cfg"
+hash = "9243ad37f4690e01e0b2e712027507f2b04f1cc4db555dc8d89669a5b439a0fc"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$enchanted_forest.cfg"
+hash = "ac56dcef6728ca8d2ca5bc2e64740eb9f82aa76b309fc5095932def8e6ba6f8a"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$final_plateau.cfg"
+hash = "7815b74ce50805c74304f1b5803ab40075c06436a30dc9700fb0a2ac9ba53f2f"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$fire_swamp.cfg"
+hash = "21a36b5cda313da4a82db470376770fc8a92e14a83acb6892302863ac05a8ab1"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$firefly_forest.cfg"
+hash = "2961e8f3496ac57672d41ae6b934558bfddfcbd374aa662da24a2d71d37d6191"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$forest.cfg"
+hash = "23276b3831794ec8031561a2ded69dc802eb5cdb9872694edc234cfbdf503028"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$glacier.cfg"
+hash = "eb4fcfc86f91c76eac1ed21405ee23d6968bcbe445d8ba60c0a2e97b07c12a7c"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$highlands.cfg"
+hash = "404b44b8b0bccea8504222c88f6c827e89ae5d0afb65264a393517c839968b40"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$highlands_underground.cfg"
+hash = "21f315b717907038b8cfbd71f85f760ba0aa682b4a1157b1031d2f7b47b0f2af"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$lake.cfg"
+hash = "ed5f41665cac9b3151a2597bf301f2eafbf4f1e840908f067a3c9ca0b3d4cc3b"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$mushroom_forest.cfg"
+hash = "72385b76c80e24a599fd893e17cfbef31dbdf6b2b2edff62ed683b00d86ffec6"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$oak_savannah.cfg"
+hash = "d873d1d5605d2500083f2e7608155b50436ed6ce3ddc54fa16444b6518994c44"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$snowy_forest.cfg"
+hash = "8d7659d3f44de75615789a15078fe2173d9420bbc9bb543c886163328341d20a"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$spooky_forest.cfg"
+hash = "0130072ac0a206383b7094da86ae38c61e7ee88c44e2d62b69cd4786d6278076"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$stream.cfg"
+hash = "8a0b07ac6e2aa5d10e61df29f513f6e5d27c4a3b8a6dee29909e4261988ccb1d"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$swamp.cfg"
+hash = "5d1e54c19f68921016c26b6c456a0d74065f65622cc9933e93c6858b3d758f81"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$thornlands.cfg"
+hash = "a2d0fa3eb12363643d6e2e22ed53607b4f2223a9f55759ac008b25df653ec2a3"
+
+[[files]]
+file = "config/adpother/Biomes/twilightforest$underground.cfg"
+hash = "b4ba6968d2d61929bcf32927b4b0f2cd6e81a228b314afc38467e70e8dbde24d"
+
+[[files]]
+file = "config/adpother/Breakables/uranium_ore.cfg"
+hash = "86d114e7333cdad98872fff7daeb45b2b0e05283853d4682e5851d0a17ddd95f"
+
+[[files]]
+file = "config/adpother/Impacts/livings.cfg"
+hash = "30f1173a7510b802cf400b9de66c8bf622d21768cdc88cfcb9c7f1d30da85224"
+
+[[files]]
+file = "config/adpother/Pollutants/radioactive_dust.cfg"
+hash = "c7cbdc96479320bf0b1cf8a11445cbc6815b915b9c0088d904f24068545c7c9c"
+
+[[files]]
+file = "config/adpother/Respirators/alexscaves$hazmat_mask.cfg"
+hash = "a01414cd44b326bd044c0c4a537e0fcad3a86c6c023858c661a93251ede37e1a"
+
+[[files]]
+file = "config/adpother/Respirators/createnuclear$default_anti_radiation_helmet.cfg"
+hash = "f71b071210eac8be98077d49eebbf1747bcea21f018583ea48cb2300b5d3d48f"
+
+[[files]]
 file = "config/advancementplaques.toml"
 hash = "fd8b3cc688adde0ef4523196157af46ecf43fb26c3140fcc56cf5aa2df8d9a53"
 
@@ -1750,6 +2194,10 @@ hash = "be7551d5b0d7f454c5fb33539429e3a389343f80eb2af6de95bde442a13b9c92"
 [[files]]
 file = "config/createdieselgenerators-server.toml"
 hash = "674cc1290b257251ed29107ce56e5059152ee7f75f8d13d5739d61a34db58486"
+
+[[files]]
+file = "config/createnuclear-server.toml"
+hash = "10e396cfbf101d49b80c33fa793a9345058c62452bd6624e27b8b2090c6c27f6"
 
 [[files]]
 file = "config/createrailwaysnavigator-client.toml"
@@ -5253,12 +5701,52 @@ file = "journeymap/icon/theme/victorian_/victorian_.theme2.json"
 hash = "f272934e3c793b24f7f0373e2e9209b5a591100186a6e628c093e1d4aff05c61"
 
 [[files]]
+file = "kubejs/assets/adpother/blockstates/radioactive_dust.json"
+hash = "fde15a8fd11714ebc94cb2eeb6dcad5712e49643ebcd8d3897b6cb6ec802e621"
+
+[[files]]
+file = "kubejs/assets/adpother/lang/de_de.json"
+hash = "719c3578df5d7419add7ca6adb90e638d790a5ea37dff40b020c10a143a03943"
+
+[[files]]
+file = "kubejs/assets/adpother/lang/en_us.json"
+hash = "b4ecef75ddc9dc5ce6ab3900ca8f0ae336d63a73911baf888e62a34aa385dbd4"
+
+[[files]]
+file = "kubejs/assets/adpother/models/block/radioactive_dust_heavy.json"
+hash = "4f9db29d6bd37762fe6bf9d2dbe5814c11087984c3ee9f252f8e94a9b0d54b76"
+
+[[files]]
+file = "kubejs/assets/adpother/models/block/radioactive_dust_light.json"
+hash = "e543f845a8232b316eb391793bb0fb48b5d9326312532ee4458405695cf0d2a0"
+
+[[files]]
+file = "kubejs/assets/adpother/models/block/radioactive_dust_medium.json"
+hash = "f1a2830aadc1441773a2ed11e3e25eb4cf139d982880a865ebee8e6c0f703fb5"
+
+[[files]]
+file = "kubejs/assets/adpother/models/item/radioactive_dust.json"
+hash = "df7cd70f2f372236c0fa121780ed399b5510b0cfc09fb137788635e6d04ac24e"
+
+[[files]]
+file = "kubejs/assets/adpother/textures/block/radioactive_dust_heavy.png"
+hash = "35704b532cf5696a161763390a9c7070c654204094aebd548c87fdf80d90360b"
+
+[[files]]
+file = "kubejs/assets/adpother/textures/block/radioactive_dust_light.png"
+hash = "bd83e4b01ea54ffc0dae34a5aff10d5d8e052c08f4d84ae350f0d36dd6618d7b"
+
+[[files]]
+file = "kubejs/assets/adpother/textures/block/radioactive_dust_medium.png"
+hash = "fb169bce7a4fcec462196d4b17a3d7d9e096e1046e92ad494c03de44faf006b4"
+
+[[files]]
 file = "kubejs/assets/kubejs/lang/de_de.json"
-hash = "2e50e17d3b269798b695315dca51ac3c953d247b821230acaa26d12b474c293e"
+hash = "96615518604e20433802d408fbdc2bfc76fcd5e8e9ad18a7bb290efab704ea9a"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "8e0d53e674d0b4832259c1d1cc8b76f20ad2255600e629ac1ecc4e49226179e1"
+hash = "c8d256037d2bc571a6d1b06325fb3540ba5dc50217f708e1c1356338c1d32c40"
 
 [[files]]
 file = "kubejs/assets/stellaris/lang/de_de.json"
@@ -5270,7 +5758,7 @@ hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "ab8eea6dfcbbe58e3e07c067fc88f894ed9b0e27ec6550ed94cde06ec13b24ba"
+hash = "718b9a88db568fa6b53f7dcc39879512c7d0d6027341870f419e5158de805ce0"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -5281,8 +5769,16 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
+file = "kubejs/data/create_new_age/tags/item/hazmat_suit.json"
+hash = "03aa40f7b74d94b1713a29c4d67a765d43aa644cef21dfde3045906600870a98"
+
+[[files]]
 file = "kubejs/data/fateubw/fateubw/grail_loot_tables/legendary_armaments.json"
 hash = "863ee8211ae34125f4570f10faf79e3aff711e66ee3d164558c17055dc648b30"
+
+[[files]]
+file = "kubejs/data/gigaliases/tags/block/radiation_shielded_storage.json"
+hash = "1f9fe9c35a9a0b5220f47ddc7ccdd955b42a47219c0fc46493954d6ccbc3d64c"
 
 [[files]]
 file = "kubejs/data/kubejs/damage_type/fate_attack.json"
@@ -5334,7 +5830,7 @@ hash = "842b13da4f900c1d724dca00b6adec7d2a43ba2e0d7fff27b10b76eac32d2d87"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "15606048166f4f6862fa026b983133fbd4a7e8d902a6c564ea9bf21d0e5a57d3"
+hash = "b5be4c61a171e79688b877d2bece017797c1681324df1c83666e4703fec761eb"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -5353,8 +5849,24 @@ file = "kubejs/server_scripts/recipes.js"
 hash = "8462c7d25705f41e615a37e9f5dceb43c6e225665c41684143780d8f9a7a38e5"
 
 [[files]]
+file = "kubejs/server_scripts/schadstoffe_regen.js"
+hash = "4050be7873775d406effce782d284e68fb25c074c04dc6d243f07ab0a1ad0152"
+
+[[files]]
+file = "kubejs/server_scripts/strahlenschutz_eingewoehnung.js"
+hash = "3eb8498c331c9f08f1e234c50e616eb74de7079a6166fe03809f0994d5ba9694"
+
+[[files]]
+file = "kubejs/server_scripts/uran_strahlung.js"
+hash = "a50512682d597e73522a66ae105ffc2ba00c7293cfbfdd5493d07cc9b6449b23"
+
+[[files]]
 file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+
+[[files]]
+file = "kubejs/startup_scripts/uran_strahlung_werte.js"
+hash = "fffc78a48b671c4d58a7d3898735a129c33b0f187fcaf809c526f5da4e8ba2a5"
 
 [[files]]
 file = "licenses/fantasyfurniture/GPL-3.0.txt"
@@ -5372,6 +5884,11 @@ metafile = true
 [[files]]
 file = "mods/advanced-backups.pw.toml"
 hash = "732787f222641ecfed68d2cbf6e498324061b51ebb8ee08af322cefd9c4a91ed"
+metafile = true
+
+[[files]]
+file = "mods/advanced-chimneys.pw.toml"
+hash = "8b1c78c3a507c852b91fe9fc28bcff26c8b7adfbae8a2ba87e460c97f1aa71b6"
 metafile = true
 
 [[files]]
@@ -6300,7 +6817,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgeendertech.pw.toml"
-hash = "e4896c4b8279ed15df10b805a0baa3961dbb3a1e1f7debae6e71735cb2e84850"
+hash = "ab734f97a68bdfce5a1356752abd462d3ba990fcf769e15b872f91fa15bfa6db"
 metafile = true
 
 [[files]]
@@ -6354,8 +6871,8 @@ hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
 metafile = true
 
 [[files]]
-file = "mods/gig-aliases-neoforge-1.21.1-1.3.0.jar"
-hash = "bf06c97accb2c7177f1884846b13ff38874040c8fd789d2c823a1e706d1ceea8"
+file = "mods/gig-aliases-neoforge-1.21.1-1.7.2.jar"
+hash = "9d208eea2d85f8bb9b80a3bdd016dc53139a4167e90ad1d1fda035d1f6a1e1d1"
 
 [[files]]
 file = "mods/gig-arena-neoforge-1.21.1-1.0.0.jar"
@@ -6804,6 +7321,11 @@ metafile = true
 [[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
+metafile = true
+
+[[files]]
+file = "mods/pollution-of-the-realms.pw.toml"
+hash = "b7b5ef66a6708eddd2c004fa76edd9da62e8b230acd365e4e1b226bab5d46f27"
 metafile = true
 
 [[files]]
