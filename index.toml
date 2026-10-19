@@ -544,7 +544,7 @@ hash = "86d114e7333cdad98872fff7daeb45b2b0e05283853d4682e5851d0a17ddd95f"
 
 [[files]]
 file = "config/adpother/Impacts/livings.cfg"
-hash = "30f1173a7510b802cf400b9de66c8bf622d21768cdc88cfcb9c7f1d30da85224"
+hash = "485dc01c14f23176112af88f4439feea53b6b678b8485f8dd1177d62108fbeb4"
 
 [[files]]
 file = "config/adpother/Pollutants/radioactive_dust.cfg"
@@ -5866,7 +5866,7 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "kubejs/startup_scripts/uran_strahlung_werte.js"
-hash = "fffc78a48b671c4d58a7d3898735a129c33b0f187fcaf809c526f5da4e8ba2a5"
+hash = "386f108e132e0a844fb4136b99d12f004c7711ff3a061edd1508739d48f1d3a3"
 
 [[files]]
 file = "licenses/fantasyfurniture/GPL-3.0.txt"
