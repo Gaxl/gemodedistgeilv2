@@ -198,6 +198,9 @@
       return
     }
 
+    // Kill-Button (Fate-Schadenstyp "grail" ohne Angreifer), /kill und Void sollen immer voll durchgehen
+    if (damageTypeNs(source) === FATE_NS || source.is(DamageTypeTags.BYPASSES_INVULNERABILITY)) return
+
     // 1) Schaden gegen Servants und ihre Beschwörungen (Fate-Schaden wurde oben schon ausgenommen)
     if (entityNs(victim) === FATE_NS) {
       var amount = event.getAmount()

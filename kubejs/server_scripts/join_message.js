@@ -12,7 +12,8 @@ const CHANGES = [
   ['+', 'Cobblemon: Monuments of Hoen: summon Groudon, Kyogre and Rayquaza at three new temples (Magma Shrine in the Nether, Marine Temple in deep oceans, Sky Pillar in deserts). The buildings adapt their blocks to the biome'],
   ['~', 'The Hoenn temples and the Regigigas temple (Snowpoint Temple) now generate equally often and are much easier to find'],
   ['!', 'Radiation: pipes and tubes no longer count as radiation sources, and the Mekanism Fission Reactor is counted once, with its casing holding back 95% of the content. Both gave far too much radiation before'],
-  ['~', 'GiG Aliases 1.7.5, ForgeEndertech 12.1.4'],
+  ['!', 'Fate/UBW: Shift + right click on a servant no longer kicks you from the server, and the Kill button in the servant window works again'],
+  ['~', 'GiG Aliases 1.7.6, ForgeEndertech 12.1.4'],
 ]
 // Wichtige Hinweise, werden rot unter dem Changelog angezeigt (leer lassen, wenn nichts ansteht)
 const NOTES = [
