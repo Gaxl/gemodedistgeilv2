@@ -1,0 +1,172 @@
+#Turn on attack bounding box debugging
+"Debug Attack" = false
+
+[general]
+	#Minimum of player count required to start a grail war
+	# Default: 1
+	# Range: > 1
+	"Min Player" = 2
+	#Maximum of player allowed in a grail war
+	# Default: 7
+	# Range: > 1
+	"Max Player" = 7
+	#Time in minecraft days till the next grailwar after one has ended
+	# Default: 5
+	# Range: > 0
+	"Grailwar Cooldown" = 5
+	#Time buffer in ticks to join a grail war after start
+	# Default: 2400
+	# Range: > 0
+	"Join Time" = 2400
+	#Allow the summoning of duplicate servants during a grail war
+	"Allow Duplicate Servants" = false
+	#Allow the summoning of duplicate servant classes during a grail war
+	"Allow Duplicate Classes" = false
+	#Fill in missing players till max allowed with npc
+	"Fill Empty Slots" = true
+	#Amount of masterless servant that can spawn each time. (Fill Empty Slots needs to be true)
+	# Default: 1
+	# Range: > 1
+	"Servant Amount" = 1
+	#Minimum time between each attempt to spawn masterless servants. (Fill Empty Slots needs to be true)
+	# Default: 3000
+	# Range: > 0
+	"Servant Spawn Delay (Min)" = 3000
+	#Maximum time between each attempt to spawn masterless servants. (Fill Empty Slots needs to be true)
+	# Default: 6000
+	# Range: > 0
+	"Servant Spawn Delay (Max)" = 6000
+	#When using a class artifact increases the chance of summoning a servant of that class by x
+	# Default: 2.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	"Class Artifact Multiplier" = 2.0
+	#When using a servant artifact increases the chance of summoning that servant by x
+	#Note: Currently no servant artifacts are added
+	# Default: 2.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	"Servant Artifact Multiplier" = 2.0
+	#Servants that dont notify players when spawned (from filling missing slots)
+	"Servant notification" = ["fateubw:hassan-i-sabbah_assassin"]
+	#Turn servant notification list into a whitelist
+	"Notify Whitelist" = false
+	#Notify everyone if a servant spawns. Else only the player the servant spawned on will be notified
+	"Notify Everyone" = true
+
+[combat]
+	#Amount of health percentage wise the caster of a reality marble needs to have when already inside a reality marble compared to the current owner of it. 
+	#Set to 0 to never be able to use it
+	#Set to -1 to always be able to use it
+	#Note this only applies when already inside a marble
+	# Default: 1.0
+	# Range: -1.0 ~ 1.7976931348623157E308
+	"Reality Marble Override Multiplier" = 1.0
+	#Radius in blocks of a reality marble
+	# Default: 128.0
+	# Range: 0.0 ~ 1000.0
+	"Reality Marble Size" = 128.0
+	#Should teleporting servants to the owner during a fight be punished
+	"Punish Teleport" = true
+	#Potions applied when boostin servants using a command seal. Usage: <registry name>,<duration>,<amplifier>
+	"NP Effects" = ["minecraft:resistance,6000,2", "minecraft:regeneration,6000,1", "minecraft:strength,6000,2", "minecraft:speed,6000,2"]
+	#If true a servants noble phantasm attack can hit other servants during charging up
+	"NP Bypass Charge" = true
+	#The effective armor that will be used to calculate the armor reduction
+	#Vanilla limits it to max 20 armor points
+	#The vanilla formula is: clamp(armor - damage / (2 + armor_toughness / 4), armor * 0.2, 20)
+	"Effective Armor" = "max(armor - damage / (2 + armor_toughness / 4), armor * 0.2)"
+	#How much armor reduces incoming damage
+	#In vanilla the maximum protection armor can give is 80%
+	#The vanilla formula is: effective_armor / 25
+	#The mod changes it so higher armor points reduce damage further but at a reduced rate. If below 20 will use vanilla formula
+	#Note that this ONLY affects servants!
+	"Armor Reduction" = "effective_armor > 20 ? 1 - exp(-(ln(5)/20) * effective_armor) : effective_armor / 25"
+	#How much projectile damage is reduced. Do note that armor already reduces the damage.
+	"Projectile Reduction" = "1 - exp(-0.05 * projectile_protection * 0.33)"
+	#How much magic damage is reduced
+	"Magic Reduction" = "1 - exp(-0.05 * magic_protection)"
+
+[misc]
+	#Damage scaling for projectiles from the gate of babylon
+	# Default: 1.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	"Babylon Dmg Scale" = 1.5
+	#Blacklist weapons for weapon projectiles (used in e.g. gate of babylon, unlimited bladeworks). You can also use the modid for a whole mod
+	"Weapon Projectile Blacklist" = ["fateubw:enuma_elish", "runecraftory"]
+	#Turn the blacklist into a whitelist
+	"Weapon Projectile Whitelist" = false
+	#Damage of EA
+	# Default: 15.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	"EA Dmg" = 15.0
+	#Damage of excalibur
+	# Default: 15.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	"Excalibur Dmg" = 15.0
+	#Caladbolg damage
+	# Default: 20.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	"Caladbolg Dmg" = 20.0
+	#Damage scaling for projectiles from unlimited bladeworks projectiles
+	# Default: 0.8999999761581421
+	# Range: 0.0 ~ 1.7976931348623157E308
+	"UBW Dmg Scale" = 0.8999999761581421
+	#Damage of medeas magic beams
+	# Default: 5.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	"Magic Beam Dmg" = 5.0
+	#Damage of Gae Bolg
+	# Default: 25.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	"Gae Bolg Dmg" = 25.0
+	#Potions applied by Gae Bolg. Usage: <registry name>,<duration>,<amplifier>
+	"Gae Bolg Potions" = ["minecraft:wither,600,3", "minecraft:slowness,300,7"]
+	#Duration for the petrification effect from medusa
+	# Default: 600
+	# Range: > 0
+	"Petrification duration" = 600
+	#Duration for rule breaker debuff
+	# Default: 2400
+	# Range: > 0
+	"Rule Breaker duraiton" = 2400
+	#Damage of aestus domus aurea hits
+	# Default: 17.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	"Aestus Domus Aurea Damage" = 17.0
+
+[weapons]
+	#Mana cost for using excalibur
+	# Default: 70
+	# Range: > 0
+	"Excalibur Mana" = 70
+	#Mana cost for using EA
+	# Default: 70
+	# Range: > 0
+	"EA Mana" = 70
+	#Mana cost shooting arrows with archers bow
+	# Default: 3
+	# Range: > 0
+	"Archer Arrow Cost" = 3
+	#Mana cost charging archers bow with caladbolg
+	# Default: 40
+	# Range: > 0
+	"Caladbolg Mana" = 40
+	#Mana cost for throwing gae bolg
+	# Default: 25
+	# Range: > 0
+	"Gae Bolg Mana" = 25
+	#Mana cost for summoning a monster using the spellbook
+	# Default: 30
+	# Range: > 0
+	"Monster Summon Mana" = 30
+	#Mana cost for throwing the chain dagger
+	# Default: 0
+	# Range: > 0
+	"Chain Throw Mana" = 0
+	#Mana cost for throwing hassans dagger
+	# Default: 5
+	# Range: > 0
+	"Dagger Throw Mana" = 5
+	#Mana cost for using medeas staff
+	# Default: 10
+	# Range: > 0
+	"Staff Mana" = 10

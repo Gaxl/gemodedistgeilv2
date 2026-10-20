@@ -2825,6 +2825,10 @@ file = "config/farmersdelight_extended-common.toml"
 hash = "d640c77b9cbb56c6ca4bd3bf4194ad5fa6dd3572cd22934e29c547d9d8942632"
 
 [[files]]
+file = "config/fateubw/common.toml"
+hash = "a9173df388f1b148791ceb8a81354044c08475d4fbd1147188bc1171ee1b348f"
+
+[[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "ad575752dd5b44180cce2690e4b74b0571770522d85570e4d004dbd0b8e6ef09"
 
