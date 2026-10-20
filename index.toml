@@ -6248,7 +6248,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-capture-xp.pw.toml"
-hash = "0b372254e64baa6a9c67565cb5a981606bfc092bc9111b9d60c16ab17d3a97e5"
+hash = "9594369e75931b85151cd5ffebee6afa4c67393730f4cb12ca4f3e7696240a83"
 metafile = true
 
 [[files]]
@@ -6258,7 +6258,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
-hash = "377225e34507e08f7d72d8332046c49e4d3e0cd5afcd0e955791cfa6fc8b1e43"
+hash = "8a00a9da95c51c24175f0ce73e53cdede857e89ee292432bf26a95831ca73fc6"
 metafile = true
 
 [[files]]
@@ -6268,7 +6268,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "1b474234c41d45bcaaef752a71291e73301530abf2a31cc17a986a0ae5dffa22"
+hash = "1a480fc3bdd3f3f127f852ac2f3211a6dfdd8bba8d7864d4ab96a168fdf2f5f1"
 metafile = true
 
 [[files]]
@@ -6283,7 +6283,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
-hash = "30c64afe323a053cfb5b40afae3a78eab6f5b602abee66c5f4b750fbeade9654"
+hash = "c2c87b9fe04066c049b3e5865232d50cc280e016d127df5c114abe69c9e5c05f"
 metafile = true
 
 [[files]]
@@ -6298,12 +6298,12 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
-hash = "b10cbaa997f2a836ab453aadc73d6ad5291b659ed158c185f5fd7f4c0f097a5d"
+hash = "534abae568319a8878ab914b722804fe476cb8110ee8229f6072b3c849bddc10"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon.pw.toml"
-hash = "f480fa46d7f4800dad4414d136541f8f8410d5907fc014e389b648d20b1065ce"
+hash = "fd5919f522461f527f754599d9fd2140918b2197d1dde41011610189897b2d12"
 metafile = true
 
 [[files]]
@@ -6313,12 +6313,12 @@ metafile = true
 
 [[files]]
 file = "mods/cobbleworkers.pw.toml"
-hash = "ed761898452e29f33a52818e393c8771727c80444d8abd95b73af52a25172dda"
+hash = "67ce96a4014cc77757d9f0d8e809aced81d6e52f91597e649134804b2ec5438d"
 metafile = true
 
 [[files]]
 file = "mods/cobbreeding.pw.toml"
-hash = "245af393a759166ebb4888550e307abcb27af8ae3772136eed6945116fdd18c1"
+hash = "aa8f86c0deec2e5ff6a20360be15748c5281faaa0acf45f15044eff42f182ad9"
 metafile = true
 
 [[files]]
@@ -7035,7 +7035,7 @@ metafile = true
 
 [[files]]
 file = "mods/legendary-monuments.pw.toml"
-hash = "f122d679665b3caffac4869d5805cbfd987617f4995508fd6f1ad8e9a619f015"
+hash = "df45b7ccfbb50f10c9cc5e32d5ea6020346c45c5ebbc89ff5159f390bd5d7960"
 metafile = true
 
 [[files]]
@@ -8060,11 +8060,11 @@ hash = "0d6f8bff5d59d58e2ddda36b742394251afe308cb8cf96fac6c6c06144e28a15"
 
 [[files]]
 file = "resourcepacks/Deutsche-Pokemon-Namen.zip"
-hash = "ea32d3e070a597bd5464697c962d73c4df62264c1b837f6812522dce90a6c491"
+hash = "36848cdf911580b56c3d2d9e470bccf00f3f00e9223a622b862ffeb7fa6cdf10"
 
 [[files]]
 file = "resourcepacks/allthemons-x-mega-showdown.pw.toml"
-hash = "b94bb18a0ca0a49aa9e054548d3d3740b6e4086546098dfaeb6b2ac28074acbd"
+hash = "363c06ad115b81d29f7cb856e9c3385f7c61ed17b99cf264a2ac980d6ebe5135"
 metafile = true
 
 [[files]]

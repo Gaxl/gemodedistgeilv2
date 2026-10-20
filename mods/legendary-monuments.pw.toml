@@ -1,13 +1,13 @@
-name = "Cobblemon: Legendary Monuments"
-filename = "legendarymonuments-neoforge-1.21.1-8.1-Love_for_All.jar"
+name = "Cobblemon: Legendary Monuments (CB 1.8 Version Out)"
+filename = "legendarymonuments-neoforge-1.21.1-8.2-Keep-Fighting.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/m6RyHSbV/versions/UNW6ItXN/legendarymonuments-neoforge-1.21.1-8.1-Love_for_All.jar"
+url = "https://cdn.modrinth.com/data/m6RyHSbV/versions/oRFso4Pk/legendarymonuments-neoforge-1.21.1-8.2-Keep-Fighting.jar"
 hash-format = "sha512"
-hash = "1e0ef76098549a6de83679acb34193b8ca9da8349e618624f968fcd1f2cf9ba6cd508d88f5264b74675037c235d302e7ac2d065851cbb06a499ac526e3424a41"
+hash = "9f51c3059589565d8da5f30b8b3a453b12323b3fff88cd59bdf59e9ac7119c2711f73af5ec0c5731e5b0d146eecf6528d1bc455cc12c4ef4076bc3dad6f708de"
 
 [update]
 [update.modrinth]
 mod-id = "m6RyHSbV"
-version = "UNW6ItXN"
+version = "oRFso4Pk"
