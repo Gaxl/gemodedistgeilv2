@@ -11,8 +11,8 @@ const CHANGES = [
   ['+', 'Everyone gets 30 minutes of radiation protection once on the next join'],
   ['+', 'Cobblemon: Monuments of Hoen: summon Groudon, Kyogre and Rayquaza at three new temples (Magma Shrine in the Nether, Marine Temple in deep oceans, Sky Pillar in deserts). The buildings adapt their blocks to the biome'],
   ['~', 'The Hoenn temples and the Regigigas temple (Snowpoint Temple) now generate equally often and are much easier to find'],
-  ['!', 'Radiation: pipes and tubes no longer count the content of the whole network as a source (Mekanism pipes with Fissile Fuel gave far too much radiation)'],
-  ['~', 'GiG Aliases 1.7.3, ForgeEndertech 12.1.4'],
+  ['!', 'Radiation: pipes and tubes no longer count as radiation sources, and the Mekanism Fission Reactor is counted once, with its casing holding back 95% of the content. Both gave far too much radiation before'],
+  ['~', 'GiG Aliases 1.7.5, ForgeEndertech 12.1.4'],
 ]
 // Wichtige Hinweise, werden rot unter dem Changelog angezeigt (leer lassen, wenn nichts ansteht)
 const NOTES = [
