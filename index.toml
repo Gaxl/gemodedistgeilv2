@@ -3405,6 +3405,10 @@ file = "config/offroad-server.toml"
 hash = "7dda83d4436419564b495e65b4123ab8453eb926cdd8dabc526e41d3ace6bf40"
 
 [[files]]
+file = "config/omnicompass-common.toml"
+hash = "3e19bc3be3fe996b363f5826245ee18dc156f8b7ae018d6532f5c833f59dcb30"
+
+[[files]]
 file = "config/overlapless-common.toml"
 hash = "e00be7de2fd2185173328b10eef144138a74145f8931ee80285d25ea9d225a86"
 
@@ -5834,7 +5838,7 @@ hash = "842b13da4f900c1d724dca00b6adec7d2a43ba2e0d7fff27b10b76eac32d2d87"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "4799c9e2d39648c4170c04516f3ad1f9b90db08a54a9f246d5955629b4268cf4"
+hash = "38805e5d9ec77fa19401514aa7342e6767d2f5050884f7faf278487698876e07"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -6880,8 +6884,8 @@ hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
 metafile = true
 
 [[files]]
-file = "mods/gig-aliases-neoforge-1.21.1-1.7.6.jar"
-hash = "cda44de97e4e35a43246068d0fe78c78e2312c1efd1bfd0a650c77c0709fb545"
+file = "mods/gig-aliases-neoforge-1.21.1-1.7.7.jar"
+hash = "5d3b2a6e34303afa3e85b65a939fe041f1b7dba23c278b3243649ccddff5151f"
 
 [[files]]
 file = "mods/gig-arena-neoforge-1.21.1-1.0.0.jar"
@@ -7779,7 +7783,7 @@ metafile = true
 
 [[files]]
 file = "moonlight-global-datapacks/allthemons-x-mega-showdown.pw.toml"
-hash = "4edf027458da25ae0f3f8e3a6fdae79464b104d70d12c07edac2f8c41fc95f1f"
+hash = "629996a960ccdeb282b1cfe798875f1b4f937a572e05fede5d4382a982288acd"
 metafile = true
 
 [[files]]
@@ -8057,6 +8061,30 @@ hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
 [[files]]
 file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/pack.mcmeta"
 hash = "4096a270b547930a4367e1f11a93fe6fe655d64400e1e9a8a5f1877b0e66f8c9"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_kompass_aus/data/gig_hoen/recipe/craft_regigigas_compass.json"
+hash = "5fd60eef8a56b3e27b82be8439cb1c43c950b5c3e5bbed53387a3a359648f76f"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_kompass_aus/data/hoentracker/recipe/craft_jade_compass.json"
+hash = "5fd60eef8a56b3e27b82be8439cb1c43c950b5c3e5bbed53387a3a359648f76f"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_kompass_aus/data/hoentracker/recipe/craft_prism_compass.json"
+hash = "5fd60eef8a56b3e27b82be8439cb1c43c950b5c3e5bbed53387a3a359648f76f"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_kompass_aus/data/hoentracker/recipe/craft_ruby_compass.json"
+hash = "5fd60eef8a56b3e27b82be8439cb1c43c950b5c3e5bbed53387a3a359648f76f"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_kompass_aus/data/hoentracker/recipe/craft_sapphire_compass.json"
+hash = "5fd60eef8a56b3e27b82be8439cb1c43c950b5c3e5bbed53387a3a359648f76f"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_kompass_aus/pack.mcmeta"
+hash = "802a47d3a037ee74e726ac89d57148d598667c877ddf1d205fa248c338bf84ee"
 
 [[files]]
 file = "patchouli_data.json"

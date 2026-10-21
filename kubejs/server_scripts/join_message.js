@@ -13,7 +13,9 @@ const CHANGES = [
   ['~', 'The Hoenn temples and the Regigigas temple (Snowpoint Temple) now generate equally often and are much easier to find'],
   ['!', 'Radiation: pipes and tubes no longer count as radiation sources, and the Mekanism Fission Reactor is counted once, with its casing holding back 95% of the content. Both gave far too much radiation before'],
   ['!', 'Fate/UBW: Shift + right click on a servant no longer kicks you from the server, and the Kill button in the servant window works again'],
-  ['~', 'GiG Aliases 1.7.6, ForgeEndertech 12.1.4'],
+  ['~', 'Cobblemon 1.8.2 with new Pokemon (Snover, Burmy, Eternatus, Minior, Greavard, Houndstone and more), placeable items and the evolution tree in the Pokedex. All Cobblemon add-ons updated, Legendary Monuments 8.2 (Kubfu) and AllTheMons x Mega Showdown v5.0'],
+  ['~', 'Legendary structures can no longer be located: the compasses for the Hoenn temples and the Regigigas temple are gone, and the Arc Phone tracking app finds nothing'],
+  ['~', 'GiG Aliases 1.7.7, ForgeEndertech 12.1.4'],
 ]
 // Wichtige Hinweise, werden rot unter dem Changelog angezeigt (leer lassen, wenn nichts ansteht)
 const NOTES = [
