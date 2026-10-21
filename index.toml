@@ -2805,7 +2805,7 @@ preserve = true
 
 [[files]]
 file = "config/explorerscompass-common.toml"
-hash = "a0867628abd6f9e052a618e61cab635a2fc04f8b2cbf93419857ba8ecec21e25"
+hash = "4714fa46cdb9ff0551fcf5d7ef29da8e9f4071db1c74cc60385bcf76ca7cbff6"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
@@ -3406,7 +3406,7 @@ hash = "7dda83d4436419564b495e65b4123ab8453eb926cdd8dabc526e41d3ace6bf40"
 
 [[files]]
 file = "config/omnicompass-common.toml"
-hash = "3e19bc3be3fe996b363f5826245ee18dc156f8b7ae018d6532f5c833f59dcb30"
+hash = "65afdd840fc623ed280fbd5667e90f19734b795f63db3fff53040e0362a85249"
 
 [[files]]
 file = "config/overlapless-common.toml"
@@ -5865,6 +5865,10 @@ file = "kubejs/server_scripts/strahlenschutz_eingewoehnung.js"
 hash = "3eb8498c331c9f08f1e234c50e616eb74de7079a6166fe03809f0994d5ba9694"
 
 [[files]]
+file = "kubejs/server_scripts/turnier_kompass.js"
+hash = "237c620fa5c78a60a5364260c129d2ef5cc46958636f2999513e87309415a824"
+
+[[files]]
 file = "kubejs/server_scripts/uran_strahlung.js"
 hash = "a50512682d597e73522a66ae105ffc2ba00c7293cfbfdd5493d07cc9b6449b23"
 
@@ -7787,6 +7791,126 @@ hash = "629996a960ccdeb282b1cfe798875f1b4f937a572e05fede5d4382a982288acd"
 metafile = true
 
 [[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_amphitheater.json"
+hash = "00386f3d3e498509586a8a4d1d121f197a949031aaf70f44e4ef7be5b3aa85a8"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_crown_shrine.json"
+hash = "8049157c47754fca073906b6b4aee3e010dab5a27899cc87af40fbc2b3e1b706"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_dragonspiral.json"
+hash = "430c0760291df52550c8b697a1b35544f66e592303a6b7c0c3f6bb0dc786554b"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_dyna_tree.json"
+hash = "9e1d111dd86d954f3c8a62cfc9218fa4aa04f7c6716d66ed3881abf1d2632cef"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_eternatus.json"
+hash = "ca0dd9b6bc170d99b107b2d3ef7462275b9dc8e461686fa784995ea7fbc731ce"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_final_island.json"
+hash = "c73130a74d561aeed32d114111e4bd3892588c3574f2d947d5f0820a879b1d82"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_firescourge.json"
+hash = "7162f46c0ece798649b5b161e7f0f1fb96ebb0f1cafbdce9b43d0405600a2aa0"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_giratina_island.json"
+hash = "d92b22ac2ccf9f2640c780c5dd6870d0043e2f46f6f0b93dcda545ef90100791"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_grasswither.json"
+hash = "6f52feac4b062a3500e663db0fdf9cca6740ee94451537ff2c419fcb89fdadcc"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_groudon.json"
+hash = "67a4b4a2bb56ade96b1b62a346cf85a54092ed8be86282c5c8826431aaf1cec3"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_groundblight.json"
+hash = "5132e21c98b9c36b0e319758b86123691e3be4370576957e21e6eef6e6f36acc"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_heatran.json"
+hash = "5087d2bbcf35c10f0c5b4d143618d8819632c27f4432c3287bb40daa531f1a33"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_hoopa.json"
+hash = "0e83c6cf64b036a227f78864ea55a485c24351a7355c042e4ada63f8964df37d"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_icerend.json"
+hash = "cdc645a280ddabb80f6ac70244e371f03f398a4e2f9a3a38061472f246c1b724"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_knightly_heroes.json"
+hash = "346f25a8c5804e3505ab933ab42a153fdc69b4e58710b9705cdb827cd06fc6fa"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_kyogre.json"
+hash = "472c12066b43fd0b962c14ab24df76eefa420bfefd66b1e0ce91e17d69ed4a3b"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_kyurem.json"
+hash = "6ef98ac119d6aa8f4c67ffcc7cdaf9ad2b68fd48babe44c4d68bc82f2fd26275"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_lake_acuity.json"
+hash = "0ae008682f290faec64ddebc8cce3a5b3e5f867b3ee14c119c5df38b8af97019"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_lake_valor.json"
+hash = "947079f551f9d6170a6c94a2c9acf8dc2677504a5003aac3d27e5a6b94ea1096"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_lake_verity.json"
+hash = "c4b734acc1e29a53775a2cb1c74708e2cdbd9c7b9daf3ffc0a59131b4e9c95ab"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_liberty_island.json"
+hash = "34de8e26e54eed6606213cd51658a99cfd2c98871df987fb05ca95ea9c0d24b0"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_lugia.json"
+hash = "38b42360455414b2326c6949883a53650df3e84405140136a22093a8de8369ad"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_pagoda.json"
+hash = "31084709ba7c784bf5b9c58112ac50ba454206d62304fd2c72b26bb32d45948b"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_rayquaza.json"
+hash = "f7aebb45c766110381ee83d65c6f90afd911cee958f6be17a3462495eb5a1ad0"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_snowpoint.json"
+hash = "3c6f43a8f2965fe1101a12b6747f6db49052d8514d0b17232bc6d0d0b1d8b400"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_southern_island.json"
+hash = "68f361b194d723996d3cd06ad681690a9ddafd278e5a6c4ae78679968812688f"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_spear_pillar.json"
+hash = "4c561b1a65fa12700549d9983fdf713146b61bc1844f18edf422180055d016bf"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_tree_of_life.json"
+hash = "a7918b947b56a959c2232587b688c6e2e7e0ba9287c7e1b5a3f02ade7f9c3726"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_turnback_cave.json"
+hash = "aba76f512e078bfd6bb5ea756fcd614919d4e5b2c9b9fb675baa15b67bb6e93d"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_yveltal.json"
+hash = "d2785ed3d9865dcf752a620a9e4a5875b5eb1f59485e098e59ada3cf43c77c5b"
+
+[[files]]
 file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/regigigas_compass.json"
 hash = "3c6f43a8f2965fe1101a12b6747f6db49052d8514d0b17232bc6d0d0b1d8b400"
 
@@ -8115,3 +8239,15 @@ hash = "33153747d25fbee470acb42ccf4f26b03cc551bb900d4c6d3389b5500dd84839"
 [[files]]
 file = "shaderpacks/Solas Shader V3.2.zip"
 hash = "057ec88e87d09d163710b7698db2717a8c323624a6650f02397eaa3e05288186"
+
+[[files]]
+file = "tools/kompass/build_kompass.py"
+hash = "50daad314b55d8b681c30718b3375defafdd270954ae62edfb28140c50dfe739"
+
+[[files]]
+file = "tools/kompass/kompass_tempel.json"
+hash = "27185b04773a5d8ba6034d2c175a8a014c87783088770353af85de6bd7f200f4"
+
+[[files]]
+file = "tools/kompass/turnier_kompass.template.js"
+hash = "f56068609b31047265e2f45a1d7f405451986b71419daec7a3480ec2368edc25"
