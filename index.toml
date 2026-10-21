@@ -6888,8 +6888,8 @@ hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
 metafile = true
 
 [[files]]
-file = "mods/gig-aliases-neoforge-1.21.1-1.7.7.jar"
-hash = "5d3b2a6e34303afa3e85b65a939fe041f1b7dba23c278b3243649ccddff5151f"
+file = "mods/gig-aliases-neoforge-1.21.1-1.7.8.jar"
+hash = "8504f2f49cc3e9af65b689552015a992d282b7bfe26d2f489d9f489ab7b82f14"
 
 [[files]]
 file = "mods/gig-arena-neoforge-1.21.1-1.0.0.jar"
@@ -8242,7 +8242,7 @@ hash = "057ec88e87d09d163710b7698db2717a8c323624a6650f02397eaa3e05288186"
 
 [[files]]
 file = "tools/kompass/build_kompass.py"
-hash = "50daad314b55d8b681c30718b3375defafdd270954ae62edfb28140c50dfe739"
+hash = "c5a6f352f31f3f66e7b389ce08e7dcbcdb0af016d3114366f5b9519335a80eb4"
 
 [[files]]
 file = "tools/kompass/kompass_tempel.json"
