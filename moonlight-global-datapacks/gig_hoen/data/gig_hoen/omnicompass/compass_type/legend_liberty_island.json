@@ -1,0 +1,11 @@
+{
+  "entries": [
+    {
+      "type": "omnicompass:structure",
+      "name": "legendarymonuments:liberty_island",
+      "conditions": []
+    }
+  ],
+  "needle_color": 11591910,
+  "needle_shade_color": 11591910
+}

@@ -1,0 +1,26 @@
+{
+  "entries": [
+    {
+      "type": "omnicompass:structure",
+      "name": "gig_hoen:magma_shrine_default",
+      "conditions": []
+    },
+    {
+      "type": "omnicompass:structure",
+      "name": "gig_hoen:magma_shrine_crimson",
+      "conditions": []
+    },
+    {
+      "type": "omnicompass:structure",
+      "name": "gig_hoen:magma_shrine_warped",
+      "conditions": []
+    },
+    {
+      "type": "omnicompass:structure",
+      "name": "gig_hoen:magma_shrine_soul",
+      "conditions": []
+    }
+  ],
+  "needle_color": 11591910,
+  "needle_shade_color": 11591910
+}

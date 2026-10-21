@@ -1,0 +1,11 @@
+{
+  "entries": [
+    {
+      "type": "omnicompass:structure",
+      "name": "legendarymonuments:lugia_temple",
+      "conditions": []
+    }
+  ],
+  "needle_color": 11591910,
+  "needle_shade_color": 11591910
+}

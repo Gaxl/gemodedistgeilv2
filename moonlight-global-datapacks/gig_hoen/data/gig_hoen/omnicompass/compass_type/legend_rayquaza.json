@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "type": "omnicompass:structure",
+      "name": "gig_hoen:sky_pillar_default",
+      "conditions": []
+    },
+    {
+      "type": "omnicompass:structure",
+      "name": "gig_hoen:sky_pillar_red",
+      "conditions": []
+    }
+  ],
+  "needle_color": 11591910,
+  "needle_shade_color": 11591910
+}
