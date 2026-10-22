@@ -2018,6 +2018,10 @@ file = "config/connector.json"
 hash = "67bee06b2b321ed25e0d4e9b5bac7ab76c8ae76442de6caf11f463ce2ae1ac5e"
 
 [[files]]
+file = "config/constructionwand-startup.toml"
+hash = "0a146a484685fad83f231b6b65ffe15826b2873e6908f18bf712526f7bb6c3a3"
+
+[[files]]
 file = "config/continuity.json"
 hash = "00267a602028cbb037dcb0b5f803db31bed284235ca9c1ea189ad4179311a2f4"
 
@@ -5821,6 +5825,10 @@ file = "kubejs/server_scripts/commands.js"
 hash = "8cc739984ac06d65c26dfdf081f6da45e572b6619a89a248723b07607503ccaa"
 
 [[files]]
+file = "kubejs/server_scripts/construction_wand_balance.js"
+hash = "d794e31b19ca89966df648828ef1a57848db305f9cf71a9f5238c089b1eb63a7"
+
+[[files]]
 file = "kubejs/server_scripts/end_toggle.js"
 hash = "156bbef4c023aaa34c1561034b0ad85d45beb98ba012dc309c59a63b6231fe15"
 
@@ -6346,6 +6354,11 @@ metafile = true
 [[files]]
 file = "mods/connector.pw.toml"
 hash = "dfc42a26ddd76ee99cad6f023e0c14c82cbb91d2338f7eeac678a05e3e2a13fa"
+metafile = true
+
+[[files]]
+file = "mods/construction-wand-kots.pw.toml"
+hash = "8f88f0197bab619a5f15e69a9675d1de32e07dbe2664ff1e35e40b04bde01f33"
 metafile = true
 
 [[files]]
@@ -6888,8 +6901,8 @@ hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
 metafile = true
 
 [[files]]
-file = "mods/gig-aliases-neoforge-1.21.1-1.8.0.jar"
-hash = "827f5981254fd420bb631808449bd2b24cbf5c5d293b44bad722fb1fa538e3c2"
+file = "mods/gig-aliases-neoforge-1.21.1-1.8.1.jar"
+hash = "ea143a353926ddb70085e0a50e07f0cd42aea53bf31150b4d496dd460d3317f7"
 
 [[files]]
 file = "mods/gig-arena-neoforge-1.21.1-1.0.0.jar"
