@@ -6,7 +6,6 @@ const VERSION = 'beta1.12'
 const CHANGES = [
   ['+', 'Daily Wheel: type /tagesrad once a day, spin the wheel and get a daily challenge with a small reward that fits it. On your first spin you pick the Cobblemon wheel (catching, battles, evolving, Pokedex, arena) or the General wheel (fishing, farming, mining, exploring, bosses). The choice is permanent'],
   ['+', 'The wheel is animated with the new GiG Tagesrad mod that comes with the pack. Without it you get a menu version. Finish your challenge 7 days in a row for a bonus'],
-  ['+', 'Compass Fragments: rewards from arena challenges and streaks. You can trade them, their use follows later'],
   ['~', 'Compasses locate normal structures again (Dojo and the like). Only the legendary temples stay hidden'],
   ['+', 'Tournament winners get a voucher for a compass to a legendary temple of their choice (/kompasswahl)'],
   ['!', 'Fixed a rare crash while the server was starting (Tim Core / Capture XP, GiG Aliases 1.7.8)'],
