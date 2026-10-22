@@ -6,6 +6,8 @@ const VERSION = 'beta1.12'
 const CHANGES = [
   ['+', 'Daily Wheel: type /tagesrad once a day, spin the wheel and get a daily challenge with a small reward that fits it. Every day you choose which wheel to spin: the Cobblemon wheel (catching, battles, evolving, Pokedex, arena) or the General wheel (fishing, farming, mining, exploring, bosses)'],
   ['+', 'The wheel is animated with the new GiG Tagesrad mod that comes with the pack. Without it you get a menu version. Finish your challenge 7 days in a row for a bonus'],
+  ['+', 'Event calendar: /events opens a calendar for arena tournaments and Grail Wars. Answer yes, maybe or no and vote on the date. Registration closes 7 days before the event'],
+  ['+', 'Arena tournaments: once registration is closed, everyone who signed up can suggest a theme from a fixed list. The theme is drawn the same day and every suggested theme has the same chance. The 2v2 theme needs at least 4 sign-ups and an even number'],
   ['~', 'Compasses locate normal structures again (Dojo and the like). Only the legendary temples stay hidden'],
   ['+', 'Tournament winners get a voucher for a compass to a legendary temple of their choice (/kompasswahl)'],
   ['!', 'Fixed a rare crash while the server was starting (Tim Core / Capture XP, GiG Aliases 1.7.8)'],
