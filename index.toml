@@ -6896,8 +6896,8 @@ file = "mods/gig-arena-neoforge-1.21.1-1.0.0.jar"
 hash = "2e1d23d10ebccbe61c8c49fd84818ab6bcfb162cbe54e78f90411ec5cb177c16"
 
 [[files]]
-file = "mods/gig-tagesrad-neoforge-1.21.1-0.1.0.jar"
-hash = "6e881c1862e631803f84125ee30ee9d25c5fc1b55ce5593d48f0230c0090c3d9"
+file = "mods/gig-tagesrad-neoforge-1.21.1-0.2.0.jar"
+hash = "5bd94b01f51803f6d30ebcbe3fcabd8341745077952a9a78f01f81d29fa92b1f"
 
 [[files]]
 file = "mods/glitchcore.pw.toml"
