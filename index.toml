@@ -548,7 +548,7 @@ hash = "485dc01c14f23176112af88f4439feea53b6b678b8485f8dd1177d62108fbeb4"
 
 [[files]]
 file = "config/adpother/Pollutants/radioactive_dust.cfg"
-hash = "c7cbdc96479320bf0b1cf8a11445cbc6815b915b9c0088d904f24068545c7c9c"
+hash = "5d5960eac0a39926d0dfddb29a03ca25ac7ccea6a528f0ca7c73e3c7f30d3be6"
 
 [[files]]
 file = "config/adpother/Respirators/alexscaves$hazmat_mask.cfg"
@@ -6888,8 +6888,8 @@ hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
 metafile = true
 
 [[files]]
-file = "mods/gig-aliases-neoforge-1.21.1-1.7.8.jar"
-hash = "8504f2f49cc3e9af65b689552015a992d282b7bfe26d2f489d9f489ab7b82f14"
+file = "mods/gig-aliases-neoforge-1.21.1-1.8.0.jar"
+hash = "827f5981254fd420bb631808449bd2b24cbf5c5d293b44bad722fb1fa538e3c2"
 
 [[files]]
 file = "mods/gig-arena-neoforge-1.21.1-1.0.0.jar"
