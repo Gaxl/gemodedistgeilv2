@@ -4,7 +4,7 @@
 // Typen: '+' hinzugefügt, '-' entfernt, '~' geändert, '!' Fix
 const VERSION = 'beta1.12'
 const CHANGES = [
-  ['+', 'Daily Wheel: type /tagesrad once a day, spin the wheel and get a daily challenge with a small reward that fits it. On your first spin you pick the Cobblemon wheel (catching, battles, evolving, Pokedex, arena) or the General wheel (fishing, farming, mining, exploring, bosses). The choice is permanent'],
+  ['+', 'Daily Wheel: type /tagesrad once a day, spin the wheel and get a daily challenge with a small reward that fits it. Every day you choose which wheel to spin: the Cobblemon wheel (catching, battles, evolving, Pokedex, arena) or the General wheel (fishing, farming, mining, exploring, bosses)'],
   ['+', 'The wheel is animated with the new GiG Tagesrad mod that comes with the pack. Without it you get a menu version. Finish your challenge 7 days in a row for a bonus'],
   ['~', 'Compasses locate normal structures again (Dojo and the like). Only the legendary temples stay hidden'],
   ['+', 'Tournament winners get a voucher for a compass to a legendary temple of their choice (/kompasswahl)'],
