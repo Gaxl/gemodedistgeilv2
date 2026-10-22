@@ -5846,7 +5846,7 @@ hash = "842b13da4f900c1d724dca00b6adec7d2a43ba2e0d7fff27b10b76eac32d2d87"
 
 [[files]]
 file = "kubejs/server_scripts/join_message.js"
-hash = "e5372bd2794dbb0aa0dc01fd5043184aec1e3d90b5a22d585196f29fa7b04249"
+hash = "476e31160d6ffd85527b8b192a6a751de411e9fea376dadc5f3a90dd225ef193"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -6909,8 +6909,8 @@ file = "mods/gig-arena-neoforge-1.21.1-1.0.0.jar"
 hash = "2e1d23d10ebccbe61c8c49fd84818ab6bcfb162cbe54e78f90411ec5cb177c16"
 
 [[files]]
-file = "mods/gig-tagesrad-neoforge-1.21.1-0.8.1.jar"
-hash = "5229d8ab0bf1f014ce2107a1475b68f34653506f79b8ad98a08670955e6234cb"
+file = "mods/gig-tagesrad-neoforge-1.21.1-0.9.0.jar"
+hash = "efc7172fac50be872448514c77e8ba93758b524928da3b93f97d8237076a9317"
 
 [[files]]
 file = "mods/glitchcore.pw.toml"
