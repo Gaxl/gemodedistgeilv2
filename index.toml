@@ -6836,6 +6836,11 @@ hash = "febab5efca276a98fea3cf03850c16f78859642d9427277526a1e198a113fb19"
 metafile = true
 
 [[files]]
+file = "mods/figura.pw.toml"
+hash = "eedcb7fff4e1e6e1e9b81920521277596b0907b0de377f06dc306d2d6624c69d"
+metafile = true
+
+[[files]]
 file = "mods/fluidic-tanks.pw.toml"
 hash = "464e96fc5cd99ddf97c2691028261d9bb3554380ffc02d57838a3c4889afe73a"
 metafile = true
