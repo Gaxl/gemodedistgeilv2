@@ -7233,6 +7233,11 @@ hash = "73aba17132f267dd76ff682aa84abfb7c09d25a93b9220ee261a1e25337bebc7"
 metafile = true
 
 [[files]]
+file = "mods/minevegas-casino.pw.toml"
+hash = "4693011325888ddd3ad92557a0ddbae653fc9d827d14342b24aa5a4f97f63f30"
+metafile = true
+
+[[files]]
 file = "mods/mns-moogs-nether-structures.pw.toml"
 hash = "4dbe622653746a01557da046d01186320a4dda8fc8cb26679121c2892d98f018"
 metafile = true
