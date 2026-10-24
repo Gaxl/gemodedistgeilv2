@@ -7723,6 +7723,10 @@ hash = "27645fd773dff44b90c84a80f1ebd1878a889a1f04fcb777aacca626ec30727c"
 metafile = true
 
 [[files]]
+file = "mods/vss-0.3.5-neoforge-1.21.1.jar"
+hash = "6abc84e84cc40030d49f974f3e40055020b5121bcc1a72193cef7a69677a7559"
+
+[[files]]
 file = "mods/wavify.pw.toml"
 hash = "ebb2271cef0585d0f37b17047010b5a86716caa5bc585f40119486a4446aa286"
 metafile = true
