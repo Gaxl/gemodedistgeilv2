@@ -3977,6 +3977,10 @@ file = "config/voxyserver.json"
 hash = "908c31e8b82df58ad8b38e4e951588e02f7dd7dd48b56469232e6ecfac4d34e9"
 
 [[files]]
+file = "config/vss-server-config.json"
+hash = "487470f535aa99eb3263b2d6c87227f5caff3ad0cf078762f0136fa90ef0d337"
+
+[[files]]
 file = "config/wavify-client.toml"
 hash = "806d586aecfefa964389a85ccb5c4d9b194eb906c64d2f4b05e1d911a6ab9483"
 preserve = true
