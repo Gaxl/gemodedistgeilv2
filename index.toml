@@ -6943,6 +6943,11 @@ hash = "0004feab868f7b873c12db05aae0d0dac6c87b497490b48bb66480e7c8d0f340"
 metafile = true
 
 [[files]]
+file = "mods/hexa-tinkers-construct-unofficial-port.pw.toml"
+hash = "1e9fe16c780689378b266f1650c8f1a651a3629cfd286f06464ea445caf5e2ec"
+metafile = true
+
+[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "c104293981bbfbf0b194c9428e8ec71fd980e80d80050204a83835a01deeecf3"
 metafile = true

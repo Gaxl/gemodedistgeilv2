@@ -1,0 +1,13 @@
+name = "Tinkers Construct (Unofficial port)"
+filename = "TinkersConstruct-Unofficial-Port-1.21.1-1.0.0-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3xgZFdrY/versions/o9PUqMaD/TinkersConstruct-Unofficial-Port-1.21.1-1.0.0-NeoForge.jar"
+hash-format = "sha512"
+hash = "cbbfaf1e0e1afc3b57759c82843cb0f79b91813409ecd524bcd0cbe58d3ab4a064b7e8d6d24255fc87e74f699b1b0a3b9a881afdc84492ca34e4cafa1bfabedd"
+
+[update]
+[update.modrinth]
+mod-id = "3xgZFdrY"
+version = "o9PUqMaD"
