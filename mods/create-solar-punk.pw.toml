@@ -1,0 +1,13 @@
+name = "Create: Solarpunk"
+filename = "solarpunk-1.1.1-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kAynBp83/versions/N7ab1Olc/solarpunk-1.1.1-1.21.1.jar"
+hash-format = "sha512"
+hash = "88fd5e16f17f154eb2535c67e0d822a9a2220a953b074e37ccc3d40892d2ad0ba9adafe025fa71500987b5ae783d69b528eadf45fdad2aea3844e2974a0c3e7c"
+
+[update]
+[update.modrinth]
+mod-id = "kAynBp83"
+version = "N7ab1Olc"
