@@ -539,6 +539,10 @@ file = "config/adpother/Biomes/twilightforest$underground.cfg"
 hash = "b4ba6968d2d61929bcf32927b4b0f2cd6e81a228b314afc38467e70e8dbde24d"
 
 [[files]]
+file = "config/adpother/Bounds.cfg"
+hash = "552e8bc80d6d00018c87017e607ad83c5b718b0999bca7803fd03f21980f0c56"
+
+[[files]]
 file = "config/adpother/Breakables/uranium_ore.cfg"
 hash = "86d114e7333cdad98872fff7daeb45b2b0e05283853d4682e5851d0a17ddd95f"
 
@@ -547,8 +551,16 @@ file = "config/adpother/Impacts/livings.cfg"
 hash = "485dc01c14f23176112af88f4439feea53b6b678b8485f8dd1177d62108fbeb4"
 
 [[files]]
+file = "config/adpother/Pollutants/carbon.cfg"
+hash = "ade247267be86f3e951d51165482577a7da3c1ce1f0ed8ce1d48994318d12e0d"
+
+[[files]]
 file = "config/adpother/Pollutants/radioactive_dust.cfg"
 hash = "5d5960eac0a39926d0dfddb29a03ca25ac7ccea6a528f0ca7c73e3c7f30d3be6"
+
+[[files]]
+file = "config/adpother/Pollutants/sulfur.cfg"
+hash = "edfeaa0a773cf4135e31c6aebf1314a381480f684dc4121e04faea67306ff170"
 
 [[files]]
 file = "config/adpother/Respirators/alexscaves$hazmat_mask.cfg"
@@ -557,6 +569,10 @@ hash = "a01414cd44b326bd044c0c4a537e0fcad3a86c6c023858c661a93251ede37e1a"
 [[files]]
 file = "config/adpother/Respirators/createnuclear$default_anti_radiation_helmet.cfg"
 hash = "f71b071210eac8be98077d49eebbf1747bcea21f018583ea48cb2300b5d3d48f"
+
+[[files]]
+file = "config/adpother/Sources/player_eating.cfg"
+hash = "30cb6538599befbae4e61d1c327bf5479eb73c70baec301c275a795e51b8ba1c"
 
 [[files]]
 file = "config/advancementplaques.toml"
