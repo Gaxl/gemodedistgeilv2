@@ -2846,7 +2846,7 @@ hash = "d640c77b9cbb56c6ca4bd3bf4194ad5fa6dd3572cd22934e29c547d9d8942632"
 
 [[files]]
 file = "config/fateubw/common.toml"
-hash = "a9173df388f1b148791ceb8a81354044c08475d4fbd1147188bc1171ee1b348f"
+hash = "64827ba73b0113327439f19f847c0677159e19875e64deee119a3ebdf7fba8f6"
 
 [[files]]
 file = "config/ferritecore-mixin.toml"

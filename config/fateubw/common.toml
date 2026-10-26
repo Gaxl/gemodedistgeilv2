@@ -23,7 +23,7 @@
 	#Allow the summoning of duplicate servant classes during a grail war
 	"Allow Duplicate Classes" = false
 	#Fill in missing players till max allowed with npc
-	"Fill Empty Slots" = true
+	"Fill Empty Slots" = false
 	#Amount of masterless servant that can spawn each time. (Fill Empty Slots needs to be true)
 	# Default: 1
 	# Range: > 1
