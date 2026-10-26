@@ -6407,6 +6407,11 @@ hash = "8e671fbd3a5460a61073cced391ec08efc6b67d765e49015eea45a1f1db159a0"
 metafile = true
 
 [[files]]
+file = "mods/create-aero-cables.pw.toml"
+hash = "7e5b200717b68acfe9d984feccf9ab67064a6bd0753e0ce332fd8459f1de8464"
+metafile = true
+
+[[files]]
 file = "mods/create-aero-radars.pw.toml"
 hash = "4abc8f3793ea18a02038b7587a09949480912f7231c2f696292dcbff78309ca9"
 metafile = true

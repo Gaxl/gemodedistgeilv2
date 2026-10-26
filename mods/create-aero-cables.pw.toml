@@ -1,0 +1,13 @@
+name = "Create: Aero Cables"
+filename = "aerocables-0.4.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AHTfty0S/versions/Wn81ihHo/aerocables-0.4.0.jar"
+hash-format = "sha512"
+hash = "3c4fc5ef77ca99c34b97a9249b4e5def572d9d9314c75b9a4105950486900582c2f2e1919f829e13de6231b5a8f2d885f6425de61aa93c892c9212addb2c2310"
+
+[update]
+[update.modrinth]
+mod-id = "AHTfty0S"
+version = "Wn81ihHo"
