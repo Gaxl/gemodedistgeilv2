@@ -49,7 +49,7 @@
 
 [rivers]
 	#Master toggle for river waves.
-	enableRiverWaves = true
+	enableRiverWaves = false
 	#Radius (in blocks) around the player within which river waves are spawned. Larger = waves appear further away, smaller = they only appear close by.
 	# Default: 56
 	# Range: 16 ~ 128

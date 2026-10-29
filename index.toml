@@ -3998,7 +3998,7 @@ hash = "487470f535aa99eb3263b2d6c87227f5caff3ad0cf078762f0136fa90ef0d337"
 
 [[files]]
 file = "config/wavify-client.toml"
-hash = "806d586aecfefa964389a85ccb5c4d9b194eb906c64d2f4b05e1d911a6ab9483"
+hash = "de1d7aa4d787038540ae8f08eb31c96177a927873e5b55eaead2b1d48bc00e97"
 preserve = true
 
 [[files]]
