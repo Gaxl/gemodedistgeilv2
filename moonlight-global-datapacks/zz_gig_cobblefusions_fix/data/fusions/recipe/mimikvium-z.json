@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " J ",
+    "JOJ",
+    " J "
+  ],
+  "key": {
+    "J": {
+      "item": "cobblemon:normal_gem"
+    },
+    "O": {
+      "item": "mega_showdown:ghostium_z"
+    }
+  },
+  "result": {
+    "id": "minecraft:rabbit_hide",
+    "components": {
+      "minecraft:custom_model_data": 302009,
+      "minecraft:item_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"text\": \"Mimikvium Z\"}],\"italic\":false,\"text\":\"\"}",
+      "minecraft:lore": [
+        "{\"text\":\"Z-Moves\", \"color\":\"blue\", \"italic\":false}",
+        "{\"color\":\"gray\",\"text\":\"Z-Crystal associated with the fusion Mimikvee and allows it to\"}",
+        "{\"color\":\"gray\",\"text\":\"upgrade its Fake Out into the special Z Move Endless Embrace\"}"
+      ]
+    }
+  }
+}

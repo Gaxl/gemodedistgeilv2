@@ -7872,6 +7872,11 @@ hash = "629996a960ccdeb282b1cfe798875f1b4f937a572e05fede5d4382a982288acd"
 metafile = true
 
 [[files]]
+file = "moonlight-global-datapacks/cobblefusions.pw.toml"
+hash = "aed3d74dfa654b54491bfb75fba4b0d0cebaed7157e8fd44494fdd9bb7a26c1c"
+metafile = true
+
+[[files]]
 file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_amphitheater.json"
 hash = "00386f3d3e498509586a8a4d1d121f197a949031aaf70f44e4ef7be5b3aa85a8"
 
@@ -8266,6 +8271,14 @@ hash = "05833951696d9e77cd07f44aee82d0d0c0e786ddb5f605822049cf7f2df3d224"
 [[files]]
 file = "moonlight-global-datapacks/zz_gig_atm_legendaere_aus/pack.mcmeta"
 hash = "4096a270b547930a4367e1f11a93fe6fe655d64400e1e9a8a5f1877b0e66f8c9"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_cobblefusions_fix/data/fusions/recipe/mimikvium-z.json"
+hash = "5bacbb328334c0e26f0ab132485fb30fd1706899aac9d12e90fd4f345e4bd6c7"
+
+[[files]]
+file = "moonlight-global-datapacks/zz_gig_cobblefusions_fix/pack.mcmeta"
+hash = "8a65b7b5b7b24a9e35d4bea1abbfd6fa87726a8b04841e05d2c71a384f14dbfb"
 
 [[files]]
 file = "moonlight-global-datapacks/zz_gig_kompass_aus/data/gig_hoen/recipe/craft_regigigas_compass.json"
