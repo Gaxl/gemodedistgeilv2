@@ -6946,8 +6946,8 @@ hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
 metafile = true
 
 [[files]]
-file = "mods/gig-aliases-neoforge-1.21.1-1.8.2.jar"
-hash = "106dcf7bdb5bf69de2361ce391c0b62d763c0dce4d35ae1ef153715c00819d53"
+file = "mods/gig-aliases-neoforge-1.21.1-1.8.3.jar"
+hash = "14f14f8fc5f3c539633363a106098281dc20895dabf3313166f0cebe1113c537"
 
 [[files]]
 file = "mods/gig-arena-neoforge-1.21.1-1.0.0.jar"
