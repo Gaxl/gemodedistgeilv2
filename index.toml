@@ -21,6 +21,11 @@ file = "config/Advancedperipherals/world.toml"
 hash = "f53ed48b945ff03605f9adf502c64a016b84100d5347911840373385e44192c7"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "56f2c9316837df3f18ebcd6cfa3a7b1c25e84a9664916085424fa33791c9c040"
+preserve = true
+
+[[files]]
 file = "config/LegendaryMonuments/config.json"
 hash = "5b32f38f5bc82114c1db1dd524f67dc132a716f89c42da19e15ce58c3b93922a"
 
@@ -6744,7 +6749,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "0c20fea3407ed0db85b4b171f1820a24987f2659946fadd30bae044205041b09"
+hash = "6d3e312dbf8db12dd1b6fb3bd1d29f210ab48024a0b2ebdf02fd32c265955c5d"
 metafile = true
 
 [[files]]
