@@ -3980,24 +3980,6 @@ file = "config/voltaic-common.toml"
 hash = "586d811948da2632488737e1813fcb46885ef14fd62ec653af619503efcc0195"
 
 [[files]]
-file = "config/voxy-client.toml"
-hash = "ac23dbf171505db438719ab15d0bc74f47047b58f8859415c50607be2587d38a"
-preserve = true
-
-[[files]]
-file = "config/voxy-config.json"
-hash = "d83736877938f42359ee4c75a265350889fe14d5a2971931487926183f451f43"
-
-[[files]]
-file = "config/voxyserver-client.json"
-hash = "c8241db979559ee7ead4ce44721b42179b929cfb74e36d40dceaa3a7db3b5339"
-preserve = true
-
-[[files]]
-file = "config/voxyserver.json"
-hash = "908c31e8b82df58ad8b38e4e951588e02f7dd7dd48b56469232e6ecfac4d34e9"
-
-[[files]]
 file = "config/wavify-client.toml"
 hash = "de1d7aa4d787038540ae8f08eb31c96177a927873e5b55eaead2b1d48bc00e97"
 preserve = true
@@ -7506,11 +7488,6 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
-metafile = true
-
-[[files]]
-file = "mods/roxy.pw.toml"
-hash = "f26c1f15a56d4ceaaf528c09941b5b931bf032268200325e611f5c5c5cf52d26"
 metafile = true
 
 [[files]]
