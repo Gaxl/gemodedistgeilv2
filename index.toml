@@ -21,11 +21,6 @@ file = "config/Advancedperipherals/world.toml"
 hash = "f53ed48b945ff03605f9adf502c64a016b84100d5347911840373385e44192c7"
 
 [[files]]
-file = "config/DistantHorizons.toml"
-hash = "0536540b0f46e136d48ee1f1363cf97b80f396cbea34ef088ab2431af1ddc811"
-preserve = true
-
-[[files]]
 file = "config/LegendaryMonuments/config.json"
 hash = "5b32f38f5bc82114c1db1dd524f67dc132a716f89c42da19e15ce58c3b93922a"
 
@@ -6727,11 +6722,6 @@ metafile = true
 [[files]]
 file = "mods/delightful-creators.pw.toml"
 hash = "ead7e6467df904f9fa779c021cff62bbd87e7943f394beec63a7f1ee3a74e4d5"
-metafile = true
-
-[[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "6d3e312dbf8db12dd1b6fb3bd1d29f210ab48024a0b2ebdf02fd32c265955c5d"
 metafile = true
 
 [[files]]
