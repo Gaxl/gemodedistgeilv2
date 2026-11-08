@@ -115,26 +115,6 @@ file = "config/accessories.json5"
 hash = "b9f6a56acdb02a286de9aa06578dac5485656fb476adc819fb3c63dd49ad0785"
 
 [[files]]
-file = "config/adpother/Biomes/antarchy$nadir_forest.cfg"
-hash = "ecf0fe9218ec580b9c87e1bc4cdd57cfe0cc86bdee2b0cec7de3225e039f8ff6"
-
-[[files]]
-file = "config/adpother/Biomes/antarchy$ouranwood_forest.cfg"
-hash = "958b6187b68d24e9640961a9861fb35d2add55194d06a43efd6d8d6a45ad5550"
-
-[[files]]
-file = "config/adpother/Biomes/antarchy$peach_forest.cfg"
-hash = "be438d415ad93729634bea2ef849833283992e6c12136a2cd70bdb5bc71cba44"
-
-[[files]]
-file = "config/adpother/Biomes/antarchy$sparse_ouranwood_forest.cfg"
-hash = "fa9fe7a24faf421429b0df3e61e87c5cd63387dccd3357f9bf538c5b59311aed"
-
-[[files]]
-file = "config/adpother/Biomes/antarchy$truffalo_forest.cfg"
-hash = "c3638d4b61856d73511097d5218a1f30b48bb59b057d86f834da42f8962180ab"
-
-[[files]]
 file = "config/adpother/Biomes/ars_elemental$blazing_forest.cfg"
 hash = "17a579e15bf8bd68468b8c128ef804bf87ace13673b7508e0e91b795c4314a27"
 
@@ -5884,7 +5864,7 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "kubejs/startup_scripts/uran_strahlung_werte.js"
-hash = "3efb417944201fdf27134b2490894213261d7b314e29b985803f73c64a8754a2"
+hash = "7c967e043e23eef5c4c3b4ffdc173299c01da70ee804840a5e7dc0e4d5461877"
 
 [[files]]
 file = "licenses/fantasyfurniture/GPL-3.0.txt"
@@ -6002,11 +5982,6 @@ metafile = true
 [[files]]
 file = "mods/amendments.pw.toml"
 hash = "793e70a07961b1670ba13dcdfe2c1cfb1379df52485adc2d3ba5db128e9536a6"
-metafile = true
-
-[[files]]
-file = "mods/antarchy.pw.toml"
-hash = "fb17802a18c0d6bb0876161ea063ba68da76ed926d62a9786a2345540dc2e94b"
 metafile = true
 
 [[files]]

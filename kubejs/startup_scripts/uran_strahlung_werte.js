@@ -59,19 +59,17 @@ function material(ids, b, stufe) {
   'evolvedmekanism:depthrock_uranium_ore', 'evolvedmekanism:end_stone_uranium_ore',
   'evolvedmekanism:holystone_uranium_ore', 'evolvedmekanism:netherrack_uranium_ore',
   'evolvedmekanism:shiverstone_uranium_ore', 'stellaris:mercury_uranium_ore',
-  'antarchy:uranium_ore', 'antarchy:deepslate_uranium_ore', 'antarchy:broodstone_uranium_ore',
   'alexscaves:radrock_uranium_ore'
 ].forEach(id => wert(id, 0.03, 'erz'))
 wert('stellaris:mars_plutonium_ore', 0.3, 'erz')
 
 // --- Roh ---
 ;['createnuclear:raw_uranium', 'mekanism:raw_uranium', 'immersiveengineering:raw_uranium',
-  'modern_industrialization:raw_uranium', 'stellaris:raw_uranium', 'antarchy:raw_uranium']
+  'modern_industrialization:raw_uranium', 'stellaris:raw_uranium']
   .forEach(id => wert(id, 0.05, 'roh'))
 ;['createnuclear:raw_uranium_block', 'mekanism:block_raw_uranium', 'immersiveengineering:raw_block_uranium',
-  'modern_industrialization:raw_uranium_block', 'stellaris:raw_uranium_block', 'antarchy:raw_uranium_block']
+  'modern_industrialization:raw_uranium_block', 'stellaris:raw_uranium_block']
   .forEach(id => wert(id, 0.45, 'roh'))
-wert('antarchy:raw_uranium_scrap', 0.005, 'roh')
 
 // --- Vorstufen der Erzverarbeitung ---
 wert('create:crushed_raw_uranium', 0.05, 'vorstufe')
@@ -93,21 +91,11 @@ material({ ingot: 'modern_industrialization:uranium_ingot', dust: 'modern_indust
   rod: 'modern_industrialization:uranium_rod', nugget: 'modern_industrialization:uranium_nugget',
   tiny: 'modern_industrialization:uranium_tiny_dust', block: 'modern_industrialization:uranium_block' }, 0.08, 'rein')
 material({ ingot: 'stellaris:uranium_ingot', block: 'stellaris:uranium_block' }, 0.08, 'rein')
-material({ ingot: 'antarchy:uranium_ingot', nugget: 'antarchy:uranium_nugget', block: 'antarchy:uranium_block' }, 0.08, 'rein')
 material({ ingot: 'alexscaves:uranium', nugget: 'alexscaves:uranium_shard', block: 'alexscaves:block_of_uranium' }, 0.08, 'rein')
 wert('alexscaves:uranium_rod', 0.2, 'rein')
 wert('createnuclear:uranium_powder', 0.08, 'rein')
 wert('createnuclear:yellowcake', 0.1, 'rein')
 wert('mekanism:yellow_cake_uranium', 0.1, 'rein')
-// Uran-Deko (Antarchy) nach Urangehalt
-wert('antarchy:cut_uranium', 0.18, 'rein')
-wert('antarchy:chiseled_uranium', 0.18, 'rein')
-wert('antarchy:cut_uranium_stairs', 0.18, 'rein')
-wert('antarchy:cut_uranium_slab', 0.09, 'rein')
-wert('antarchy:uranium_bars', 0.03, 'rein')
-wert('antarchy:uranium_door', 0.16, 'rein')
-wert('antarchy:uranium_trapdoor', 0.16, 'rein')
-wert('antarchy:uranium_bulb', 2.2, 'rein')
 
 // --- Abgereichert ---
 material({ ingot: 'modern_industrialization:uranium_238_ingot', dust: 'modern_industrialization:uranium_238_dust',
