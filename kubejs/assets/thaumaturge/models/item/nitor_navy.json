@@ -1,0 +1,20 @@
+{
+  "base": {
+    "parent": "thaumaturge:item/nitor"
+  },
+  "loader": "neoforge:separate_transforms",
+  "perspectives": {
+    "firstperson_lefthand": {
+      "parent": "thaumaturge:item/nitor"
+    },
+    "firstperson_righthand": {
+      "parent": "thaumaturge:item/nitor"
+    },
+    "thirdperson_lefthand": {
+      "parent": "thaumaturge:item/nitor"
+    },
+    "thirdperson_righthand": {
+      "parent": "thaumaturge:item/nitor"
+    }
+  }
+}

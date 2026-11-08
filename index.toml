@@ -5743,6 +5743,458 @@ file = "kubejs/assets/stellaris/lang/de_de.json"
 hash = "b6562dbed084b099e5c2f2bed760fa97679e6a5454ea1d50c37e859753195d80"
 
 [[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_amber.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_aqua.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_beige.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_coral.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_forest.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_ginger.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_indigo.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_maroon.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_mint.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_navy.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_olive.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_rose.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_slate.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_tan.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_teal.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/banner_verdant.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_amber.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_aqua.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_beige.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_coral.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_forest.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_ginger.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_indigo.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_maroon.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_mint.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_navy.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_olive.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_rose.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_slate.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_tan.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_teal.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/candle_verdant.json"
+hash = "70b203985ee1e63c9c1e2daee3b063a62c10bfe0a21ca76578701051d5e51927"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_amber.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_aqua.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_beige.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_coral.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_forest.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_ginger.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_indigo.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_maroon.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_mint.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_navy.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_olive.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_rose.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_slate.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_tan.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_teal.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/nitor_verdant.json"
+hash = "9c68dc317fd02d38b8296f3d96f721c226ab2a073199f5ba248ed571e4a68b4c"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_amber.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_aqua.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_beige.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_coral.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_forest.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_ginger.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_indigo.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_maroon.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_mint.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_navy.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_olive.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_rose.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_slate.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_tan.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_teal.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/blockstates/wall_banner_verdant.json"
+hash = "5eb5241eb504a202d560df85bcc210b93e239311482de99668cd17a11a9952a4"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/lang/en_us.json"
+hash = "c800ea55739d36556a2a5c0fde6c4fa4362fd0ca0cd953c953c7138c64bc5233"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_amber.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_aqua.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_beige.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_coral.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_forest.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_ginger.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_indigo.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_maroon.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_mint.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_navy.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_olive.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_rose.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_slate.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_tan.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_teal.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/banner_verdant.json"
+hash = "3e79b040c6106f4136a57e5bf43c9e623fbdebaca23f1ff9bcab613dde20ad56"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_amber.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_aqua.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_beige.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_coral.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_forest.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_ginger.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_indigo.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_maroon.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_mint.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_navy.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_olive.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_rose.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_slate.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_tan.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_teal.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/candle_verdant.json"
+hash = "b96f4acffd6111b6a6b2f4fe7c9bc84571b502b3ba8bfe1d4696fae74aaafcb1"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_amber.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_aqua.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_beige.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_coral.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_forest.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_ginger.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_indigo.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_maroon.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_mint.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_navy.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_olive.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_rose.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_slate.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_tan.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_teal.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
+file = "kubejs/assets/thaumaturge/models/item/nitor_verdant.json"
+hash = "4bc4ea3315dff05cd83908dd18bbfe92c42885f1407aeaaa2877d11d81675a3a"
+
+[[files]]
 file = "kubejs/client_scripts/main.js"
 hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
