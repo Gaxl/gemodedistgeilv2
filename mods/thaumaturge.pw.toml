@@ -1,0 +1,13 @@
+name = "Thaumaturge"
+filename = "thaumaturge-1.21.1-NeoForge-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "89c6320f8dc0b50b72ee1e6d38314e7573beb316"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9452543
+project-id = 1628024

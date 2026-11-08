@@ -6650,6 +6650,11 @@ hash = "65aabaa29d30b7bf5dfb2485f1ed918fe925c10662686d9047e1d3f654f28058"
 metafile = true
 
 [[files]]
+file = "mods/createthaumaturgy.pw.toml"
+hash = "9cc35dd3594d0abd4e0f0146d7b78393368cdd0523d792e151b340cdb4721d8e"
+metafile = true
+
+[[files]]
 file = "mods/creativecore.pw.toml"
 hash = "9328bd6c4412bfdae65fdb51b2b332f97a45aa9dfcb6333699ab6dd7eff08d74"
 metafile = true
@@ -7643,6 +7648,11 @@ metafile = true
 [[files]]
 file = "mods/tesseract-api.pw.toml"
 hash = "6152a0d98acb52bd67ac6663fcf133dda4e005734cd0857a1af1681b874e169c"
+metafile = true
+
+[[files]]
+file = "mods/thaumaturge.pw.toml"
+hash = "2a69c51a520dea3c6446b38ec7f81f8e43b2bdbd4a5a9169e09e95835669ebe5"
 metafile = true
 
 [[files]]
