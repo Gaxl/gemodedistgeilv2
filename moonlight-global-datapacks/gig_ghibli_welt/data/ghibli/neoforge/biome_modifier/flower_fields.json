@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#ghibli:flower_fields",
+  "features": [
+    "minecraft:flower_meadow",
+    "minecraft:flower_plains",
+    "minecraft:patch_tall_grass_2",
+    "ghibli:wheat_field"
+  ],
+  "step": "surface_structures"
+}

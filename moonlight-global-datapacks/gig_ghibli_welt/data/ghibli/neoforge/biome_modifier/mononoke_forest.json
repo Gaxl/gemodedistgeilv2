@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#ghibli:mononoke_woods",
+  "features": [
+    "minecraft:trees_old_growth_pine_taiga",
+    "minecraft:trees_old_growth_spruce_taiga",
+    "minecraft:forest_rock",
+    "minecraft:patch_large_fern",
+    "ghibli:big_trees"
+  ],
+  "step": "surface_structures"
+}

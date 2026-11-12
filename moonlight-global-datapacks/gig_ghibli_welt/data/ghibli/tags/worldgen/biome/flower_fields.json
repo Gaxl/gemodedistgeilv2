@@ -1,0 +1,17 @@
+{
+  "values": [
+    "#c:is_plains",
+    {
+      "id": "regions_unexplored:highland_fields",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:steppe",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:glistering_meadow",
+      "required": false
+    }
+  ]
+}

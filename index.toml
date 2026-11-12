@@ -8278,6 +8278,42 @@ hash = "629996a960ccdeb282b1cfe798875f1b4f937a572e05fede5d4382a982288acd"
 metafile = true
 
 [[files]]
+file = "moonlight-global-datapacks/gig_ghibli_welt/data/ghibli/neoforge/biome_modifier/flower_fields.json"
+hash = "780fdf6429fc33d59bec44dde4c75b233d972460f5571288a42cf9c80a5a9883"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_ghibli_welt/data/ghibli/neoforge/biome_modifier/mononoke_forest.json"
+hash = "2030bd1a48d20b9e3a9635aef9b39f7e7a9c2a43edd99ce170052beb3f030074"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_ghibli_welt/data/ghibli/tags/worldgen/biome/flower_fields.json"
+hash = "8c5937acd43c97ecb80a271e761bb7c56b54b05760f3134f04b9aa7a1bb75a08"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_ghibli_welt/data/ghibli/tags/worldgen/biome/mononoke_woods.json"
+hash = "153abf5662b4f8d3eb4ef9d23c4a4e3c8de03ae1c323a7ab705f81432ea53bd1"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_ghibli_welt/data/ghibli/worldgen/configured_feature/big_trees.json"
+hash = "a2b1b4aa5fe057cfe286516de8cb55527a723b398c472e7a1ac43b8928ae3bfe"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_ghibli_welt/data/ghibli/worldgen/configured_feature/wheat_field.json"
+hash = "19c3ebce92231227ca5db8a592202bc79d96ecf9c140aedb36979a5e0a8c4e85"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_ghibli_welt/data/ghibli/worldgen/placed_feature/big_trees.json"
+hash = "91a8f153f7191a6ab4e717d04647d0e73cdf00b453466789cd701ce3a5ae6a66"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_ghibli_welt/data/ghibli/worldgen/placed_feature/wheat_field.json"
+hash = "ff6d8efbbc5963e1a24dbebe3645ecadeaa18aa4e0693ebb7402e8e3ef8f290f"
+
+[[files]]
+file = "moonlight-global-datapacks/gig_ghibli_welt/pack.mcmeta"
+hash = "24beb6dafe0cfc5961109be6ce1cd869a5f10a545c6110fd04da16cbe0a3a72e"
+
+[[files]]
 file = "moonlight-global-datapacks/gig_hoen/data/gig_hoen/omnicompass/compass_type/legend_amphitheater.json"
 hash = "00386f3d3e498509586a8a4d1d121f197a949031aaf70f44e4ef7be5b3aa85a8"
 
